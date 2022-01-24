@@ -26,7 +26,7 @@ int main()  {
 
     do  {
       do  {
-        cout << " Skriv en skøytedistanse (500, 1500, 3000, 5000): \n";
+        cout << " Skriv en skøytedistanse (500, 1500, 3000, 5000): ";
         cin >> distanse;     //  Leser en distanse.
       } while (distanse != 500   &&  distanse != 1500 &&
                distanse != 3000  &&  distanse != 5000); // Gjentar til lovlig.
@@ -45,7 +45,9 @@ int main()  {
           } while (min < 0  ||  sek < 0  || hundr < 0);  //   i tiden.
                                                     //  Beregner poengsummen:
           poeng =  ((min*60) + sek + (hundr/100.0)) / ant500;
-          cout << "\tPoengsum: " << setw(3) << poeng << '\n'; // Skriver denne, med 3 desimaler.
+                                            // Skriver denne, med 3 desimaler.
+          cout << "\tPoengsum: " << fixed << setprecision(3) << poeng << '\n'; 
+
       }
 
       cout << "\n\nLese tider om en ny distanse (j/N):  ";
