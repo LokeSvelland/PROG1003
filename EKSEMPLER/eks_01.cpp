@@ -1,13 +1,13 @@
 /**
- *   Programeksempel nr 1 - Større programeksempel.
+ *   Programeksempel nr 1 - StÃ¸rre programeksempel.
  *
  *   Eksemplet viser/vektlegger bruk av en array med globale structer,
- *   at ulike funksjoner opererer på denne, og sender med pekere til structer.
+ *   at ulike funksjoner opererer pï¿½ denne, og sender med pekere til structer.
  *
  *   Programmet:
  *     - har oversikt over og skriver ut en brusautomats innhold
- *     - lar en bruker få kjøpe EN flaske av en drikke
- *     - lar det påfylles (bli mer) av EN GITT drikke
+ *     - lar en bruker fï¿½ kjï¿½pe EN flaske av en drikke
+ *     - lar det pï¿½fylles (bli mer) av EN GITT drikke
  *     - lar brukeren endre ALLE en drikkes data (navn, antall, pris)
  *
  *   @file     EKS_01.CPP
@@ -21,7 +21,7 @@
 #include <iostream>                //  cout, cin
 #include <iomanip>                 //  setw
 #include <cstring>                 //  strcpy
-#include "LesData2.h"              //  Verktøykasse for lesing av diverse data
+#include "LesData2.h"              //  Verktï¿½ykasse for lesing av diverse data
 using namespace std;
 
 
@@ -72,21 +72,21 @@ int main()  {
         kommando = lesChar("\nKommando");
     }
 
-    cout << "\n\nDagens salg ble på kr. " << gTotalSalg << "\n\n";
+    cout << "\n\nDagens salg ble pï¿½ kr. " << gTotalSalg << "\n\n";
     return 0;
 }
 
 
 /**
- *  Får tilbud om og mulighet til å endre på ALLE structens datamedlemmer.
+ *  Fï¿½r tilbud om og mulighet til ï¿½ endre pï¿½ ALLE structens datamedlemmer.
  *
- *  @param   ad  -  Structen som får endret 0 eller flere datamedlemmer
+ *  @param   ad  -  Structen som fï¿½r endret 0 eller flere datamedlemmer
  *  @see     'automatDrikkeSkrivData(...)'
  */
 void automatDrikkeEndre(AutomatDrikke* ad)  {
     char valg;
-    cout << "\n\tLagrede data er altså:  ";
-    automatDrikkeSkrivData(ad);      //  Skriver nåværende status for drikken.
+    cout << "\n\tLagrede data er altsï¿½:  ";
+    automatDrikkeSkrivData(ad);      //  Skriver nï¿½vï¿½rende status for drikken.
 
     cout << "\n\tEndre:\n"           //  Meny for endrings-valg:
         << "\t\tN - Navn\n"
@@ -95,7 +95,7 @@ void automatDrikkeEndre(AutomatDrikke* ad)  {
         << "\t\tS - Slutt\n";
     valg = lesChar("\t\tValg (N/A/P/S)");
 
-    while (valg != 'S')  {           //  Ønsker fortsatt å endre noe:
+    while (valg != 'S')  {           //  ï¿½nsker fortsatt ï¿½ endre noe:
       switch (valg)  {               //  Endrer aktuelt datamedlem.
         case 'N':  cout << "\t\tNytt navn: ";
                    cin.getline(ad->navn, STRLEN);                  break;
@@ -111,15 +111,15 @@ void automatDrikkeEndre(AutomatDrikke* ad)  {
 
 
 /**
- *  Kjøper ETT stk. flaske av vedkommende drikke.
+ *  Kjï¿½per ETT stk. flaske av vedkommende drikke.
  *
- *  @param   ad  -  Structen som evt. får redusert antall igjen med EN
+ *  @param   ad  -  Structen som evt. fï¿½r redusert antall igjen med EN
  *  @see     'automatDrikkeSkrivData(...)'
  */
 void automatDrikkeKjop(AutomatDrikke* ad)  {
     int betalt;
-    cout << "\n\tStatus er altså:  ";
-    automatDrikkeSkrivData(ad);      //  Skriver nåværende status for drikken.
+    cout << "\n\tStatus er altsï¿½:  ";
+    automatDrikkeSkrivData(ad);      //  Skriver nï¿½vï¿½rende status for drikken.
     if (ad->antall > 0) {            //  Fortsatt igjen av drikken:
         cout << "\tDen koster pr.flaske: " << ad->pris << " kr\n\n\t";
         betalt = lesInt("Betal kr", 0, 100);  //  Brukerens myntinnkast.
@@ -131,34 +131,34 @@ void automatDrikkeKjop(AutomatDrikke* ad)  {
         if (betalt >= ad->pris) {    //  Betalt nok - skal ha drikke/flaske:
             cout << "\n\tTa imot din " << ad->navn << " i luken .....\n";
             ad->antall--;            //  Teller ned antallet igjen.
-            gTotalSalg += ad->pris;  //  Øker (dagens) totalsalg.
+            gTotalSalg += ad->pris;  //  ï¿½ker (dagens) totalsalg.
         } else                       //  Ikke betalt nok - penger tilbake:
             cout << "\n\tFor lite betalt.\n\t"
-                 << "Ta returpengene, gjør evt. nytt valg og betal nok.\n";
+                 << "Ta returpengene, gjï¿½r evt. nytt valg og betal nok.\n";
     } else                           //  Tomt for drikken:
         cout << "\n\tDvs. det er TOMT for denne drikken. Velg en annen.\n";
 }
 
 
 /**
- *  Får/setter inn flere flasker av en gitt drikke.
+ *  Fï¿½r/setter inn flere flasker av en gitt drikke.
  *
- *  @param   ad  -  Structen som evt. får økt antallet igjen av
+ *  @param   ad  -  Structen som evt. fï¿½r ï¿½kt antallet igjen av
  *  @see     'automatDrikkeSkrivData(...)'
  */
 void automatDrikkePaafyll(AutomatDrikke* ad)  {
-    cout << "\n\tStatus FØR påfylling:  ";
-    automatDrikkeSkrivData(ad);     //  Skriver nåværende status for drikken.
-                                    //  Fyller på med et visst antall flasker:
-    ad->antall += lesInt("\n\tPåfyll antall flasker", 0, 40);
+    cout << "\n\tStatus Fï¿½R pï¿½fylling:  ";
+    automatDrikkeSkrivData(ad);     //  Skriver nï¿½vï¿½rende status for drikken.
+                                    //  Fyller pï¿½ med et visst antall flasker:
+    ad->antall += lesInt("\n\tPï¿½fyll antall flasker", 0, 40);
 
-    cout << "\n\tStatus ETTER påfylling:  ";
+    cout << "\n\tStatus ETTER pï¿½fylling:  ";
     automatDrikkeSkrivData(ad);     //  Skriver ny(?) status for drikken.
 }
 
 
 /**
- *  Skriver ut på skjermen ALLE datamedlemmer for EN drikke.
+ *  Skriver ut pï¿½ skjermen ALLE datamedlemmer for EN drikke.
  *
  *  @param   ad  -  Structen som blir skrevet ut (ALLE datamedlemmer)
  */
@@ -169,7 +169,7 @@ void automatDrikkeSkrivData(const AutomatDrikke* ad)  {
 
 
 /**
- *  Brukeren tilbys å endre ALLE datamedlemmene for EN drikke.
+ *  Brukeren tilbys ï¿½ endre ALLE datamedlemmene for EN drikke.
  *
  *  @see   'skrivAlleDrikker()'
  *  @see   'automatDrikkeEndre(...)'
@@ -214,25 +214,25 @@ void initierDrikker()  {
 
 
 /**
- *  Brukeren tilbys å kjøpe EN flaske av en eller annen drikke.
+ *  Brukeren tilbys ï¿½ kjï¿½pe EN flaske av en eller annen drikke.
  *
  *  @see   'skrivAlleDrikker()'
  *  @see   'automatDrikkeKjop(...)'
  */
 void kjopDrikke()  {
-    int kjopeAvNr;                 //  Drikkenummeret det kjøpes EN flaske av.
+    int kjopeAvNr;                 //  Drikkenummeret det kjï¿½pes EN flaske av.
 
     skrivAlleDrikker();            //  Skriver HELE automatens innhold.
-    kjopeAvNr = lesInt("Kjøp av nr", 0, MAXDRIKKER);
+    kjopeAvNr = lesInt("Kjï¿½p av nr", 0, MAXDRIKKER);
     if (kjopeAvNr)                 //  Noe annet enn 0 (null) er skrevet:
-        automatDrikkeKjop(&gDrikker[kjopeAvNr-1]);   //  Kjøper EN flaske.
+        automatDrikkeKjop(&gDrikker[kjopeAvNr-1]);   //  Kjï¿½per EN flaske.
     else
-        cout << "\n\tOK - ingen kjøp skjer.\n";
+        cout << "\n\tOK - ingen kjï¿½p skjer.\n";
 }
 
 
 /**
- *  Brukeren tilbys å fylle på flere flasker av en eller annen drikke.
+ *  Brukeren tilbys ï¿½ fylle pï¿½ flere flasker av en eller annen drikke.
  *
  *  @see   'skrivAlleDrikker()'
  *  @see   'automatDrikkePaafyll(...)'
@@ -241,21 +241,21 @@ void paafyllAvDrikke()  {
     int merAvNr;               //  Drikkenummeret det kommer flere flasker av.
 
     skrivAlleDrikker();        //  Skriver HELE automatens innhold.
-    merAvNr = lesInt("Påfyll av nr", 0, MAXDRIKKER);
+    merAvNr = lesInt("Pï¿½fyll av nr", 0, MAXDRIKKER);
     if (merAvNr)               //  Noe annet enn 0 (null) er skrevet:
         automatDrikkePaafyll(&gDrikker[merAvNr-1]);  //  Flere flasker.
     else
-        cout << "\n\tOK - ingen påfylling.\n";
+        cout << "\n\tOK - ingen pï¿½fylling.\n";
 }
 
 
 /**
- *  Skriver ut HELE automatens nåværende innhold (ALLE drikkenes status).
+ *  Skriver ut HELE automatens nï¿½vï¿½rende innhold (ALLE drikkenes status).
  *
  *  @see   'automatDrikkeSkrivData(...)'
  */
 void skrivAlleDrikker()  {
-    for (int i = 0;  i < MAXDRIKKER;  i++) {    //  Går gjennom ALLE drikkene:
+    for (int i = 0;  i < MAXDRIKKER;  i++) {    //  Gï¿½r gjennom ALLE drikkene:
         cout << '\t' << setw(2) << i + 1 << ":  ";
         automatDrikkeSkrivData(&gDrikker[i]);   //  Skriver EN drikke.
     }
@@ -266,9 +266,9 @@ void skrivAlleDrikker()  {
  *  Skriver brukerens valgmuligheter:
  */
 void skrivMeny()  {
-    cout << "\nFølgende kommandoer er tilgjengelig:\n"
-         << "\tK = Kjøp en drikke\n"
-         << "\tP = Påfyll av drikke\n"
+    cout << "\nFï¿½lgende kommandoer er tilgjengelig:\n"
+         << "\tK = Kjï¿½p en drikke\n"
+         << "\tP = Pï¿½fyll av drikke\n"
          << "\tE = Endre en drikkes data\n"
          << "\tQ - Quit / avslutt\n";
 }
