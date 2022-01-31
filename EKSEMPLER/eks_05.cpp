@@ -3,7 +3,7 @@
  *
  *   Eksemplet viser det mest grunnleggende omkring en av STL's
  *   SEQUENCE CONTAINERs:  VECTOR - dvs. EN-dimensjonal array.
- *   Jfr. 8.12 i læreboka.
+ *   Jfr. 8.12 i lï¿½reboka.
  *
  *   @file     EKS_05.CPP
  *   @author   Frode Haug, NTNU
@@ -11,16 +11,16 @@
 
 
 #include <iostream>                //  cout, cin
-#include <vector>                  //  FOR Å KUNNE BRUKE:  STLs  vector
+#include <vector>                  //  FOR ï¿½ KUNNE BRUKE:  STLs  vector
 #include <string>                  //  string-klassen
-#include "LesData2.h"              //  Verktøykasse for lesing av diverse data
+#include "LesData2.h"              //  Verktï¿½ykasse for lesing av diverse data
 using namespace std;
 
 
 //****************************************************************************
 //****************************************************************************
 //**              NB:    NB:    NB:    NB:    NB:    NB:                    **
-//**       FOR EN-DIMENSJONALE ARRAYER BRUKES HERETTER PRIMÆRT VECTOR       **
+//**       FOR EN-DIMENSJONALE ARRAYER BRUKES HERETTER PRIMï¿½RT VECTOR       **
 //**         (men for char-arrayer, som er tekster, brukes string)          **
 //**                                                                        **
 //****************************************************************************
@@ -45,28 +45,28 @@ void skrivVector(vector <int> vect);
  */
 int main()  {
   int i;
-                                 //  Noen måter å lage/definere vectorer på:
-    vector <int> tall;                 //  (Foreløpig) tom vector.
+                                 //  Noen mÃ¥ter Ã¥ lage/definere vectorer pÃ¥:
+    vector <int> tall;                 //  (ForelÃ¸pig) tom vector.
     vector <int> tall2(100);           //  Initielt 100-lang int-vector.
                                        //  NB:  '(..)' og IKKE '[...]'
     vector <int> tall3 { 3, 7, 11 };   //  3-lang vector m/initielle verdier.
-                                       //  NB:  IKKE '=' før '{'
+                                       //  NB:  IKKE '=' fÃ¸r '{'
     vector <int> tall4(20, 7);         //  20-lang vector med 7-tall.
     vector <int> tall5(tall3);         //  vector som er kopi av en annen.
     vector <char> bokstaver(10, 'X');  //  char-vector med 10 stk 'X'er.
     vector <string> navn(10);          //  vector med 10 tomme stringer.
 
 
-//  STOOOOR fordel med vector:   Størrelse/lengde kan bare økes når
+//  STOOOOR fordel med vector:   StÃ¸rrelse/lengde kan bare Ã¸kes nÃ¥r
 //                               det trengs (til det "uendelige") !!!
 
 // ***************************************************************************
 
-                                     //  Når element nr.i finnes, så brukes en
+                                     //  Nï¿½r element nr.i finnes, sï¿½ brukes en
                                      //    vector akkurat som en array !!!
 
     cout << "'tall3': ";             //  Skriver ut de fleste av vectorenes
-    for (i = 0; i < 3; i++)          //    innhold - på litt ulike måter:
+    for (i = 0; i < 3; i++)          //    innhold - pï¿½ litt ulike mï¿½ter:
         cout << ' ' << tall3[i];
     cout << "\n\n";
 
@@ -104,10 +104,10 @@ int main()  {
 // ***************************************************************************
 
     navn[0] = "Per, ";               //  Setter NOEN av stringene:
-    navn[1] = "Pål og ";
+    navn[1] = "PÃ¥l og ";
     navn[2] = "Espen Askeladd";
 
-    cout << "'navn' igjen:\n";       //  Skriver stringene nå:
+    cout << "'navn' igjen:\n";       //  Skriver stringene nï¿½:
     for (i = 0; i < navn.size(); i++)
         cout << "\t---." << navn[i] << ".---\n";
     cout << "\n\n";
@@ -120,23 +120,23 @@ int main()  {
     cout << "\n'tall2':\n";          //  Skriver HELE 'tall2':
     for (i = 0; i < tall2.size(); i++)
         cout << ' ' << tall2[i];
-    cout << "\n\n";                  //  Det er VI som må holde orden på
+    cout << "\n\n";                  //  Det er VI som mï¿½ holde orden pï¿½
                                      //    hvor mye som er brukt av en
-                                     //    vector med definert størrelse!
+                                     //    vector med definert stï¿½rrelse!
 
 // ***************************************************************************
-                                     //  Derfor ofte ønskelig med tom vector
-                                     //    som blir tilført nye elementer:
+                                     //  Derfor ofte ï¿½nskelig med tom vector
+                                     //    som blir tilfï¿½rt nye elementer:
     int verdi;
     cout << "Skriv 5 tall:\n";       //  Leser fem verdier inni 'tall':
     for (i = 0; i < 5; i++) {
         verdi = lesInt("\tTall", 0, 1000);
-        tall.push_back(verdi);       //  'tall' er jo initielt TOM. Derfor MÅ
+        tall.push_back(verdi);       //  'tall' er jo initielt TOM. Derfor Mï¿½
     }                                //    nye elementer ADDES til BAKERST !!!
                                      //  Mao:  tall[i] = verdi;  fungerer ikke
                                      //        om element nr.i IKKE finnes !!!
 
-    cout << "\n'tall':\n";           //  Skriver det som nå er i 'tall':
+    cout << "\n'tall':\n";           //  Skriver det som nï¿½ er i 'tall':
     for (i = 0; i < tall.size(); i++)
         cout << ' ' << tall[i];
     cout << "\n\n";
@@ -144,7 +144,7 @@ int main()  {
     tall.pop_back();                 //  Tar vekk de to BAKERSTE elementene
     tall.pop_back();                 //    i vectoren 'tall' !!!
 
-    cout << "\n'tall':\n";           //  Skriver det som nå er igjen i 'tall':
+    cout << "\n'tall':\n";           //  Skriver det som nï¿½ er igjen i 'tall':
     for (i = 0; i < tall.size(); i++)
         cout << ' ' << tall[i];
     cout << "\n\n";
@@ -154,12 +154,12 @@ int main()  {
 
     tall.clear();
 
-    cout << "\n'tall' sin lengde etter å ha blitt \"cleared\":  "
+    cout << "\n'tall' sin lengde etter ï¿½ ha blitt \"cleared\":  "
         << tall.size() << "\n\n";
 
-    if (tall.empty())  cout << "'tall' er altså HELT tom!\n\n";
+    if (tall.empty())  cout << "'tall' er altsï¿½ HELT tom!\n\n";
 
-    cout << "\n'tall2' har pr. nå plass til  "
+    cout << "\n'tall2' har pr. nï¿½ plass til  "
          << tall2.capacity() << " elementer.\n\n";
 
 
@@ -207,11 +207,11 @@ int main()  {
 
 
 // ***************************************************************************
-// **     NB NB NB:  VI SKAL PRIMÆRT BRUKE DENNE SISTE MÅTEN/METODEN !!!    **
+// **     NB NB NB:  VI SKAL PRIMï¿½RT BRUKE DENNE SISTE Mï¿½TEN/METODEN !!!    **
 // **                                                                       **
 // **                MEN, HUSK da at i vectoren ligger det PEKERE.          **
-// **                Altså MÅ BÅDE DET TILPEKTE OG PEKEREN (i vectoren)     **
-// **                SLETTES når noe skal fjernes fra vectoren !!!!!!!!!    **
+// **                Altsï¿½ Mï¿½ Bï¿½DE DET TILPEKTE OG PEKEREN (i vectoren)     **
+// **                SLETTES nï¿½r noe skal fjernes fra vectoren !!!!!!!!!    **
 // **                         (se oppg.8, EKS_06.CPP og HER:)               **
 // ***************************************************************************
 
@@ -238,7 +238,7 @@ int main()  {
 
 
 /**
- *  Skriver ut på skjermen hele den medsendte vectorens innhold.
+ *  Skriver ut pï¿½ skjermen hele den medsendte vectorens innhold.
  *
  *  @param   vect  - int-vector som blir skrevet ut
  */
@@ -251,17 +251,17 @@ void skrivVector(vector <int> vect) {
 
 
 //****************************************************************************
-//**  KAN også bl.a: - Kopiere hele vectorer  (f.eks: tall2 = tall3)        **
+//**  KAN ogsï¿½ bl.a: - Kopiere hele vectorer  (f.eks: tall2 = tall3)        **
 //**                 - Sammenligne lengde OG innhold (<  <=  >  >=  ==  !=) **
-//**                 - Få tak verdien til første/siste element              **
-//**                 - Øker en vectors størrelse med N elementer            **
+//**                 - Fï¿½ tak verdien til fï¿½rste/siste element              **
+//**                 - ï¿½ker en vectors stï¿½rrelse med N elementer            **
 //**                 - Snu vectorens innhold baklengs                       **
 //**                 - Bytte om to vectorers innhold                        **
-//**                 - Få tak i PEKER til første og siste element           **
-//**                 - Sette inn/fjerne element på en angitt plass/indeks   **
+//**                 - Fï¿½ tak i PEKER til fï¿½rste og siste element           **
+//**                 - Sette inn/fjerne element pï¿½ en angitt plass/indeks   **
 //**                                                                        **
-//**  Se Table 8-3 i læreboka og under linken "Ressurser" og "vector"       **
+//**  Se Table 8-3 i lï¿½reboka og under linken "Ressurser" og "vector"       **
 //**                                                                        **
-//**  Til en del operasjoner brukes ITERATOR (mer i kap.16-18 i læreboka)   **
+//**  Til en del operasjoner brukes ITERATOR (mer i kap.16-18 i lï¿½reboka)   **
 //**                                                                        **
 //****************************************************************************

@@ -3,7 +3,7 @@
  *                          og memoryallokering (nytt).
  *
  *   Eksemplet repeterer en del stoff om pekere, inkl. relasjon til array,
- *   og viser hvordan memoryallokering foregår i C++.
+ *   og viser hvordan memoryallokering foregï¿½r i C++.
  *
  *   @file     EKS_03.CPP
  *   @author   Frode Haug, NTNU
@@ -17,7 +17,7 @@
 #include <iostream>                //  cout, cin
 #include <string>                  //  string
 #include <cstring>                 //  BRUKES AV OSS FOR SISTE GANG !!!!!!!!!?
-#include "LesData2.h"              //  Verktøykasse for lesing av diverse data
+#include "LesData2.h"              //  Verktï¿½ykasse for lesing av diverse data
 using namespace std;
 
 
@@ -35,7 +35,7 @@ struct Person {
  */
 int main()  {
 
-// ********************  PRIMÆRT REPETISJON:  ********************
+// ********************  PRIMÃ†RT REPETISJON:  ********************
 
     int   tall = 312;
     int*  iPeker = nullptr;       //  KAN bruke NULL (eller faktisk 0 (null)),
@@ -48,7 +48,7 @@ int main()  {
          << "\tVia peker:  " << *iPeker << "\n\n";  //   VERDIEN til 'iPeker'.
 
     *iPeker = 41;                 //  VERDIEN til 'ipeker' blir 41.
-                                  //  Dvs. 'tall' blir også 41.
+                                  //  Dvs. 'tall' blir ogsï¿½ 41.
     cout << "Tall er:     " << tall << '\n'         // Skriver 'tall' og
          << "\tVia peker:  " << *iPeker << "\n\n";  //   VERDIEN til 'iPeker'.
 
@@ -59,7 +59,7 @@ int main()  {
 
 //  PEKERE OG ARRAY:
 
-    int  i;                        //  Løkkevariabel.
+    int  i;                        //  Lï¿½kkevariabel.
     int  tallene[30];              //  Fast array
     int* iPeker2;                  //  Hjelpepeker.
 
@@ -68,10 +68,10 @@ int main()  {
     for (i = 0; i < 10; i++)
         *(iPeker + i) = 10 + i;    //  Fyller indeks 0-9 med verdiene 10-19:
 
-    for (; i < 20; i++)            //  'i' er nå allerede 10 !!!
+    for (; i < 20; i++)            //  'i' er nï¿½ allerede 10 !!!
         iPeker[i] = 20 + i;        //  Fyller indeks 10-19 med verdiene 30-39:
 
-    iPeker2 = iPeker + 20;         //  'iPeker2' peker på element nr.20.
+    iPeker2 = iPeker + 20;         //  'iPeker2' peker pï¿½ element nr.20.
     for (i = 0; i < 10; i++)
         *iPeker2++ = 50 + i;       //  Fyller indeks 20-29 med verdiene 50-59:
 
@@ -87,13 +87,13 @@ int main()  {
     cPeker    = (char*) malloc(100 * sizeof(char));           //  Char-arrray.
     persPeker = (struct Person*) malloc(sizeof(struct Person)); //  Struct.
     free(cPeker);                          //  Frigir de 2x allokerte  
-    free(persPeker);                       //    memory-områdene.
+    free(persPeker);                       //    memory-omrï¿½dene.
 
 
 // *************************************************************
 // *********************  ALLTID HERETTER:  *********************
 // **                 Glem 'malloc' og 'free' !!!              **
-// **    Nå er det KUN 'new' og 'delete' som gjelder !!!!!!    **
+// **    Nï¿½ er det KUN 'new' og 'delete' som gjelder !!!!!!    **
 // **************************************************************
 // *************************************************************
 
@@ -113,11 +113,11 @@ int main()  {
 
     delete [] cPeker;              //  Frigir ARRAYEN 'cPeker'.
     delete persPeker;              //  Frigir structen.
-    cPeker = nullptr;              //  God vane å ha
+    cPeker = nullptr;              //  God vane ï¿½ ha
     persPeker = nullptr;           //    (om de fortsatt kan/skal brukes).
 
-                          //  KAN også allokere brukerønsket memory-størrelse:
-    int lengde = lesInt("Ønsket tekstlengde", 20, 80);
+                          //  KAN ogsï¿½ allokere brukerï¿½nsket memory-stï¿½rrelse:
+    int lengde = lesInt("ï¿½nsket tekstlengde", 20, 80);
     cPeker = new char[lengde];                  //  Allokerer.
 
     strcpy(cPeker, "Storhamar & Arsenal");      //  Fyller.
@@ -127,12 +127,12 @@ int main()  {
     cPeker = nullptr;                           //  Nullstiller.
 
 
-//  Huske dette også! (ikke brukt engang siden den ble allokert):
+//  Huske dette ogsï¿½! (ikke brukt engang siden den ble allokert):
     delete [] iPeker;              //  Frigir arrayen 'iPeker'.
 
 
 //  Og dermed:  Snipp, snapp, snute:  
-//              Ut med char-array - nå er det string som gjelder !!!
+//              Ut med char-array - nï¿½ er det string som gjelder !!!
 
     return 0;
 }

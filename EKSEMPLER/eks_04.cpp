@@ -1,8 +1,8 @@
 /**
- *   Programeksempel nr 4 - Range-Based for-løkke (variant fra og med C++11).
+ *   Programeksempel nr 4 - Range-Based for-lï¿½kke (variant fra og med C++11).
  *
- *   Eksemplet viser bruken av varianten Range-Based for-løkke
- *   i en del sammenhenger (jfr. 8.5 i læreboka).
+ *   Eksemplet viser bruken av varianten Range-Based for-lï¿½kke
+ *   i en del sammenhenger (jfr. 8.5 i lï¿½reboka).
  *
  *   @file     EKS_04.CPP
  *   @author   Frode Haug, NTNU
@@ -11,7 +11,7 @@
 
 #include <iostream>                //  cout, cin
 #include <string>                  //  string-klassen
-#include "LesData2.h"              //  Verktøykasse for lesing av diverse data
+#include "LesData2.h"              //  Verktï¿½ykasse for lesing av diverse data
 using namespace std;
 
 
@@ -19,7 +19,7 @@ using namespace std;
  *  Hovedprogrammet:
  */
 int main()  {
-    int i;                         //  Løkkevariabel.
+    int i;                         //  LÃ¸kkevariabel.
 
     int  tall[10] = { 1, 2, 3, 5, 7, 11, 13, 17, 19, 23 };
 
@@ -63,7 +63,7 @@ int main()  {
 // ***************************************************************************
 
     string ukedager[] = { "Mandag", "Tirsdag", "Onsdag", "Torsdag",
-                          "Fredag", "Lørdag",  "Søndag" };
+                          "Fredag", "Lï¿½rdag",  "Sï¿½ndag" };
 
     cout << "Ukedagene:\n";
     for (string val : ukedager)
@@ -72,11 +72,11 @@ int main()  {
 
 
 // ***************************************************************************
-// ALTSÅ:  for ( <type, evt.'auto'>  <val = uthentet verdi>  :  <array> )  {
+// ALTSï¿½:  for ( <type, evt.'auto'>  <val = uthentet verdi>  :  <array> )  {
 //                  <Bruker bl.a. 'val'>
 //         }
 //
-//  Vi vil bruke begge disse måtene videre i koden - alt etter situasjonen.
+//  Vi vil bruke begge disse mï¿½tene videre i koden - alt etter situasjonen.
 //
 // ***************************************************************************
 
