@@ -50,6 +50,7 @@ void skrivRuter();
 void ruteSkrivData(const Rute rute);
 void skrivNesteStoppesteder(const int stopp);
 void nyRute();
+void slett();
 void slett(const int nr);
 void slettRute();
 bool ruteLesData(Rute &rute);
@@ -93,16 +94,23 @@ void skrivMeny() {
 
 void skrivStopp() {
     
+    cout << "\nAlle stoppesteder:\n\n";
     //Skriver alle stopp stedene nummerert
     for(int i = 0; i < gBusstopp.size(); i++) {
-        cout << i+1 << ". " << gBusstopp[i] << '\n';
+        cout << setw(2) << i+1 << ". " << gBusstopp[i] << '\n';
     }
 
 }
 
 void skrivRuter() {
 
-
+    if(gRuter.size() > 1) {
+        for(int i = 0; i < ANTSTOPP; i++) {
+            cout << "Rute nr." << setw(2) << i+1 << ". " << gRuter[i] << '\n';
+        }
+    } else if(gRuter.size() < 1) {
+        cout << "\t\nIngen ruter lagt til\n\n\n";
+    }
 
 }
 
@@ -112,40 +120,38 @@ void skrivRuter() {
  */
 void ruteSkrivData(const Rute rute) {
 
+    cout << "\t\nRute nr." << rute.ruteNr << '\n'
+         << "\tTotal minutt rute: " << rute.totMin << '\n'
+         << "\tRute stopp: ";
 
+    for(int i = 0; i < rute.stopp.size(); i++) {
+        cout << i+1 << ". " << rute.stopp[i] << ' ';
+    }
 
 }
 
 /**
  * 
  * @param stopp - nr på stoppe sted 
+ * 
+ * ! - Får ikke skrevet ut minuttene og finne neste aktuelle stopp
  */
 void skrivNesteStoppesteder(const int stopp) {
 
+    for(int i = 0; i != 0; i++) {
+        cout << gMinutter[stopp][i];
+    }
 
 
 }
 
 void nyRute() {
 
-
-
-}
-
-void slettRute() {
-
-
-
-}
-
-
-/**
- * 
- * @param nr - nr på rute som blir slettet
- */
-void slett(const int nr) {
-
-
+    Rute* nyRute = new Rute;
+    ruteLesData(*nyRute);
+    gRuter.push_back(nyRute);
+    cout << "\t\nNy rute har nr." << gRuter.size() << '\n';
+    ruteSkrivData(*nyRute);
 
 }
 
@@ -155,9 +161,82 @@ void slett(const int nr) {
  * @param rute - ruten som blir lest
  * @return true 
  * @return false 
+ * 
  */
-bool ruteLesData(Rute &rute) {
+bool ruteLesData(Rute & rute) {
+    int stop,
+        nyttStopp;
+
+    rute.ruteNr = gRuter.size()+1;
+    skrivStopp();
+    stop = lesInt("\t\nVelg startsted: \n", 1, 11);
+    rute.stopp.push_back(gBusstopp[stop - 1]);
+
+    skrivNesteStoppesteder(stop);
+
+   /* while(nyttStopp != 0) {
+        for(int i = rute.stopp.size(); i < ANTSTOPP; i++) {
+
+        }
+    }*/
 
 
+    if(rute.stopp.size() > 1) {
+        return true;
+    } else {return false;}
+}
+
+
+/**
+ * Bruker velger her hvilke(n) rute som skal slettes
+ * 
+ */
+void slettRute() {
+    int valg;
+
+    if(gRuter.size() == 0) {
+        cout << "\t\nIngen ruter lagt til\n\n";
+    } else {
+        for(int i = 0; i < gRuter.size(); i++) {
+            cout << i+1 << gRuter[i];
+        }
+
+        valg = lesInt("\nHvilken rute skal slettes: ", -1, gRuter.size());
+        if(valg == -1) {        // sletter alle ruter
+            void slett();
+        } else if(valg == 0) {  // ingen slettes, går ut av funksjonen
+            cout << "\t\nIngen rute fjernet, returnerer til startmeny\n\n";
+            exit;
+        } else if(valg <= 1) {  // sletter valgt rute
+            slett(valg);
+        }
+
+    }
+
+}
+
+/**
+ * Sletter alle ruter
+ * 
+ */
+void slett() {
+
+    for(int i = 0; i < gRuter.size(); i++)  // Sletter alle rutene i vectoren
+        delete gRuter[i];
+
+    gRuter.clear();                         // fjerner alle pekerne i vectoren
+    cout << "\n\nvectoren er tom - antallet er: " << gRuter.size() << "\n\n";
+
+}
+
+
+/**
+ * 
+ * @param nr - nr på rute som blir slettet
+ */
+void slett(const int nr) {
+    delete gRuter[nr-1];                    //sletter valgt rute
+    gRuter[nr-1] = gRuter[gRuter.size()-1]; //bakerste flyttes til plassen
+    gRuter.pop_back();                      // siste peker slettes også
 
 }
