@@ -178,10 +178,10 @@ bool ruteLesData(Rute & rute) {
     stop = lesInt("\t\nVelg startsted: \n", 1, 11);
     rute.stopp.push_back(gBusstopp[stop - 1]);
 
-    skrivNesteStoppesteder(stop);
+    skrivNesteStoppesteder(stop - 1);
     
     for(int i = 0; i < 11; i++) {
-        cout << endl;
+        cout << "\n";
         if(gMinutter[stop][i] != 0) {
             nyeStopp.push_back(gBusstopp[i]);
         }
@@ -189,8 +189,9 @@ bool ruteLesData(Rute & rute) {
 
     nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 1, nyeStopp.size());
     rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
+    rute.totMin += gMinutter[stop][nyttStopp];
     nyeStopp.clear();
-    while(nyttStopp != 0) {
+   /* while(nyttStopp != 0) {
         skrivNesteStoppesteder(nyttStopp);
     
         for(int i = 0; i < 11; i++) {
@@ -203,7 +204,7 @@ bool ruteLesData(Rute & rute) {
         nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 0, nyeStopp.size());
         rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
         nyeStopp.clear();
-   }
+   }*/
 
 
     if(rute.stopp.size() > 1) {
