@@ -166,7 +166,7 @@ void nyRute() {
  * @param rute - ruten som blir lest
  * @return true 
  * @return false 
- * ! lagrer feil rute nr 2 i rute.stopp
+ * ! lagrer feil stopp nr 2 i rute.stopp
  */
 bool ruteLesData(Rute & rute) {
     int stop,
