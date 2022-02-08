@@ -119,13 +119,16 @@ void skrivRuter() {
  * @param rute - ruten som blir skrevet ut
  */
 void ruteSkrivData(const Rute rute) {
+    string pil = " --> ";
 
     cout << "\t\nRute nr." << rute.ruteNr << '\n'
          << "\tTotal minutt rute: " << rute.totMin << '\n'
          << "\tRute stopp: ";
 
     for(int i = 0; i < rute.stopp.size(); i++) {
-        cout << i+1 << ". " << rute.stopp[i] << ' ';
+        if() {
+            cout << rute.stopp[i];
+        }
     }
 
 }
