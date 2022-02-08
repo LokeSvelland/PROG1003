@@ -1,7 +1,15 @@
+
+#include <string>
 #include <iostream>
+#include <vector>
+
 
 const int ANTSTOPP = 11; ///< Totalt antall ulike busstopp.
 
+const vector <string> gBusstopp = ///< Navn på alle busstopp.
+    {"Skysstasjonen", "Fahlstroms plass", "Sykehuset",
+     "Gjovik stadion", "Bergslia", "Overby", "Nybrua",
+     "NTNU", "Kallerud", "Hunndalen", "Mustad fabrikker"};
 
 const int gMinutter[ANTSTOPP][ANTSTOPP] = ///< Min.mellom stoppesteder.
                                           // const vector <vector <int> > gMinutter = // Alternativt (nå lært i vår).
@@ -26,11 +34,13 @@ const int gMinutter[ANTSTOPP][ANTSTOPP] = ///< Min.mellom stoppesteder.
  */
 int main() {
 
-    int stop = 3;
+    int stop = 4;
 
-    for(int i = 0; i >= 1; i++) {
+    for(int i = 0; i < 11; i++) {
         std::cout << std::endl;
-        std::cout << gMinutter[stop][i];
+        if(gMinutter[stop][i] != 0) {
+            std::cout << gBusstop[i];
+        }
     }
 
 }

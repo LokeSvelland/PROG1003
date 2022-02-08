@@ -134,12 +134,16 @@ void ruteSkrivData(const Rute rute) {
  * 
  * @param stopp - nr på stoppe sted 
  * 
- * ! - Får ikke skrevet ut minuttene og finne neste aktuelle stopp
+ * ! - Får nå skrevet ut tilgjenlige stoppesteder
  */
 void skrivNesteStoppesteder(const int stopp) {
+    int nr = 0;
 
-    for(int i = 0; i != 0; i++) {
-        cout << gMinutter[stopp][i];
+    for(int i = 0; i < 11; i++) {
+        cout << endl;
+        if(gMinutter[stopp][i] != 0) {
+            cout << "Stopp nummer." << ++nr << "  "<< gMinutter[stopp][i] << "min " << gBusstopp[i];
+        }
     }
 
 
@@ -167,18 +171,39 @@ bool ruteLesData(Rute & rute) {
     int stop,
         nyttStopp;
 
+    vector<string> nyeStopp;
+
     rute.ruteNr = gRuter.size()+1;
     skrivStopp();
     stop = lesInt("\t\nVelg startsted: \n", 1, 11);
     rute.stopp.push_back(gBusstopp[stop - 1]);
 
     skrivNesteStoppesteder(stop);
-
-   /* while(nyttStopp != 0) {
-        for(int i = rute.stopp.size(); i < ANTSTOPP; i++) {
-
+    
+    for(int i = 0; i < 11; i++) {
+        cout << endl;
+        if(gMinutter[stop][i] != 0) {
+            nyeStopp.push_back(gBusstopp[i]);
         }
-    }*/
+    }
+
+    nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 1, nyeStopp.size());
+    rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
+    nyeStopp.clear();
+    while(nyttStopp != 0) {
+        skrivNesteStoppesteder(nyttStopp);
+    
+        for(int i = 0; i < 11; i++) {
+            cout << endl;
+            if(gMinutter[stop][i] != 0) {
+                nyeStopp.push_back(gBusstopp[i]);
+            }
+        }
+
+        nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 0, nyeStopp.size());
+        rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
+        nyeStopp.clear();
+   }
 
 
     if(rute.stopp.size() > 1) {
