@@ -126,7 +126,11 @@ void ruteSkrivData(const Rute rute) {
          << "\tRute stopp: ";
 
     for(int i = 0; i < rute.stopp.size(); i++) {
-            cout << pil << rute.stopp[i];
+            if(rute.stopp[i % 2].size() != 0) {
+                cout << pil << rute.stopp[i];
+            } else if(rute.stopp[i % 2].size() == 0) {
+                cout << rute.stopp[i];
+            }
     }
 
 }
