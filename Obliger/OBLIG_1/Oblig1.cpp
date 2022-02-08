@@ -126,9 +126,7 @@ void ruteSkrivData(const Rute rute) {
          << "\tRute stopp: ";
 
     for(int i = 0; i < rute.stopp.size(); i++) {
-        if() {
-            cout << rute.stopp[i];
-        }
+            cout << pil << rute.stopp[i];
     }
 
 }
@@ -142,7 +140,7 @@ void ruteSkrivData(const Rute rute) {
 void skrivNesteStoppesteder(const int stopp) {
     int nr = 0;
 
-    for(int i = 0; i < 11; i++) {
+    for(int i = 0; i < ANTSTOPP; i++) {
         cout << endl;
         if(gMinutter[stopp][i] != 0) {
             cout << "Stopp nummer." << ++nr << "  "<< gMinutter[stopp][i] << "min " << gBusstopp[i];
@@ -168,7 +166,7 @@ void nyRute() {
  * @param rute - ruten som blir lest
  * @return true 
  * @return false 
- * 
+ * ! lagrer feil rute nr 2 i rute.stopp
  */
 bool ruteLesData(Rute & rute) {
     int stop,
@@ -183,15 +181,15 @@ bool ruteLesData(Rute & rute) {
 
     skrivNesteStoppesteder(stop - 1);
     
-    for(int i = 0; i < 11; i++) {
+    for(int i = 0; i < ANTSTOPP; i++) {
         cout << "\n";
         if(gMinutter[stop][i] != 0) {
             nyeStopp.push_back(gBusstopp[i]);
         }
     }
 
-    nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 1, nyeStopp.size());
-    rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
+    nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 0, ANTSTOPP);
+    rute.stopp.push_back(nyeStopp[nyttStopp-1]);
     rute.totMin += gMinutter[stop][nyttStopp];
     nyeStopp.clear();
    /* while(nyttStopp != 0) {
