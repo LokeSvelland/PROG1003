@@ -197,7 +197,7 @@ bool ruteLesData(Rute & rute) {
             gMinutter[fStopp-1][i]; 
     }
                         // Leser inn neste stopp
-    nStopp = lesInt("\nNeste stopp: ", 1, ANTSTOPP);
+    nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
 
                         // Kjører det samme helt til bruker velger '0'
     do
@@ -218,15 +218,14 @@ bool ruteLesData(Rute & rute) {
             gMinutter[fStopp-1][i]; 
         }
 
-        //fStopp = nStopp;
+        fStopp = nStopp;
 
         nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
 
 
-    } while (fStopp != 0);
+    } while (fStopp != 0 && nStopp != 0);
 
 
-    cout << "test2";
     if(rute.stopp.size() > 1) {
         return true;
     } else {return false;}
