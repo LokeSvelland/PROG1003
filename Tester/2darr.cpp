@@ -44,3 +44,60 @@ int main() {
     }
 
 }
+
+
+    int stop,
+        nyttStopp;
+
+    vector<string> nyeStopp;
+
+    rute.ruteNr = gRuter.size()+1;
+    skrivStopp();
+    stop = lesInt("\t\nVelg startsted: \n", 1, 11);
+                        // Legger inn første stopp
+    rute.stopp.push_back(gBusstopp[stop - 1]);
+
+                        //skriver neste lovlige stopp
+    skrivNesteStoppesteder(stop - 1);
+    
+                        //gjør det samme som skrivNesteStoppesteder()
+                        // men denne legger dem i egen vector slik at 
+                        // jeg kan velge bare dem som er tilgjenglig
+    for(int i = 0; i < ANTSTOPP; i++) {
+        cout << "\n";
+        if(gMinutter[stop-1][i] != 0) {
+            nyeStopp.push_back(gBusstopp[i]);
+        }
+    }
+
+    nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 0, ANTSTOPP);
+    rute.stopp.push_back(nyeStopp[nyttStopp]);
+    rute.totMin += gMinutter[stop][nyttStopp];
+    nyeStopp.clear();                         //  Alle PEKERNE slettes.
+   /* while(nyttStopp != 0) {
+        skrivNesteStoppesteder(nyttStopp);
+    
+        for(int i = 0; i < 11; i++) {
+            cout << endl;
+            if(gMinutter[stop][i] != 0) {
+                nyeStopp.push_back(gBusstopp[i]);
+            }
+        }
+
+        nyttStopp = lesInt("\nSkriv inn neste stopp nummer: ", 0, nyeStopp.size());
+        rute.stopp.push_back(nyeStopp[nyttStopp - 1]);
+        nyeStopp.clear();                     //  Alle PEKERNE slettes.
+   }*/
+
+   void skrivNesteStoppesteder(const int stopp) {
+    int nr = 0;
+
+    for(int i = 0; i < ANTSTOPP; i++) {
+        cout << endl;
+        if(gMinutter[stopp][i] != 0) {
+            cout << i+1 << ".  "<< gMinutter[stopp][i] << "min " << gBusstopp[i];
+        }
+    }
+
+
+}
