@@ -162,14 +162,18 @@ void skrivNesteStoppesteder(const int stopp) {
  * Bruker registrerer ny rute
  * 
  */
-void nyRute() {
+void nyRute(){
+    Rute* nyrute;
 
-    Rute* nyRute = new Rute;
-    ruteLesData(*nyRute);
-    gRuter.push_back(nyRute);
-    cout << "\t\nNy rute har nr." << gRuter.size() << '\n';
-    ruteSkrivData(*nyRute);
-
+    //LAG NY RUTE
+    nyrute = new Rute;           //oppretter ny rute
+    cout << "\nNy rute: \n";
+    if(ruteLesData(*nyrute) == true){  //Innlesing success:
+        gRuter.push_back(nyrute);      //legges bakerst i vectoren
+        ruteSkrivData(*nyrute);}       //skriv ut alle dens datamedl
+    else{                   //error
+        cout << "\n!INNLESING MISLYKKES!... rute slettes";
+        delete nyrute;}     //slett ruten
 }
 
 
