@@ -114,12 +114,12 @@ void skrivStopp() {
 
 void skrivRuter() {
 
-    if(gRuter.size() > 1) {
+    if(gRuter.size() > 0) {
         for(int i = 0; i < gRuter.size(); i++) {
             cout << "Rute nr." << setw(2) << i+1 << ' ';
             ruteSkrivData(*gRuter[i]);
         }
-    } else if(gRuter.size() < 1) {
+    } else if(gRuter.size() == 0) {
         cout << "\t\nIngen ruter lagt til\n\n\n";
     }
 
