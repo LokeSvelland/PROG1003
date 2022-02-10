@@ -23,7 +23,7 @@ struct Rute
         totMin;           // Totalt antall minutter å kjøre på ruten
 };                        // (fra første til siste stoppested).
 
-vector<Rute *> gRuter; ///< Pekere til rutene.
+vector<Rute*> gRuter; ///< Pekere til rutene.
 
 const vector<string> gBusstopp = ///< Navn på alle busstopp.
     {"Skysstasjonen", "Fahlstroms plass", "Sykehuset",
