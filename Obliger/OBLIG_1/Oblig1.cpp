@@ -111,12 +111,15 @@ void skrivStopp() {
 
 }
 
-
+/**
+ * SKriver ut alle ruter
+ * 
+ */
 void skrivRuter() {
 
     if(gRuter.size() > 0) {
         for(int i = 0; i < gRuter.size(); i++) {
-            cout << "Rute nr." << setw(2) << i+1 << ' ';
+            cout << "\nRute nr." << setw(2) << i+1 << ' ';
             ruteSkrivData(*gRuter[i]);
         }
     } else if(gRuter.size() == 0) {
@@ -176,17 +179,21 @@ void nyRute(){
         delete nyrute;}     //slett ruten
 }
 
-
 /**
  * 
  * @param rute - ruten som blir lest
  * @return true 
  * @return false 
  *
+ * ! - Hvis en legger inn partall antall stopp når bruker leser inn stopp til
+ * ! - rutene får en opp "std::bad_alloc" og programmet kræsjer, finner ikke ut 
+ * ! - hvorfor
  */
 bool ruteLesData(Rute & rute) {
     int fStopp = 0,
         nStopp = 0;
+
+    rute.totMin = 0;
                         // Leser inn rute nr
     rute.ruteNr = lesInt("\n\tRute nr: ", 1, 999);
                         // skriver alle stopp
@@ -196,36 +203,25 @@ bool ruteLesData(Rute & rute) {
     rute.stopp.push_back(gBusstopp[fStopp - 1]);
                         // Skriver ut neste lovlige stopp
     skrivNesteStoppesteder(fStopp - 1);
-                        // Gjør stopp interaktive
-    for(size_t i = 0; i < ANTSTOPP; i++) {
-            gMinutter[fStopp-1][i]; 
-    }
-                        // Leser inn neste stopp
-    nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
 
-                        // Kjører det samme helt til bruker velger '0'
     do
-    {                   // Lagrer busstopp
+    {                
+                        // Leser inn neste stopp
+        nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);   
+                        // Lagrer busstopp
         rute.stopp.push_back(gBusstopp[nStopp - 1]);
-        rute.totMin += gMinutter[fStopp - 1][nStopp];
+        rute.totMin += gMinutter[fStopp - 1][nStopp - 1];
                         // Skriver ut neste lovlige stopp
         skrivNesteStoppesteder(nStopp - 1);
-
+                        // leser inn neste stopp
         fStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
-
+                        // lagrer vekk navn og min på stopp
         rute.stopp.push_back(gBusstopp[fStopp - 1]);
-        rute.totMin += gMinutter[nStopp - 1][fStopp];
-
+        rute.totMin += gMinutter[nStopp - 1][fStopp - 1];
+                        // skriver neste loblige stopp
         skrivNesteStoppesteder(fStopp - 1);
 
-        for(size_t i = 0; i < ANTSTOPP; i++) {
-            gMinutter[fStopp-1][i]; 
-        }
-
         fStopp = nStopp;
-
-        nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
-
 
     } while (fStopp != 0 && nStopp != 0);
 
@@ -235,19 +231,19 @@ bool ruteLesData(Rute & rute) {
     } else {return false;}
 }
 
-
 /**
  * Bruker velger her hvilke(n) rute som skal slettes
  * 
  */
 void slettRute() {
-    int valg;
+    int valg = 0;
 
     if(gRuter.size() == 0) {
         cout << "\t\nIngen ruter lagt til\n\n";
     } else {
         for(int i = 0; i < gRuter.size(); i++) {
-            cout << i+1 << gRuter[i];
+            cout << "\n" <<"Rute nr. " << i+1;
+            ruteSkrivData(*gRuter[i]);
         }
 
         valg = lesInt("\nHvilken rute skal slettes: ", -1, gRuter.size());
@@ -278,7 +274,6 @@ void slett() {
     cout << "\n\nvectoren er tom - antallet er: " << gRuter.size() << "\n\n";
 
 }
-
 
 /**
  * 
