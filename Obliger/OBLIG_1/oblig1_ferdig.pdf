@@ -1,0 +1,1942 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 34807>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr ( *  Obligatorisk oppgave nr 1 Våren 2022, PROG1003) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 82.37 Tm 0 Tr (@file ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 82.35 82.37 Tm 0 Tr (Oblig1.cpp) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 93.71 Tm 0 Tr (@author ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 93.71 Tm 0 Tr (Loke Svelland) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( */) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (#include <iostream>   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 139.06 Tm 0 Tr (//  cout / cin) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (#include <iomanip>    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 150.40 Tm 0 Tr (//  setw) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (#include <vector>     ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 161.74 Tm 0 Tr (//  FOR å KUNNE BRUKE: STLs vector) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (#include <string>     ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 173.08 Tm 0 Tr (//  STRING-KLASSEN) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (#include "LesData2.h" ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 184.42 Tm 0 Tr (//  Verktøykasse for lesing av diverse data) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (using namespace ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 195.76 Tm 0 Tr (std) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 195.76 Tm 0 Tr (;  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 160.35 195.76 Tm 0 Tr (//  Slipper da å bruke std::cout / std::cin) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 209.76 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 218.43 Tm 0 Tr (ANTSTOPP ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 218.43 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 218.43 Tm 0 Tr (11) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 218.43 Tm 0 Tr (; ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 178.35 218.43 Tm 0 Tr (///< Totalt antall ulike busstopp.) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (struct ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+70.35 232.44 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 241.11 Tm 0 Tr (Rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 255.12 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (vector) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 263.79 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 255.12 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 263.79 Tm 0 Tr (string) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 263.79 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 255.12 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 263.79 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 263.79 Tm 0 Tr (; ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 184.35 263.79 Tm 0 Tr (// Rutens ulike stoppesteder.) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 275.13 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 266.46 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 275.13 Tm 0 Tr (ruteNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 275.13 Tm 0 Tr (,           ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 184.35 275.13 Tm 0 Tr (// Reelt rutenr, f.eks. 42, 165, 718) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 277.80 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 286.46 Tm 0 Tr (totMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 286.46 Tm 0 Tr (;           ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 184.35 286.46 Tm 0 Tr (// Totalt antall minutter å kjøre på ruten) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (};                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 184.35 297.80 Tm 0 Tr (// \(fra første til siste stoppested\).) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 311.81 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (vector) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 320.48 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 311.81 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 320.48 Tm 0 Tr (Rute ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 320.48 Tm 0 Tr (*> ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 311.81 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 320.48 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 320.48 Tm 0 Tr (;  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 172.35 320.48 Tm 0 Tr (///< Pekere til rutene.) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 343.16 Tm 0 Tr (vector) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 343.16 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 343.16 Tm 0 Tr (string) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 343.16 Tm 0 Tr (> ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 334.49 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 343.16 Tm 0 Tr (gBusstopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 343.16 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 226.35 343.16 Tm 0 Tr (///< Navn på alle busstopp.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (    ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 354.50 Tm 0 Tr ({) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 58.35 354.50 Tm 0 Tr ("Skysstasjonen") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 354.50 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 354.50 Tm 0 Tr ("Fahlstroms plass") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 354.50 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 280.35 354.50 Tm 0 Tr ("Sykehuset") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 354.50 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (     ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 58.35 365.83 Tm 0 Tr ("Gjovik stadion") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 166.35 365.83 Tm 0 Tr ("Bergslia") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 238.35 365.83 Tm 0 Tr ("Overby") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 298.35 365.83 Tm 0 Tr ("Nybrua") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 365.83 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (     ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 58.35 377.17 Tm 0 Tr ("NTNU") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 106.35 377.17 Tm 0 Tr ("Kallerud") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 178.35 377.17 Tm 0 Tr ("Hunndalen") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 256.35 377.17 Tm 0 Tr ("Mustad fabrikker") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 377.17 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 391.18 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 399.85 Tm 0 Tr (gMinutter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 399.85 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 391.18 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 399.85 Tm 0 Tr (ANTSTOPP) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 399.85 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 391.18 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 399.85 Tm 0 Tr (ANTSTOPP) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 399.85 Tm 0 Tr (] = ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 280.35 399.85 Tm 0 Tr (///< Min.mellom stoppesteder.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (                                          ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 411.19 Tm 0 Tr (// const vector <vector <int> > gMinutter = //) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (Alternativt \(nå lært i vår\).) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.87 Tm 0 Tr ({{) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 433.87 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 433.87 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 433.87 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 433.87 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 433.87 Tm 0 Tr (// Skysstasjonen = 0) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 445.20 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 445.20 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 445.20 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 445.20 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 445.20 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 445.20 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 445.20 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 445.20 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 445.20 Tm 0 Tr (// Fahlstrøms plass = 1) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 456.54 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 456.54 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 456.54 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 456.54 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 456.54 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 456.54 Tm 0 Tr (// Sykehuset = 2) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.88 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 467.88 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 467.88 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 467.88 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 467.88 Tm 0 Tr (// Gjøvik stadion = 3) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 479.22 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 479.22 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 479.22 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 479.22 Tm 0 Tr (// Bergslia = 4) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 490.56 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 490.56 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 490.56 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 490.56 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 490.56 Tm 0 Tr (// Øverby = 5) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 501.90 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 501.90 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 501.90 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 501.90 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 501.90 Tm 0 Tr (// Nybrua = 6) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 513.24 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 513.24 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 513.24 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 513.24 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 513.24 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 513.24 Tm 0 Tr (// NTNU = 7) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 524.57 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 524.57 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 524.57 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 524.57 Tm 0 Tr (// Kallerud = 8) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 535.91 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 535.91 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 535.91 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 535.91 Tm 0 Tr (},   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 535.91 Tm 0 Tr (// Hunndalen = 9) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 547.25 Tm 0 Tr ({) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 547.25 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 100.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 547.25 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 547.25 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 547.25 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 547.25 Tm 0 Tr (}};  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 280.35 547.25 Tm 0 Tr (// Mustad fabrikker = 10) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 561.26 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 569.93 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 569.93 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 572.60 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (skrivStopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 581.27 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 583.94 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 592.61 Tm 0 Tr (skrivRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 592.61 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 595.28 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.94 Tm 0 Tr (ruteSkrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 603.94 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 142.35 603.94 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 595.28 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 603.94 Tm 0 Tr (Rute rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 603.94 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 606.61 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 615.28 Tm 0 Tr (skrivNesteStoppesteder) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 615.28 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 615.28 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 606.61 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 615.28 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 615.28 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 617.95 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.62 Tm 0 Tr (nyRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 626.62 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 629.29 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 637.96 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 637.96 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 640.63 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 649.30 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 649.30 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 94.35 649.30 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 640.63 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 649.30 Tm 0 Tr (nr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 649.30 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 651.97 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 660.64 Tm 0 Tr (slettRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 660.64 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 663.31 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (ruteLesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 671.98 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 663.31 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 671.98 Tm 0 Tr (Rute ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 671.98 Tm 0 Tr (&) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 663.31 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 671.98 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 671.98 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr ( * hovedprogram) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 720.00 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 728.67 Tm 0 Tr (main) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 728.67 Tm 0 Tr (\(\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 762.69 Tm 0 Tr (char ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 754.02 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 762.69 Tm 0 Tr (kommando) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 762.69 Tm 0 Tr (;) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 20192>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 28.35 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 37.02 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 37.02 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 39.69 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 48.35 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 39.69 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 48.35 Tm 0 Tr (lesChar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 48.35 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 166.35 48.35 Tm 0 Tr ("\\nKommando") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 48.35 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (while ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 71.03 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 62.36 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 71.03 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 71.03 Tm 0 Tr (!= ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 166.35 71.03 Tm 0 Tr ('Q') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 71.03 Tm 0 Tr (\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (    {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 93.71 Tm 0 Tr (switch ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 93.71 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 85.04 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 93.71 Tm 0 Tr (kommando) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 93.71 Tm 0 Tr (\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (        {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 116.39 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 106.35 116.39 Tm 0 Tr ('N') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 116.39 Tm 0 Tr (:   ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 107.72 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 116.39 Tm 0 Tr (nyRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 116.39 Tm 0 Tr (\(\);           ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 116.39 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 116.39 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 127.72 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 106.35 127.72 Tm 0 Tr ('S') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 127.72 Tm 0 Tr (:   ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 119.06 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 127.72 Tm 0 Tr (slettRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 127.72 Tm 0 Tr (\(\);        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 127.72 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 127.72 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 139.06 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 106.35 139.06 Tm 0 Tr ('A') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 139.06 Tm 0 Tr (:   ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 130.39 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 139.06 Tm 0 Tr (skrivRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 139.06 Tm 0 Tr (\(\);       ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 139.06 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 139.06 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 150.40 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 106.35 150.40 Tm 0 Tr ('B') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (:   ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 141.73 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 150.40 Tm 0 Tr (skrivStopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 150.40 Tm 0 Tr (\(\);       ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 150.40 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 150.40 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 161.74 Tm 0 Tr (default) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 161.74 Tm 0 Tr (:    ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 153.07 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 161.74 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 161.74 Tm 0 Tr (\(\);        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 161.74 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 161.74 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 184.42 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 184.42 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 175.75 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 184.42 Tm 0 Tr (lesChar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 184.42 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 184.42 Tm 0 Tr ("\\nKommando") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 184.42 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 218.43 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 94.35 218.43 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 218.43 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( * Skriver menyen ut på skjermen) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 289.13 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.80 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 297.80 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 311.81 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 320.48 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 320.48 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 320.48 Tm 0 Tr ("\\nValg: \\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 331.82 Tm 0 Tr ("\\tN - Ny rute\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 343.16 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 343.16 Tm 0 Tr ("\\tS - slett Rute\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 354.50 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 354.50 Tm 0 Tr ("\\tA - Skriv alle ruter\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 365.83 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 365.83 Tm 0 Tr ("\\tB - Skriv stopp\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 377.17 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 377.17 Tm 0 Tr ("\\tQ - avslutt\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 377.17 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr ( * Skriver ut alle stoppene) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 459.21 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.88 Tm 0 Tr (skrivStopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 467.88 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (    ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 481.89 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 490.56 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 490.56 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 490.56 Tm 0 Tr ("\\nAlle stoppesteder:\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 490.56 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 501.90 Tm 0 Tr (//Skriver alle stopp stedene nummerert) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 513.24 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 513.24 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 504.57 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 513.24 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 513.24 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 124.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 513.24 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 504.57 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 513.24 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 513.24 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 504.57 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 513.24 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 513.24 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 504.57 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 513.24 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 513.24 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 504.57 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 513.24 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 513.24 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 515.91 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 524.57 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 524.57 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 515.91 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 524.57 Tm 0 Tr (setw) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 524.57 Tm 0 Tr (\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 524.57 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 524.57 Tm 0 Tr (\) << ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 515.91 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 524.57 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 524.57 Tm 0 Tr (+) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 202.35 524.57 Tm 0 Tr (1 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 524.57 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 232.35 524.57 Tm 0 Tr (". " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 524.57 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 515.91 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 524.57 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 524.57 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+340.35 515.91 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 524.57 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 524.57 Tm 0 Tr (] << ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 376.35 524.57 Tm 0 Tr ('\\n') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 524.57 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr ( * SKriver ut alle ruter) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 617.95 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 626.62 Tm 0 Tr (skrivRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 626.62 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 649.30 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 649.30 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 640.63 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 649.30 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 649.30 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 640.63 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 649.30 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 649.30 Tm 0 Tr (\(\) > ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 166.35 649.30 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 649.30 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 660.64 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 660.64 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 660.64 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 651.97 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 660.64 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 660.64 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 148.35 660.64 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 660.64 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 651.97 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 660.64 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 660.64 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 651.97 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 660.64 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 660.64 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 651.97 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 660.64 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 660.64 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 651.97 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 660.64 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 660.64 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 663.31 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 671.98 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 671.98 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 148.35 671.98 Tm 0 Tr ("\\nRute nr." ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 671.98 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 663.31 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 671.98 Tm 0 Tr (setw) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 671.98 Tm 0 Tr (\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 274.35 671.98 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 671.98 Tm 0 Tr (\) << ) Tj  ET Q
+1.000 1.000 1.000 rg
+310.35 663.31 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 671.98 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 671.98 Tm 0 Tr (+) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 322.35 671.98 Tm 0 Tr (1 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 671.98 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 352.35 671.98 Tm 0 Tr (' ') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 671.98 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 674.65 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 683.31 Tm 0 Tr (ruteSkrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 683.31 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 674.65 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 683.31 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 683.31 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 674.65 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 683.31 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 683.31 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 705.99 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 705.99 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 697.32 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 705.99 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 705.99 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 697.32 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 705.99 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 705.99 Tm 0 Tr (\(\) == ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 214.35 705.99 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 705.99 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 708.66 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 717.33 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 717.33 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 717.33 Tm 0 Tr ("\\t\\nIngen ruter lagt til\\n\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 717.33 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (/**) Tj  ET Q
+Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 22251>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 48.35 Tm 0 Tr (@param ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 88.35 48.35 Tm 0 Tr (rute - ruten som blir skrevet ut) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 62.36 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.03 Tm 0 Tr (ruteSkrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 71.03 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 142.35 71.03 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+178.35 62.36 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 71.03 Tm 0 Tr (Rute rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 71.03 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 85.04 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.71 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 93.71 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 93.71 Tm 0 Tr ("\\t\\nRute nr." ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 93.71 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 85.04 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 93.71 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 93.71 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 85.04 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 93.71 Tm 0 Tr (ruteNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 93.71 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 298.35 93.71 Tm 0 Tr ('\\n') Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 105.05 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 105.05 Tm 0 Tr ("\\tTotal minutt rute: " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 105.05 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+262.35 96.38 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 105.05 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 105.05 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+292.35 96.38 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 105.05 Tm 0 Tr (totMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 105.05 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 352.35 105.05 Tm 0 Tr ('\\n') Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (         ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 116.39 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 116.39 Tm 0 Tr ("\\tRute stopp: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 116.39 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 139.06 Tm 0 Tr (// skriver ut en pil mellom stoppestedene) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (for ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 150.40 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 82.35 150.40 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 141.73 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 150.40 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 150.40 Tm 0 Tr (=) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 150.40 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 141.73 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 150.40 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 150.40 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 141.73 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 150.40 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 150.40 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 141.73 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 150.40 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 150.40 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 141.73 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 150.40 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 150.40 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+262.35 141.73 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 150.40 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 150.40 Tm 0 Tr (++\){) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 161.74 Tm 0 Tr (if ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 161.74 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 153.07 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 161.74 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 161.74 Tm 0 Tr (>) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 161.74 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 161.74 Tm 0 Tr (\) ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 153.07 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 161.74 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 161.74 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 178.35 161.74 Tm 0 Tr (" --> ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 161.74 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 164.41 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 173.08 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 173.08 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 164.41 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 173.08 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 173.08 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 164.41 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 173.08 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 173.08 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 164.41 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 173.08 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 173.08 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr ( * Skriver ut neste lovlige stoppested) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 252.45 Tm 0 Tr (@param ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 88.35 252.45 Tm 0 Tr (stopp - nr på stoppe sted ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 277.80 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.46 Tm 0 Tr (skrivNesteStoppesteder) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 286.46 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 286.46 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 277.80 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 286.46 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 286.46 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 309.14 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 309.14 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 309.14 Tm 0 Tr (size_t ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 300.47 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 309.14 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 309.14 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 309.14 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 309.14 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 300.47 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 309.14 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 309.14 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 300.47 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 309.14 Tm 0 Tr (ANTSTOPP) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 309.14 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 300.47 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 309.14 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 309.14 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 320.48 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 320.48 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 311.81 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 320.48 Tm 0 Tr (gMinutter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 320.48 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 311.81 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 320.48 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 320.48 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 311.81 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 320.48 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 320.48 Tm 0 Tr (] != ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 232.35 320.48 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 320.48 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 323.15 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 331.82 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 323.15 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 331.82 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 331.82 Tm 0 Tr (+ ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 331.82 Tm 0 Tr (1 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 202.35 331.82 Tm 0 Tr (". " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 323.15 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 331.82 Tm 0 Tr (gMinutter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 331.82 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+310.35 323.15 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 331.82 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 331.82 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+352.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 331.82 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 331.82 Tm 0 Tr (] << ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 388.35 331.82 Tm 0 Tr (" min " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 436.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+454.35 323.15 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 454.35 331.82 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 508.35 331.82 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+514.35 323.15 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 514.35 331.82 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 520.35 331.82 Tm 0 Tr (] << ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ("\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 343.16 Tm 0 Tr (; ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr ( * Bruker registrerer ny rute) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 459.21 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 467.88 Tm 0 Tr (nyRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 467.88 Tm 0 Tr (\(\){) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 470.55 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 479.22 Tm 0 Tr (Rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 479.22 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 470.55 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 479.22 Tm 0 Tr (nyrute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 479.22 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 493.23 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.90 Tm 0 Tr (nyrute ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 501.90 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 501.90 Tm 0 Tr (new ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 493.23 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 501.90 Tm 0 Tr (Rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 501.90 Tm 0 Tr (;           ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 226.35 501.90 Tm 0 Tr (//oppretter ny rute) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 504.57 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 513.24 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 513.24 Tm 0 Tr ("\\nNy rute: \\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 513.24 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 524.57 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 524.57 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 515.91 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 524.57 Tm 0 Tr (ruteLesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 524.57 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 515.91 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 524.57 Tm 0 Tr (nyrute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 524.57 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 214.35 524.57 Tm 0 Tr (true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 524.57 Tm 0 Tr (\){  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 262.35 524.57 Tm 0 Tr (//Innlesing success:) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 527.24 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 535.91 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 535.91 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 527.24 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 535.91 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 535.91 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 527.24 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 535.91 Tm 0 Tr (nyrute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 535.91 Tm 0 Tr (\);      ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 262.35 535.91 Tm 0 Tr (//legges bakerst i vectoren) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 538.58 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 547.25 Tm 0 Tr (ruteSkrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 547.25 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 538.58 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 547.25 Tm 0 Tr (nyrute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 547.25 Tm 0 Tr (\);}       ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 262.35 547.25 Tm 0 Tr (//skriv ut alle dens datamedl) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 558.59 Tm 0 Tr (else) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 558.59 Tm 0 Tr ({                   ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 196.35 558.59 Tm 0 Tr (//error) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 561.26 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 569.93 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 569.93 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 569.93 Tm 0 Tr ("\\n!INNLESING MISLYKTES!... rute slettes") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 569.93 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 581.27 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 572.60 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 581.27 Tm 0 Tr (nyrute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 581.27 Tm 0 Tr (;}     ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 196.35 581.27 Tm 0 Tr (//slett ruten) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 637.96 Tm 0 Tr (@param ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 88.35 637.96 Tm 0 Tr (rute - ruten som blir lest) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 649.30 Tm 0 Tr (@return ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 649.30 Tm 0 Tr (true ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 660.64 Tm 0 Tr (@return ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 660.64 Tm 0 Tr (false ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr ( * ! - Hvis en legger inn partall antall stopp når bruker leser inn stopp til) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr ( * ! - rutene får en opp "std::bad_alloc" og programmet kræsjer, finner ikke ut ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr ( * ! - hvorfor) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 720.00 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 728.67 Tm 0 Tr (ruteLesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 728.67 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 720.00 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 728.67 Tm 0 Tr (Rute ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 728.67 Tm 0 Tr (& ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 720.00 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 728.67 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 728.67 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 740.01 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 731.34 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 740.01 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 740.01 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 130.35 740.01 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 740.01 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 742.68 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 751.35 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 751.35 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 130.35 751.35 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 751.35 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 765.35 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 774.02 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 774.02 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 765.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 774.02 Tm 0 Tr (totMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 774.02 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 774.02 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 774.02 Tm 0 Tr (;) Tj  ET Q
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 28918>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 37.02 Tm 0 Tr (// Leser inn rute nr) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 39.69 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 48.35 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 39.69 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 48.35 Tm 0 Tr (ruteNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 48.35 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 39.69 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 48.35 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 48.35 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 178.35 48.35 Tm 0 Tr ("\\n\\tRute nr: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 48.35 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 280.35 48.35 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 48.35 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 298.35 48.35 Tm 0 Tr (999) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 48.35 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 59.69 Tm 0 Tr (// skriver alle stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 62.36 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (skrivStopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 71.03 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 82.37 Tm 0 Tr (// Bruker velger startsted) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 85.04 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 93.71 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 93.71 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 85.04 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 93.71 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 93.71 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 148.35 93.71 Tm 0 Tr ("\\nVelg startsted: \\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 93.71 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 292.35 93.71 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 93.71 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 310.35 93.71 Tm 0 Tr (11) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 93.71 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 96.38 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 105.05 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 105.05 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 96.38 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 105.05 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 105.05 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 96.38 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 105.05 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 105.05 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 96.38 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 105.05 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 105.05 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 96.38 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 105.05 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 105.05 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 292.35 105.05 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 105.05 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 116.39 Tm 0 Tr (// Skriver ut neste lovlige stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 119.06 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.72 Tm 0 Tr (skrivNesteStoppesteder) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 127.72 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 119.06 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 127.72 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 127.72 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 244.35 127.72 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 127.72 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (do) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (    ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr ({                ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 173.08 Tm 0 Tr (// Leser inn neste stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 175.75 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 184.42 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 184.42 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 175.75 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 184.42 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 184.42 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 172.35 184.42 Tm 0 Tr ("\\nNeste stopp: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 184.42 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 286.35 184.42 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 184.42 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 175.75 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 184.42 Tm 0 Tr (ANTSTOPP) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 184.42 Tm 0 Tr (\);   ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 195.76 Tm 0 Tr (// Lagrer busstopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 198.43 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 207.09 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 207.09 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 207.09 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 207.09 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 198.43 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 207.09 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 207.09 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 198.43 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 207.09 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 207.09 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+262.35 198.43 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 207.09 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 207.09 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 316.35 207.09 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 207.09 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 209.76 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 218.43 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 218.43 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 209.76 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 218.43 Tm 0 Tr (totMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 218.43 Tm 0 Tr (+= ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 209.76 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 218.43 Tm 0 Tr (gMinutter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 218.43 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 209.76 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 218.43 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 218.43 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 280.35 218.43 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 218.43 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+298.35 209.76 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.35 218.43 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 218.43 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 352.35 218.43 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 218.43 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 229.77 Tm 0 Tr (// Skriver ut neste lovlige stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 232.44 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 241.11 Tm 0 Tr (skrivNesteStoppesteder) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 241.11 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 232.44 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 241.11 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 241.11 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 268.35 241.11 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 241.11 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 252.45 Tm 0 Tr (// leser inn neste stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 255.12 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 263.79 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 263.79 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 255.12 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 263.79 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 263.79 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 172.35 263.79 Tm 0 Tr ("\\nNeste stopp: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 263.79 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 286.35 263.79 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 263.79 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 255.12 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 263.79 Tm 0 Tr (ANTSTOPP) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 263.79 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 275.13 Tm 0 Tr (// lagrer vekk navn og min på stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 277.80 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 286.46 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 286.46 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 277.80 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 286.46 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 286.46 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 277.80 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 286.46 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 286.46 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 277.80 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 286.46 Tm 0 Tr (gBusstopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 286.46 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+262.35 277.80 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 286.46 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 286.46 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 316.35 286.46 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 286.46 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 289.13 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 297.80 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 297.80 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 289.13 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 297.80 Tm 0 Tr (totMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 297.80 Tm 0 Tr (+= ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 289.13 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 297.80 Tm 0 Tr (gMinutter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 297.80 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 289.13 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 297.80 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 297.80 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 280.35 297.80 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 297.80 Tm 0 Tr (][) Tj  ET Q
+1.000 1.000 1.000 rg
+298.35 289.13 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 298.35 297.80 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 297.80 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 352.35 297.80 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 297.80 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 309.14 Tm 0 Tr (// skriver neste loblige stopp) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 311.81 132.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 320.48 Tm 0 Tr (skrivNesteStoppesteder) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 320.48 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 311.81 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 320.48 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 320.48 Tm 0 Tr (- ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 268.35 320.48 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 320.48 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 334.49 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 343.16 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 343.16 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 343.16 Tm 0 Tr (nStopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 343.16 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 365.83 Tm 0 Tr (while ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 365.83 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 357.17 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 365.83 Tm 0 Tr (fStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 365.83 Tm 0 Tr (!= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 166.35 365.83 Tm 0 Tr (0 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 365.83 Tm 0 Tr (&& ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 357.17 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 365.83 Tm 0 Tr (nStopp ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 365.83 Tm 0 Tr (!= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 365.83 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 365.83 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 399.85 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 399.85 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 391.18 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 399.85 Tm 0 Tr (rute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 399.85 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 391.18 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 399.85 Tm 0 Tr (stopp) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 399.85 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 391.18 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 399.85 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 399.85 Tm 0 Tr (\(\) > ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 399.85 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 399.85 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 411.19 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 411.19 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 422.53 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 422.53 Tm 0 Tr ({) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 422.53 Tm 0 Tr (return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 422.53 Tm 0 Tr (;}) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr ( * Bruker velger her hvilke\(n\) rute som skal slettes) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 493.23 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 501.90 Tm 0 Tr (slettRute) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 501.90 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 504.57 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 513.24 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 118.35 513.24 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 513.24 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 535.91 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 535.91 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 527.24 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 535.91 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 535.91 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 527.24 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 535.91 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 535.91 Tm 0 Tr (\(\) == ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 172.35 535.91 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 535.91 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 538.58 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 547.25 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 547.25 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 124.35 547.25 Tm 0 Tr ("\\t\\nIngen ruter lagt til\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 547.25 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 558.59 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 558.59 Tm 0 Tr ({            ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 558.59 Tm 0 Tr (// skriver ut alle ruter) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 569.93 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 569.93 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 569.93 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 561.26 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 569.93 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 569.93 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 148.35 569.93 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 569.93 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 561.26 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 569.93 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 569.93 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 561.26 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 569.93 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 569.93 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 561.26 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 569.93 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 569.93 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 561.26 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 569.93 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 569.93 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 572.60 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 581.27 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 581.27 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 148.35 581.27 Tm 0 Tr ("\\n" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 581.27 Tm 0 Tr (<<) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 581.27 Tm 0 Tr ("Rute nr. " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 581.27 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 572.60 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 581.27 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 581.27 Tm 0 Tr (+) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 292.35 581.27 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 581.27 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 583.94 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 592.61 Tm 0 Tr (ruteSkrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 592.61 Tm 0 Tr (\(*) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 583.94 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 592.61 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 592.61 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 583.94 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 592.61 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 592.61 Tm 0 Tr (]\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 617.95 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 626.62 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 626.62 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 617.95 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 626.62 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 626.62 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 160.35 626.62 Tm 0 Tr ("\\nHvilken rute skal slettes: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 626.62 Tm 0 Tr (, -) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 364.35 626.62 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 626.62 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+382.35 617.95 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 382.35 626.62 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 626.62 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+424.35 617.95 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 424.35 626.62 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 448.35 626.62 Tm 0 Tr (\(\)\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 637.96 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 637.96 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 629.29 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 637.96 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 637.96 Tm 0 Tr (== -) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 148.35 637.96 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 637.96 Tm 0 Tr (\) {        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 220.35 637.96 Tm 0 Tr (// sletter alle ruter) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (            ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 100.35 649.30 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 640.63 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 649.30 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 649.30 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (        } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 660.64 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 660.64 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 651.97 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 660.64 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 660.64 Tm 0 Tr (== ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 660.64 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 660.64 Tm 0 Tr (\) {  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 220.35 660.64 Tm 0 Tr (// ingen slettes, går ut av funksjonen) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 663.31 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 671.98 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 671.98 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 148.35 671.98 Tm 0 Tr ("\\t\\nIngen rute fjernet, returnerer til startmeny\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 472.35 671.98 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 674.65 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 683.31 Tm 0 Tr (exit) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 683.31 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (        } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 694.65 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 694.65 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 685.98 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 694.65 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 694.65 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 694.65 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 694.65 Tm 0 Tr (\) {  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 220.35 694.65 Tm 0 Tr (// sletter valgt rute) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (            ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 697.32 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 705.99 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 705.99 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 697.32 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 705.99 Tm 0 Tr (valg) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 705.99 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 8937>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr ( * Sletter alle ruter) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 73.70 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 82.37 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 82.37 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 105.05 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 105.05 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 105.05 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 96.38 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 105.05 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 105.05 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 124.35 105.05 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 105.05 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 96.38 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 105.05 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 105.05 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 96.38 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 105.05 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 105.05 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 96.38 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 105.05 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 105.05 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+256.35 96.38 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 105.05 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 105.05 Tm 0 Tr (++\)  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 292.35 105.05 Tm 0 Tr (// Sletter alle rutene i vectoren) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 116.39 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+118.35 107.72 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 116.39 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 116.39 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 107.72 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 116.39 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 116.39 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 119.06 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 127.72 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 127.72 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 119.06 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 127.72 Tm 0 Tr (clear) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 127.72 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 141.73 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 150.40 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 141.73 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 150.40 Tm 0 Tr (clear) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (\(\);                         ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 292.35 150.40 Tm 0 Tr (// fjerner alle pekerne i vectoren) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 153.07 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 161.74 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 161.74 Tm 0 Tr ("\\n\\nvectoren er tom - antallet er: " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 161.74 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+346.35 153.07 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 161.74 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 161.74 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+388.35 153.07 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 388.35 161.74 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 412.35 161.74 Tm 0 Tr (\(\) << ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 448.35 161.74 Tm 0 Tr ("\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 484.35 161.74 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr ( * ) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr ( * ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 46.35 229.77 Tm 0 Tr (@param ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 88.35 229.77 Tm 0 Tr (nr - nr på rute som blir slettet) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 243.78 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (slett) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 252.45 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 94.35 252.45 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 243.78 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 252.45 Tm 0 Tr (nr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 252.45 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 255.12 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 263.79 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 263.79 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 255.12 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 263.79 Tm 0 Tr (nr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 263.79 Tm 0 Tr (-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 154.35 263.79 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 263.79 Tm 0 Tr (];                    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 292.35 263.79 Tm 0 Tr (//sletter valgt rute) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 266.46 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 275.13 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 275.13 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 266.46 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 275.13 Tm 0 Tr (nr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 275.13 Tm 0 Tr (-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 275.13 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 275.13 Tm 0 Tr (] = ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 266.46 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 275.13 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 275.13 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 266.46 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 275.13 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 275.13 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 266.46 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 275.13 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 275.13 Tm 0 Tr (\(\)-) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 268.35 275.13 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 275.13 Tm 0 Tr (]; ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 292.35 275.13 Tm 0 Tr (//bakerste flyttes til plassen) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 277.80 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 286.46 Tm 0 Tr (gRuter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 286.46 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 277.80 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 286.46 Tm 0 Tr (pop_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 286.46 Tm 0 Tr (\(\);                      ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 292.35 286.46 Tm 0 Tr (// siste peker slettes også) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R ]
+/Count 5
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+13 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+14 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 13 0 R
+/F1 14 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+15 0 obj
+<<
+/Names []
+>>
+endobj
+16 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 8)
+/CreationDate (D:20220210115943)
+>>
+endobj
+17 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 18
+0000000000 65535 f 
+0000115818 00000 n 
+0000116127 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000034956 00000 n 
+0000035045 00000 n 
+0000055288 00000 n 
+0000055377 00000 n 
+0000077679 00000 n 
+0000077769 00000 n 
+0000106739 00000 n 
+0000106830 00000 n 
+0000115932 00000 n 
+0000116032 00000 n 
+0000116243 00000 n 
+0000116275 00000 n 
+0000116383 00000 n 
+trailer
+<<
+/Size 18
+/Root 17 0 R
+/Info 16 0 R
+>>
+startxref
+116487
+%%EOF

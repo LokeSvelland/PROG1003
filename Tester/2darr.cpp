@@ -101,3 +101,20 @@ int main() {
 
 
 }
+
+                        // Leser inn neste stopp
+        nStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);   
+                        // Lagrer busstopp
+        rute.stopp.push_back(gBusstopp[nStopp - 1]);
+        rute.totMin += gMinutter[fStopp - 1][nStopp - 1];
+                        // Skriver ut neste lovlige stopp
+        skrivNesteStoppesteder(nStopp - 1);
+                        // leser inn neste stopp
+        fStopp = lesInt("\nNeste stopp: ", 0, ANTSTOPP);
+                        // lagrer vekk navn og min på stopp
+        rute.stopp.push_back(gBusstopp[fStopp - 1]);
+        rute.totMin += gMinutter[nStopp - 1][fStopp - 1];
+                        // skriver neste loblige stopp
+        skrivNesteStoppesteder(fStopp - 1);
+
+        fStopp = nStopp;
