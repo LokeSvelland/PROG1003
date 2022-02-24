@@ -147,10 +147,10 @@ void Aktivitet::lesData() {
   int aktivitetstype = lesInt("\n\tType aktivitet (1=Jobb) (2=Fritid) (3=Skole) (4=ikke Angitt)", 1, 4);
 
   switch(aktivitetstype) {
-    if(aktivitetstype == 1) this->kategori = Jobb;       
-    else if(aktivitetstype == 2) this->kategori = Fritid;     
-    else if(aktivitetstype == 3) this->kategori = Skole;      
-    else this->kategori = ikkeAngitt; 
+    if        (aktivitetstype == 1) this->kategori = Jobb;       
+    else if   (aktivitetstype == 2) this->kategori = Fritid;     
+    else if   (aktivitetstype == 3) this->kategori = Skole;      
+    else if   (aktivitetstype == 4) this->kategori = ikkeAngitt; 
   }
 }
 
@@ -160,12 +160,12 @@ void Aktivitet::lesData() {
  */
 void Aktivitet::skrivData() const {
 
-  cout << "aktiviteten: " << this->navn << "\ner av kategori ";
+  cout << "\naktiviteten: " << this->navn << "\n\ner av kategori ";
   switch(kategori) {
-    case Jobb:        cout << "Jobb";         break;
-    case Fritid:      cout << "Fritid";       break;
-    case Skole:       cout << "skole";        break;
-    case ikkeAngitt:  cout << "ikke Angitt";  break;
+    case Jobb:        cout << "Jobb\n";         break;
+    case Fritid:      cout << "Fritid\n";       break;
+    case Skole:       cout << "skole\n";        break;
+    case ikkeAngitt:  cout << "ikke Angitt\n";  break;
   }
 }
 
@@ -183,7 +183,7 @@ void Tidsbegrenset::lesData() {
   startTime = lesInt("\n\tStart time på aktivitet: ", 0, 23);
   startMin  = lesInt("\n\tStart minutt på aktivitet: ", 0, 59);
   sluttTime = lesInt("\n\tSlutt time på aktivitet: ", startTime, 23);
-  sluttMin  = lesInt("\n\tSlutt minutt på aktivitet: ", startMin, 59);
+  sluttMin  = lesInt("\n\tSlutt minutt på aktivitet: ", 0, 59);
 
   klokkeslettOK(startTime, startMin);
   klokkeslettOK(sluttTime, sluttMin);
@@ -285,7 +285,10 @@ Dag :: ~ Dag() {
  */
 bool Dag::harDato(const int dag, const int maaned, const int aar) const {
 
-//  Lag innmaten
+  if((dag == dagNr) && (maaned == maanedNr) && (aar == aarNr)) {
+    return true;
+  } else return false;
+
 }
 
 
@@ -309,20 +312,10 @@ void Dag::nyAktivitet()  {
     tidsbeg->lesData();
     tidsbegrensedeAktiviteter.push_back(tidsbeg);
 
-    this->dagNr     = lesInt("\nVelg dag aktiviteten skal holdes", 1, 31);
-    this->maanedNr  = lesInt("\nVelg måned aktiviteten skal holdes", 1, 12);
-    this->aarNr     = lesInt("\nVelg år aktivitetn skal holdes", 1, 12);
-
-    
-
   } else if(valg == 'H') {
     heldag = new Heldags;
     heldag->lesData();
     heldagsAktiviteter.push_back(heldag);
-
-    this->dagNr     = lesInt("\nVelg dag aktiviteten skal holdes", 1, 31);
-    this->maanedNr  = lesInt("\nVelg måned aktiviteten skal holdes", 1, 12);
-    this->aarNr     = lesInt("\nVelg år aktivitetn skal holdes", 1, 12);
   }
 
 }
@@ -336,7 +329,15 @@ void Dag::nyAktivitet()  {
  */
 void Dag::skrivAktiviteter() const {
 
-  
+  int i = 0;
+
+  for(i = 0; i < tidsbegrensedeAktiviteter.size(); i++) {
+    cout << "\nTidbegrenset aktiviteter på denne dagen: "; tidsbegrensedeAktiviteter[i]->skrivData();
+  }
+  for(i = 0; i < heldagsAktiviteter.size(); i++) {
+    cout << "\nHeldagsaktiviteter på denne dagen: "; 
+    heldagsAktiviteter[i]->skrivData();
+  }
 
 }
 
@@ -346,7 +347,7 @@ void Dag::skrivAktiviteter() const {
  */
 void Dag::skrivDato() const {
 
-//  Lag innmaten
+  cout << "\nDagens dato: " << this->dagNr << '.' << this->maanedNr << '.' << this->aarNr;
 }
 
 
@@ -364,7 +365,9 @@ void Dag::skrivDato() const {
  */
 bool dagOK(const int dag, const int maaned, const int aar)  {
 
-//  Lag innmaten
+  if((dag <= 31) && (maaned <= 12) && (aar >= 2022)) {
+    return true;
+  } else return false;
 }
 
 
@@ -379,7 +382,12 @@ bool dagOK(const int dag, const int maaned, const int aar)  {
  */
 Dag* finnDag(const int dag, const int maaned, const int aar)  {
 
-//  Lag innmaten
+  for(int i = 0; i < gDagene.size(); i++) {
+    if(gDagene[i]->harDato(dag, maaned, aar) == true) {
+      return gDagene[i];
+    } else return nullptr;
+  }
+
 }
 
 
@@ -388,7 +396,10 @@ Dag* finnDag(const int dag, const int maaned, const int aar)  {
  */
 void frigiAllokertMemory()  {
 
-//  Lag innmaten
+  for(int i = 0; i < gDagene.size(); i++) 
+    delete gDagene[i];
+  gDagene.clear();
+  
 }
 
 
@@ -402,7 +413,34 @@ void frigiAllokertMemory()  {
  */
 void nyAktivitet()  {
 
-//  Lag innmaten
+  int dag,
+      maaned,
+      aar;
+  
+  Dag* nydag;
+
+  skrivDager(false);
+
+  cout << "legg inn dato aktiviteten skal holdes: ";
+  dag     = lesInt("\nDag: ", 1, 31);
+  maaned  = lesInt("\nMåned: ", 1, 12);
+  aar     = lesInt("\nÅr: ", 2022, 2100);
+
+  if(dagOK(dag, maaned, aar) == true) {
+    if(finnDag(dag, maaned, aar) == nullptr) {
+      nydag = new Dag;
+      gDagene.push_back(nydag);
+      nydag->nyAktivitet();
+    } else {
+      for(int i = 0; i < gDagene.size(); i++) {
+        if(gDagene[i] == finnDag(dag, maaned, aar)) {
+          gDagene[i]->nyAktivitet();
+        }
+      }
+    }
+  }
+
+
 }
 
 
@@ -415,7 +453,19 @@ void nyAktivitet()  {
  */
 void skrivDager(const bool inkludertAktiviteter)  {
 
-//  Lag innmaten
+  if(gDagene.size() == 0) {
+    cout << "\n\tIngen dager lagt til\n\n\n";
+  } else {
+    for(int i = 0; i < gDagene.size(); i++) {
+      if(inkludertAktiviteter == false) {
+        gDagene[i]->skrivDato();
+      } else {
+        gDagene[i]->skrivDato();
+        gDagene[i]->skrivAktiviteter();
+      }
+    }
+  }
+
 }
 
 
@@ -428,8 +478,27 @@ void skrivDager(const bool inkludertAktiviteter)  {
  *  @see   Dag::skrivAktiviteter()
  */
 void skrivEnDag()  {
+  int dag,
+      maaned,
+      aar;
 
-//  Lag innmaten
+skrivDager(false);
+
+cout << "\nHvilken dag vil du sjekke";
+dag     = lesInt("\nDag: ", 1, 31);
+maaned  = lesInt("\nMåned: ", 1, 12);
+aar     = lesInt("\nÅr: ", 2022, 2100);
+
+if(dagOK(dag, maaned, aar) == true) {
+  if(finnDag(dag, maaned, aar) == nullptr) {
+    cout << "\nDag finnes ikke\n\n\n";
+  } else {
+    for(int i = 0; i < gDagene.size(); i++) {
+      gDagene[i]->skrivAktiviteter();
+    }
+  }
+}
+
 }
 
 
