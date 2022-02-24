@@ -86,7 +86,7 @@ class Dag  {
     vector <Heldags*> heldagsAktiviteter;
 
   public:
-    Dag() { cout << "\n\tmå legge til dato\n\n"; };
+    Dag() {  };
     Dag(const int dag, const int maaned, const int aar) {
                            dagNr = dag;  maanedNr = maaned;  aarNr = aar; };
     ~ Dag();
@@ -146,6 +146,7 @@ void Aktivitet::lesData() {
   cout << "\n\tAktivitets navn: ";    getline(cin, navn);
   int aktivitetstype = lesInt("\n\tType aktivitet (1=Jobb) (2=Fritid) (3=Skole) (4=ikke Angitt)", 1, 4);
 
+                        // Leser inn kategori
   switch(aktivitetstype) {
     if        (aktivitetstype == 1) this->kategori = Jobb;       
     else if   (aktivitetstype == 2) this->kategori = Fritid;     
@@ -159,14 +160,15 @@ void Aktivitet::lesData() {
  *  Skriver ut ALLE klassens data.
  */
 void Aktivitet::skrivData() const {
-
-  cout << "\naktiviteten: " << this->navn << "\n\ner av kategori ";
+                        // Skriver ut kategori
+  cout << "\naktiviteten: " << this->navn << " er av kategori ";
   switch(kategori) {
-    case Jobb:        cout << "Jobb\n";         break;
-    case Fritid:      cout << "Fritid\n";       break;
-    case Skole:       cout << "skole\n";        break;
-    case ikkeAngitt:  cout << "ikke Angitt\n";  break;
+    case 1:         cout << "Jobb\n";         break;
+    case 2:         cout << "Fritid\n";       break;
+    case 3:         cout << "skole\n";        break;
+    case 4:         cout << "ikke Angitt\n";  break;
   }
+  cout << '\n';
 }
 
 
@@ -178,13 +180,16 @@ void Aktivitet::skrivData() const {
  */
 void Tidsbegrenset::lesData() {
 
+                        // leser innn felles data
   Aktivitet::lesData();
 
+                        // leser inn start timer og minutt og slutt tid
   startTime = lesInt("\n\tStart time på aktivitet: ", 0, 23);
   startMin  = lesInt("\n\tStart minutt på aktivitet: ", 0, 59);
   sluttTime = lesInt("\n\tSlutt time på aktivitet: ", startTime, 23);
   sluttMin  = lesInt("\n\tSlutt minutt på aktivitet: ", 0, 59);
 
+                        // sjekker at tid er lovlig
   klokkeslettOK(startTime, startMin);
   klokkeslettOK(sluttTime, sluttMin);
 }
@@ -212,6 +217,7 @@ bool Tidsbegrenset::klokkeslettOK(const int time, const int minutt) const {
  */
 void Tidsbegrenset::skrivData() const {         //  Skriver mor-klassens data.
 
+                        // skriver ut felles data
   Aktivitet::skrivData();
 
   cout << "Aktiviteten starter: ";
@@ -222,6 +228,8 @@ void Tidsbegrenset::skrivData() const {         //  Skriver mor-klassens data.
   } else if((startTime >= 10) && (startMin >= 10)) {
       cout << startTime << ":" << startMin;
   } else cout << startTime << ":" << "0" << startMin;
+
+  cout << '\n';
 
   cout << "Aktiviteten slutter: ";
   if((sluttTime <= 9) && (sluttMin <= 9)) {
@@ -256,7 +264,7 @@ void Heldags::skrivData() const {
 
   Aktivitet::skrivData();
 
-  cout << "\n\tAktivitetens beskrivelse: \n" << this->beskrivelse;
+  cout << "\nAktivitetens beskrivelse: \n\t" << this->beskrivelse;
 }
 
 
@@ -265,6 +273,8 @@ void Heldags::skrivData() const {
  */
 Dag :: ~ Dag() {
 
+                        // går gjennom hver av vectorene og sletter elementene
+                        // og all allokert minne
   for(int i = 0; i < tidsbegrensedeAktiviteter.size(); i++) 
     delete tidsbegrensedeAktiviteter[i];
   tidsbegrensedeAktiviteter.clear();
@@ -280,7 +290,7 @@ Dag :: ~ Dag() {
  *
  *  @param   dag     -  Dagen som skal sjekkes om er egen dag
  *  @param   maaned  -  Måneden som skal sjekkes om er egen måned
- *  @param   aar     -  Ã…ret som skal sjekkes om er eget år
+ *  @param   aar     -  året som skal sjekkes om er eget år
  *  @return  Om selv er en gitt dato (ut fra parametrene) eller ei
  */
 bool Dag::harDato(const int dag, const int maaned, const int aar) const {
@@ -299,19 +309,20 @@ bool Dag::harDato(const int dag, const int maaned, const int aar) const {
  *  @see   Heldags::lesData()
  */
 void Dag::nyAktivitet()  {
-
+                        // lager pekere til vectorene
   Tidsbegrenset* tidsbeg;
   Heldags* heldag;
 
   char valg;
 
   valg = lesChar("\n\tHvilken aktivitet skal opprettes (T/H) (T(idsbegrenset/H(elsdags))");
-
+                        // hvis T leser inn data til denne typen
   if(valg == 'T') {
     tidsbeg = new Tidsbegrenset;
     tidsbeg->lesData();
     tidsbegrensedeAktiviteter.push_back(tidsbeg);
 
+                        // hvis H leser inn data til denne typen
   } else if(valg == 'H') {
     heldag = new Heldags;
     heldag->lesData();
@@ -329,8 +340,8 @@ void Dag::nyAktivitet()  {
  */
 void Dag::skrivAktiviteter() const {
 
-  int i = 0;
-
+  int i;
+                        // skriv3er ut alt innhold i vecotrene
   for(i = 0; i < tidsbegrensedeAktiviteter.size(); i++) {
     cout << "\nTidbegrenset aktiviteter på denne dagen: "; tidsbegrensedeAktiviteter[i]->skrivData();
   }
@@ -360,12 +371,12 @@ void Dag::skrivDato() const {
  *
  *  @param   dag     -  Dagen som skal sjekkes
  *  @param   maaned  -  Måneden som skal sjekkes
- *  @param   aar     -  Ã…ret som skal sjekkes
+ *  @param   aar     -  året som skal sjekkes
  *  @return  Om datoen er lovlig/OK eller ei
  */
 bool dagOK(const int dag, const int maaned, const int aar)  {
 
-  if((dag <= 31) && (maaned <= 12) && (aar >= 2022)) {
+  if((dag <= 31) && (maaned <= 12) && (1990 <= aar <= 2030)) {
     return true;
   } else return false;
 }
@@ -376,7 +387,7 @@ bool dagOK(const int dag, const int maaned, const int aar)  {
  *
  *  @param   dag     -  Dagen som skal bli funnet
  *  @param   maaned  -  Måneden som skal bli funnet
- *  @param   aar     -  Ã…ret som skal bli funnet
+ *  @param   aar     -  året som skal bli funnet
  *  @return  Peker til aktuell Dag (om funnet), ellers 'nullptr'
  *  @see     harDato(...)
  */
@@ -417,20 +428,23 @@ void nyAktivitet()  {
       maaned,
       aar;
   
-  Dag* nydag;
+  Dag* nydag;           // peker til vector
 
-  skrivDager(false);
+  skrivDager(false);    // skriver ut alle dagar registrert
 
-  cout << "legg inn dato aktiviteten skal holdes: ";
+                        // leser inn dato til aktivitet
+  cout << "\nlegg inn dato aktiviteten skal holdes: ";
   dag     = lesInt("\nDag: ", 1, 31);
   maaned  = lesInt("\nMåned: ", 1, 12);
-  aar     = lesInt("\nÅr: ", 2022, 2100);
+  aar     = lesInt("\nÅr: ", 1990, 2030);
 
+                        // hvis dagOK skal den lese inn data
   if(dagOK(dag, maaned, aar) == true) {
     if(finnDag(dag, maaned, aar) == nullptr) {
       nydag = new Dag;
       gDagene.push_back(nydag);
-      nydag->nyAktivitet();
+      nydag->nyAktivitet();      
+      nydag->skrivDato();
     } else {
       for(int i = 0; i < gDagene.size(); i++) {
         if(gDagene[i] == finnDag(dag, maaned, aar)) {
@@ -455,11 +469,11 @@ void skrivDager(const bool inkludertAktiviteter)  {
 
   if(gDagene.size() == 0) {
     cout << "\n\tIngen dager lagt til\n\n\n";
-  } else {
+  } else {              // hvis false blir sendt med skal den bare skrive dato
     for(int i = 0; i < gDagene.size(); i++) {
       if(inkludertAktiviteter == false) {
         gDagene[i]->skrivDato();
-      } else {
+      } else {          // hvis true så blir dato og data skrevet ut
         gDagene[i]->skrivDato();
         gDagene[i]->skrivAktiviteter();
       }
@@ -482,22 +496,24 @@ void skrivEnDag()  {
       maaned,
       aar;
 
-skrivDager(false);
-
-cout << "\nHvilken dag vil du sjekke";
-dag     = lesInt("\nDag: ", 1, 31);
-maaned  = lesInt("\nMåned: ", 1, 12);
-aar     = lesInt("\nÅr: ", 2022, 2100);
-
-if(dagOK(dag, maaned, aar) == true) {
-  if(finnDag(dag, maaned, aar) == nullptr) {
-    cout << "\nDag finnes ikke\n\n\n";
-  } else {
-    for(int i = 0; i < gDagene.size(); i++) {
-      gDagene[i]->skrivAktiviteter();
+  skrivDager(false);
+  
+                        // legger inn dato som skal sjekkes
+  cout << "\nHvilken dag vil du sjekke";
+  dag     = lesInt("\nDag: ", 1, 31);
+  maaned  = lesInt("\nMåned: ", 1, 12);
+  aar     = lesInt("\nÅr: ", 2022, 2100);
+  
+  if(dagOK(dag, maaned, aar) == true) {
+    if(finnDag(dag, maaned, aar) == nullptr) {
+      cout << "\nDag finnes ikke\n\n\n";
+    } else {
+      for(int i = 0; i < gDagene.size(); i++) {
+                          // hvis dag finnes skrives ut data
+        gDagene[i]->skrivAktiviteter();
+      }
     }
   }
-}
 
 }
 
