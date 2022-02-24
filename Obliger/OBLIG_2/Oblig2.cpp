@@ -358,7 +358,7 @@ void Dag::skrivAktiviteter() const {
  */
 void Dag::skrivDato() const {
 
-  cout << "\nDagens dato: " << this->dagNr << '.' << this->maanedNr << '.' << this->aarNr;
+  cout << "\nDagens dato: " << dagNr << '.' << maanedNr << '.' << aarNr;
 }
 
 
@@ -441,7 +441,7 @@ void nyAktivitet()  {
                         // hvis dagOK skal den lese inn data
   if(dagOK(dag, maaned, aar) == true) {
     if(finnDag(dag, maaned, aar) == nullptr) {
-      nydag = new Dag;
+      nydag = new Dag(dag, maaned, aar);
       gDagene.push_back(nydag);
       nydag->nyAktivitet();      
       nydag->skrivDato();
@@ -497,13 +497,13 @@ void skrivEnDag()  {
       aar;
 
   skrivDager(false);
-  
+
                         // legger inn dato som skal sjekkes
   cout << "\nHvilken dag vil du sjekke";
   dag     = lesInt("\nDag: ", 1, 31);
   maaned  = lesInt("\nMåned: ", 1, 12);
-  aar     = lesInt("\nÅr: ", 2022, 2100);
-  
+  aar     = lesInt("\nÅr: ", 1990, 2030);
+
   if(dagOK(dag, maaned, aar) == true) {
     if(finnDag(dag, maaned, aar) == nullptr) {
       cout << "\nDag finnes ikke\n\n\n";
