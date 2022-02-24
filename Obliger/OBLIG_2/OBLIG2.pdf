@@ -1,0 +1,3030 @@
+%PDF-1.3
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 4 0 R>>
+endobj
+4 0 obj
+<</Length 16738>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+0 g
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr ( *  Obligatorisk oppgave nr 2.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (@file ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 88.35 71.03 Tm 0 Tr (OBLIG2.CPP) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 82.37 Tm 0 Tr (@author ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 100.35 82.37 Tm 0 Tr (Loke Svelland) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr ( */) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (#include <iostream>                ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 127.72 Tm 0 Tr (//  cout, cin) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (#include <string>                  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 139.06 Tm 0 Tr (//  string) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (#include <vector>                  ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 238.35 150.40 Tm 0 Tr (//  vector) Tj  ET Q
+q 0.000 0.627 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (#include "LesData2.h") Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (using namespace ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+124.35 164.41 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 173.08 Tm 0 Tr (std) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 173.08 Tm 0 Tr (;) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (/*) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr ( *  Enum 'aktivitetsType' \(med hva slags aktivitet dette er\).) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr ( */) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (enum ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 232.44 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (aktivitetsType ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 241.11 Tm 0 Tr ({) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 232.44 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 241.11 Tm 0 Tr (Jobb) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 232.44 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 241.11 Tm 0 Tr (Fritid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 232.44 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 241.11 Tm 0 Tr (Skole) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 232.44 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 241.11 Tm 0 Tr (ikkeAngitt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 241.11 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr ( *  Baseklassen 'Aktivitet' \(med navn og aktivitetstype\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 300.47 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 309.14 Tm 0 Tr (Aktivitet  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 309.14 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 320.48 Tm 0 Tr (private) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 320.48 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 323.15 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 331.82 Tm 0 Tr (string navn) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 331.82 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 334.49 138.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 343.16 Tm 0 Tr (aktivitetsType kategori) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 343.16 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 354.50 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 354.50 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 357.17 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.83 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 365.83 Tm 0 Tr (\(\)  {  ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 357.17 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 365.83 Tm 0 Tr (navn ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 365.83 Tm 0 Tr (= ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 365.83 Tm 0 Tr ("") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 365.83 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 357.17 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 365.83 Tm 0 Tr (kategori ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 365.83 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 357.17 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 365.83 Tm 0 Tr (ikkeAngitt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 365.83 Tm 0 Tr (; }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 377.17 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 368.50 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 377.17 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 377.17 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 388.51 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 379.84 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 388.51 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 388.51 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 388.51 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 388.51 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr ( *  Subklassen 'Tidsbegrenset' \(med tidspunkter for start/stopp av aktivitet\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 459.21 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 467.88 Tm 0 Tr (Tidsbegrenset ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 467.88 Tm 0 Tr (: ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 160.35 467.88 Tm 0 Tr (public ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+202.35 459.21 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 467.88 Tm 0 Tr (Aktivitet  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 467.88 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 479.22 Tm 0 Tr (private) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 479.22 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 490.56 Tm 0 Tr (int  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 481.89 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 490.56 Tm 0 Tr (startTime) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 481.89 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 490.56 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 481.89 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 490.56 Tm 0 Tr (sluttTime) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 481.89 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 490.56 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 490.56 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 501.90 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 493.23 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 501.90 Tm 0 Tr (klokkeslettOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 501.90 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 166.35 501.90 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+226.35 493.23 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 501.90 Tm 0 Tr (time) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 262.35 501.90 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+322.35 493.23 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 322.35 501.90 Tm 0 Tr (minutt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 501.90 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 370.35 501.90 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 400.35 501.90 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 513.24 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 513.24 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 515.91 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 524.57 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 524.57 Tm 0 Tr (\(\)  { ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 515.91 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 524.57 Tm 0 Tr (sluttMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 515.91 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 524.57 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 515.91 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 524.57 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+376.35 515.91 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 376.35 524.57 Tm 0 Tr (startMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 524.57 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 442.35 524.57 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 448.35 524.57 Tm 0 Tr (; };) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 535.91 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 527.24 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 535.91 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 535.91 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 547.25 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 538.58 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 547.25 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 547.25 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 547.25 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 547.25 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr ( *  Subklassen 'Heldags' \(med nÃ¦rmere beskrivelse av aktiviteten\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 617.95 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 626.62 Tm 0 Tr (Heldags ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 626.62 Tm 0 Tr (: ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 626.62 Tm 0 Tr (public ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+166.35 617.95 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 626.62 Tm 0 Tr (Aktivitet  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 626.62 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 637.96 Tm 0 Tr (private) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 637.96 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 640.63 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 649.30 Tm 0 Tr (string beskrivelse) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 649.30 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 660.64 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 660.64 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 663.31 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 671.98 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 671.98 Tm 0 Tr (\(\)  { ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 663.31 72.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 671.98 Tm 0 Tr (beskrivelse ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 671.98 Tm 0 Tr (= ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 214.35 671.98 Tm 0 Tr ("") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 671.98 Tm 0 Tr (; };) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 683.31 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 674.65 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 683.31 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 683.31 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 694.65 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 685.98 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 694.65 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 694.65 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 694.65 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 694.65 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr ( *  Selvlaget container-klasse 'Dag' \(med dato og ulike aktiviteter\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (class ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 765.35 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 774.02 Tm 0 Tr (Dag  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 774.02 Tm 0 Tr ({) Tj  ET Q
+Q
+
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 6 0 R>>
+endobj
+6 0 obj
+<</Length 24699>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 37.02 Tm 0 Tr (private) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 37.02 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+76.35 39.69 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 48.35 Tm 0 Tr (dagNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 48.35 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 39.69 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 48.35 Tm 0 Tr (maanedNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 48.35 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 39.69 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 48.35 Tm 0 Tr (aarNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 48.35 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 51.02 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 59.69 Tm 0 Tr (vector ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 59.69 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 51.02 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 59.69 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 59.69 Tm 0 Tr (*> ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 51.02 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 59.69 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 59.69 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 62.36 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (vector ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 71.03 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 62.36 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 71.03 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 71.03 Tm 0 Tr (*> ) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 62.36 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 71.03 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 71.03 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 93.71 Tm 0 Tr (public) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 93.71 Tm 0 Tr (:) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 96.38 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 105.05 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 105.05 Tm 0 Tr (\(\) {  };) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 107.72 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 116.39 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 116.39 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 116.39 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 107.72 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 116.39 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 116.39 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 166.35 116.39 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+226.35 107.72 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 116.39 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 116.39 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 274.35 116.39 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+334.35 107.72 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 116.39 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 116.39 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (                           ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 119.06 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 127.72 Tm 0 Tr (dagNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 127.72 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 119.06 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 127.72 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 127.72 Tm 0 Tr (;  ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 119.06 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 127.72 Tm 0 Tr (maanedNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 328.35 127.72 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+340.35 119.06 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 340.35 127.72 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 376.35 127.72 Tm 0 Tr (;  ) Tj  ET Q
+1.000 1.000 1.000 rg
+394.35 119.06 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 394.35 127.72 Tm 0 Tr (aarNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 127.72 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+442.35 119.06 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 442.35 127.72 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 460.35 127.72 Tm 0 Tr (; };) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (    ~ ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 130.39 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 139.06 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 139.06 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 141.73 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 150.40 Tm 0 Tr (harDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 130.35 150.40 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 141.73 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 150.40 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 150.40 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 220.35 150.40 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+280.35 141.73 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 150.40 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 150.40 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 328.35 150.40 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+388.35 141.73 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 388.35 150.40 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 150.40 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 418.35 150.40 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 448.35 150.40 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 153.07 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 161.74 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 161.74 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 173.08 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 164.41 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 173.08 Tm 0 Tr (skrivAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 173.08 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 173.08 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 173.08 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 184.42 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 184.42 Tm 0 Tr (skrivDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 184.42 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 154.35 184.42 Tm 0 Tr (const) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 184.42 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (};) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 221.10 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 229.77 Tm 0 Tr (dagOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 229.77 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 94.35 229.77 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 221.10 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 229.77 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 229.77 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 184.35 229.77 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 221.10 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 229.77 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 229.77 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 292.35 229.77 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+352.35 221.10 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 229.77 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 229.77 Tm 0 Tr (\);) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 232.44 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 46.35 241.11 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 232.44 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 241.11 Tm 0 Tr (finnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 241.11 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 241.11 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+166.35 232.44 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 241.11 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 241.11 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 232.44 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 241.11 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 241.11 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 241.11 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+364.35 232.44 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.35 241.11 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 241.11 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 243.78 114.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (frigiAllokertMemory) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 252.45 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 255.12 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 263.79 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 263.79 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 266.46 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 275.13 Tm 0 Tr (skrivDager) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 275.13 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 275.13 Tm 0 Tr (const bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 266.46 120.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 275.13 Tm 0 Tr (inkludertAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 275.13 Tm 0 Tr (\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 277.80 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 286.46 Tm 0 Tr (skrivEnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 286.46 Tm 0 Tr (\(\);) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 289.13 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 297.80 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 297.80 Tm 0 Tr (\(\);) Tj  ET Q
+1.000 1.000 1.000 rg
+28.35 323.15 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (vector ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 331.82 Tm 0 Tr (<) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 323.15 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 331.82 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 331.82 Tm 0 Tr (*> ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 323.15 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 331.82 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 331.82 Tm 0 Tr (;           ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 226.35 331.82 Tm 0 Tr (///<  Dager med aktiviteter) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr ( *  Hovedprogrammet:) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+52.35 391.18 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 399.85 Tm 0 Tr (main ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 399.85 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 411.19 Tm 0 Tr (char ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 402.52 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 411.19 Tm 0 Tr (kommando) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 411.19 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 425.20 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 433.87 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 433.87 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 436.54 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 445.20 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 445.20 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 436.54 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 445.20 Tm 0 Tr (lesChar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 445.20 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 166.35 445.20 Tm 0 Tr ("\\nKommando") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 445.20 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 467.88 Tm 0 Tr (while ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 467.88 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 459.21 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 467.88 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 467.88 Tm 0 Tr (!= ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 166.35 467.88 Tm 0 Tr ('Q') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 467.88 Tm 0 Tr (\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 479.22 Tm 0 Tr (switch ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 479.22 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 470.55 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 479.22 Tm 0 Tr (kommando) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 479.22 Tm 0 Tr (\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 490.56 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 118.35 490.56 Tm 0 Tr ('N') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 490.56 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 481.89 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 490.56 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 490.56 Tm 0 Tr (\(\);      ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 490.56 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 490.56 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 501.90 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 118.35 501.90 Tm 0 Tr ('A') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 501.90 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 493.23 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 501.90 Tm 0 Tr (skrivDager) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 501.90 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 214.35 501.90 Tm 0 Tr (true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 501.90 Tm 0 Tr (\);   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 501.90 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 501.90 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 513.24 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 118.35 513.24 Tm 0 Tr ('S') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 513.24 Tm 0 Tr (: ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 504.57 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 513.24 Tm 0 Tr (skrivEnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 513.24 Tm 0 Tr (\(\);       ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 513.24 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 513.24 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (          ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 524.57 Tm 0 Tr (default) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 524.57 Tm 0 Tr (:  ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 515.91 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 524.57 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 524.57 Tm 0 Tr (\(\);        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 268.35 524.57 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 524.57 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 538.58 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 547.25 Tm 0 Tr (kommando ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 547.25 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 538.58 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 547.25 Tm 0 Tr (lesChar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 547.25 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 547.25 Tm 0 Tr ("\\nKommando") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 547.25 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 572.60 114.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 581.27 Tm 0 Tr (frigiAllokertMemory) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 581.27 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 603.94 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 94.35 603.94 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 603.94 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (}) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (// ---------------------------------------------------------------------------) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr (//                       DEFINISJON AV KLASSE-FUNKSJONER:) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (// ---------------------------------------------------------------------------) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr ( *  Leser inn ALLE klassens data.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 720.00 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 728.67 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 728.67 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 720.00 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 728.67 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 728.67 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 742.68 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 751.35 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 751.35 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 751.35 Tm 0 Tr ("\\n\\tAktivitets navn: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 751.35 Tm 0 Tr (;    ) Tj  ET Q
+1.000 1.000 1.000 rg
+256.35 742.68 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 751.35 Tm 0 Tr (getline) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 751.35 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 742.68 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 751.35 Tm 0 Tr (cin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 751.35 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+334.35 742.68 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 751.35 Tm 0 Tr (navn) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 751.35 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 762.69 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 754.02 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 762.69 Tm 0 Tr (aktivitetstype ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 762.69 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 754.02 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 762.69 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 762.69 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 208.35 762.69 Tm 0 Tr ("\\n\\tType aktivitet \(1=Jobb\) \(2=Fritid\) \(3=Skole\) \(4=ikke) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (Angitt\)") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 774.02 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 88.35 774.02 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 774.02 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 106.35 774.02 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 774.02 Tm 0 Tr (\);) Tj  ET Q
+Q
+
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 8 0 R>>
+endobj
+8 0 obj
+<</Length 24423>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 37.02 Tm 0 Tr (// Leser inn kategori) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 48.35 Tm 0 Tr (switch) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 48.35 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 39.69 84.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 48.35 Tm 0 Tr (aktivitetstype) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 48.35 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 59.69 Tm 0 Tr (if        ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 59.69 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 51.02 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 59.69 Tm 0 Tr (aktivitetstype ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 59.69 Tm 0 Tr (== ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 59.69 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 59.69 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 59.69 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 59.69 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 51.02 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 59.69 Tm 0 Tr (kategori ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 59.69 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+346.35 51.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 59.69 Tm 0 Tr (Jobb) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 59.69 Tm 0 Tr (;       ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (else if   ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 71.03 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 62.36 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 71.03 Tm 0 Tr (aktivitetstype ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 71.03 Tm 0 Tr (== ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 71.03 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 71.03 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 71.03 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 71.03 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 62.36 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 71.03 Tm 0 Tr (kategori ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 71.03 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+346.35 62.36 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 71.03 Tm 0 Tr (Fritid) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 71.03 Tm 0 Tr (;     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 82.37 Tm 0 Tr (else if   ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 82.37 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 73.70 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 82.37 Tm 0 Tr (aktivitetstype ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 82.37 Tm 0 Tr (== ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 82.37 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 82.37 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 82.37 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 82.37 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 73.70 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 82.37 Tm 0 Tr (kategori ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 82.37 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+346.35 73.70 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 82.37 Tm 0 Tr (Skole) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 376.35 82.37 Tm 0 Tr (;      ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 93.71 Tm 0 Tr (else if   ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 93.71 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 85.04 90.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 93.71 Tm 0 Tr (aktivitetstype ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 93.71 Tm 0 Tr (== ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 93.71 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 93.71 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 93.71 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 93.71 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 85.04 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 93.71 Tm 0 Tr (kategori ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 93.71 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+346.35 85.04 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 346.35 93.71 Tm 0 Tr (ikkeAngitt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 93.71 Tm 0 Tr (; ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( *  Skriver ut ALLE klassens data.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 184.42 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 184.42 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 184.42 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 184.42 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 184.42 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 195.76 Tm 0 Tr (// Skriver ut kategori) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 207.09 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 207.09 Tm 0 Tr ("\\naktiviteten: " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 214.35 207.09 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 207.09 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 207.09 Tm 0 Tr (navn ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 298.35 207.09 Tm 0 Tr (" er av kategori ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 207.09 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 218.43 Tm 0 Tr (switch) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 218.43 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 209.76 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 218.43 Tm 0 Tr (kategori) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 218.43 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 229.77 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 229.77 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 229.77 Tm 0 Tr (:         ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 221.10 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 229.77 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 229.77 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 229.77 Tm 0 Tr ("Jobb\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 229.77 Tm 0 Tr (;         ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 229.77 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 229.77 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 241.11 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 241.11 Tm 0 Tr (2) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 241.11 Tm 0 Tr (:         ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 232.44 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 241.11 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 241.11 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 241.11 Tm 0 Tr ("Fritid\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 241.11 Tm 0 Tr (;       ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 241.11 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 241.11 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 252.45 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 252.45 Tm 0 Tr (3) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 252.45 Tm 0 Tr (:         ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 243.78 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 252.45 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 252.45 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 252.45 Tm 0 Tr ("skole\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 252.45 Tm 0 Tr (;        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 252.45 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 252.45 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (case ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 82.35 263.79 Tm 0 Tr (4) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 263.79 Tm 0 Tr (:         ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 255.12 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 263.79 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 263.79 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 196.35 263.79 Tm 0 Tr ("ikke Angitt\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 263.79 Tm 0 Tr (;  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 263.79 Tm 0 Tr (break) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 263.79 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 277.80 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 286.46 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 286.46 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 88.35 286.46 Tm 0 Tr ('\\n') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 286.46 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( *  Leser inn ALLE klassens data, inkludert morklassens data.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 365.83 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 365.83 Tm 0 Tr (Aktivitet::lesData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 377.17 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 377.17 Tm 0 Tr (klokkeslettOK\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 391.18 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 399.85 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 399.85 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 391.18 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 399.85 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 399.85 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 422.53 Tm 0 Tr (// leser innn felles data) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 425.20 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 433.87 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 433.87 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 425.20 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 433.87 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 433.87 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 456.54 Tm 0 Tr (// leser inn start timer og minutt og slutt tid) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 459.21 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 467.88 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 467.88 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 459.21 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 467.88 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 467.88 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 467.88 Tm 0 Tr ("\\n\\tStart time på aktivitet: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 352.35 467.88 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 358.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 370.35 467.88 Tm 0 Tr (23) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 467.88 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 470.55 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 479.22 Tm 0 Tr (startMin  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 479.22 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 470.55 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 479.22 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 479.22 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 479.22 Tm 0 Tr ("\\n\\tStart minutt på aktivitet: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 364.35 479.22 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 382.35 479.22 Tm 0 Tr (59) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 479.22 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 481.89 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 490.56 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 490.56 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 481.89 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 490.56 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 490.56 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 490.56 Tm 0 Tr ("\\n\\tSlutt time på aktivitet: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+352.35 481.89 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 490.56 Tm 0 Tr (startTime) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 490.56 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 418.35 490.56 Tm 0 Tr (23) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 430.35 490.56 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 493.23 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 501.90 Tm 0 Tr (sluttMin  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 501.90 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 493.23 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 501.90 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 501.90 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 154.35 501.90 Tm 0 Tr ("\\n\\tSlutt minutt på aktivitet: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 364.35 501.90 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 501.90 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 382.35 501.90 Tm 0 Tr (59) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 394.35 501.90 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 524.57 Tm 0 Tr (// sjekker at tid er lovlig) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 527.24 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 535.91 Tm 0 Tr (klokkeslettOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 535.91 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 527.24 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 535.91 Tm 0 Tr (startTime) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 535.91 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 527.24 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 535.91 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 535.91 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 538.58 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 547.25 Tm 0 Tr (klokkeslettOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 547.25 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 538.58 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 547.25 Tm 0 Tr (sluttTime) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 547.25 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 538.58 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 547.25 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 547.25 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr ( *  Privat funksjon som finner ut om input er et lovlig klokkeslett.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 626.62 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 626.62 Tm 0 Tr (time    -  Timen som skal evalueres til mellom 0 og 23) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 637.96 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 637.96 Tm 0 Tr (minutt  -  Minuttet som skal evalueres til mellom 0 og 59) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 649.30 Tm 0 Tr (@return  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 649.30 Tm 0 Tr (Om parametrene er et lovlig klokkeslett eller ei) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 663.31 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 671.98 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 663.31 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 671.98 Tm 0 Tr (klokkeslettOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 671.98 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 232.35 671.98 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+292.35 663.31 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 671.98 Tm 0 Tr (time) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 671.98 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 328.35 671.98 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+388.35 663.31 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 388.35 671.98 Tm 0 Tr (minutt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 424.35 671.98 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 436.35 671.98 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 472.35 671.98 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 694.65 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.65 Tm 0 Tr (\(\() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 64.35 694.65 Tm 0 Tr (0 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 694.65 Tm 0 Tr (<= ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 685.98 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 694.65 Tm 0 Tr (time ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 694.65 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 694.65 Tm 0 Tr (23) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 694.65 Tm 0 Tr (\) && \() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 190.35 694.65 Tm 0 Tr (0 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 694.65 Tm 0 Tr (<= ) Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 685.98 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 694.65 Tm 0 Tr (minutt  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 694.65 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 286.35 694.65 Tm 0 Tr (59) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 694.65 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 705.99 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 705.99 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 717.33 Tm 0 Tr (else return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 717.33 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr ( *  Skriver ut ALLE klassens data, inkludert morklassens data.) Tj  ET Q
+Q
+
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 10 0 R>>
+endobj
+10 0 obj
+<</Length 25840>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F2 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 48.35 Tm 0 Tr (Aktivitet::skrivData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 62.36 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 71.03 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 71.03 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 62.36 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 71.03 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 71.03 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 220.35 71.03 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 71.03 Tm 0 Tr ({         ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 316.35 71.03 Tm 0 Tr (//  Skriver mor-klassens data.) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (                        // skriver ut felles data) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 96.38 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 105.05 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 105.05 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 96.38 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 105.05 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 105.05 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 119.06 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 127.72 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 127.72 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 127.72 Tm 0 Tr ("Aktiviteten starter: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 127.72 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 139.06 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 139.06 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 130.39 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 139.06 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 139.06 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 139.06 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 139.06 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 130.39 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 139.06 Tm 0 Tr (startMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 139.06 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 139.06 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 139.06 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 141.73 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 150.40 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 150.40 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 150.40 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 141.73 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 150.40 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 150.40 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 220.35 150.40 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 150.40 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 262.35 150.40 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 150.40 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 141.73 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 150.40 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 150.40 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 161.74 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 153.07 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 161.74 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 161.74 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 161.74 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 161.74 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 153.07 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 161.74 Tm 0 Tr (startMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 161.74 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 298.35 161.74 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 161.74 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 164.41 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 173.08 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 173.08 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 112.35 173.08 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 173.08 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 164.41 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 173.08 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 173.08 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 232.35 173.08 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 173.08 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 164.41 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 173.08 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 173.08 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 184.42 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 184.42 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 175.75 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 184.42 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 184.42 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 184.42 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 184.42 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 184.42 Tm 0 Tr (startMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 184.42 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 184.42 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 184.42 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 187.09 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 195.76 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 195.76 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 187.09 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 195.76 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 195.76 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 195.76 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 195.76 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 187.09 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 195.76 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 195.76 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 207.09 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 207.09 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 198.43 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 207.09 Tm 0 Tr (startTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 208.35 207.09 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 250.35 207.09 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+292.35 198.43 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 207.09 Tm 0 Tr (startMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 207.09 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 221.10 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 229.77 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 229.77 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 88.35 229.77 Tm 0 Tr ('\\n') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 229.77 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 243.78 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 252.45 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 252.45 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 252.45 Tm 0 Tr ("Aktiviteten slutter: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 252.45 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 263.79 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 263.79 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 255.12 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 263.79 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 263.79 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 142.35 263.79 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 263.79 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+184.35 255.12 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 184.35 263.79 Tm 0 Tr (sluttMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 263.79 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 256.35 263.79 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 263.79 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 266.46 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 275.13 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 275.13 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 275.13 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 275.13 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 266.46 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 275.13 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 275.13 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 220.35 275.13 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 275.13 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 262.35 275.13 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 275.13 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 266.46 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 275.13 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 352.35 275.13 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 286.46 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 286.46 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 286.46 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 277.80 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 286.46 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 286.46 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 286.46 Tm 0 Tr (9) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 286.46 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 277.80 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 286.46 Tm 0 Tr (sluttMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 286.46 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 298.35 286.46 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 286.46 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 289.13 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 297.80 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 297.80 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 112.35 297.80 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 297.80 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 289.13 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 297.80 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 297.80 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 232.35 297.80 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 297.80 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 289.13 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 297.80 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 297.80 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 309.14 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 309.14 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 300.47 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 309.14 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 309.14 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 184.35 309.14 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 309.14 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 300.47 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 309.14 Tm 0 Tr (sluttMin ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 309.14 Tm 0 Tr (>= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 304.35 309.14 Tm 0 Tr (10) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 316.35 309.14 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 311.81 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 320.48 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 320.48 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 311.81 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 320.48 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 320.48 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 190.35 320.48 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 320.48 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 311.81 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 320.48 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 320.48 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 331.82 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+82.35 323.15 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 331.82 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 323.15 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 331.82 Tm 0 Tr (sluttTime ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 208.35 331.82 Tm 0 Tr (":" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 232.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 250.35 331.82 Tm 0 Tr ("0" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 274.35 331.82 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+292.35 323.15 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 331.82 Tm 0 Tr (sluttMin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 331.82 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr ( *  Leser inn ALLE klassens data, inkludert morklassens data.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 411.19 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 411.19 Tm 0 Tr (Aktivitet::lesData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 425.20 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 433.87 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 433.87 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 425.20 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 433.87 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 433.87 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 447.87 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 456.54 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 456.54 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 447.87 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 456.54 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 456.54 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 470.55 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 479.22 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 479.22 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 479.22 Tm 0 Tr ("\\n\\tBeskriv aktiviteten: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 479.22 Tm 0 Tr (;    ) Tj  ET Q
+1.000 1.000 1.000 rg
+280.35 470.55 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 280.35 479.22 Tm 0 Tr (getline) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 479.22 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+328.35 470.55 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 328.35 479.22 Tm 0 Tr (cin) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 479.22 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+358.35 470.55 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 479.22 Tm 0 Tr (beskrivelse) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 424.35 479.22 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr ( *  Skriver ut ALLE klassens data, inkludert morklassens data.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 558.59 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 558.59 Tm 0 Tr (Aktivitet::skrivData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 572.60 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 581.27 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 572.60 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 581.27 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 581.27 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 184.35 581.27 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 581.27 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 595.28 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 603.94 Tm 0 Tr (Aktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 603.94 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 595.28 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 603.94 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 603.94 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 617.95 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 626.62 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 626.62 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 626.62 Tm 0 Tr ("\\nAktivitetens beskrivelse: \\n\\t" ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 626.62 Tm 0 Tr (<< ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 316.35 626.62 Tm 0 Tr (this) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 626.62 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+352.35 617.95 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 626.62 Tm 0 Tr (beskrivelse) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 418.35 626.62 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr ( *  Destructor som sletter HELT begge vectorenes allokerte innhold.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr ( */) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+28.35 697.32 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (Dag ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.99 Tm 0 Tr (:: ~ ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 697.32 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 705.99 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 705.99 Tm 0 Tr (\(\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 728.67 Tm 0 Tr (// går gjennom hver av vectorene og sletter elementene) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (                        // og all allokert minne) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 751.35 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 751.35 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 751.35 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 742.68 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 751.35 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 751.35 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 751.35 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 751.35 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 742.68 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 751.35 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 751.35 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 742.68 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 751.35 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 304.35 751.35 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+310.35 742.68 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 751.35 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 751.35 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+358.35 742.68 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 751.35 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 751.35 Tm 0 Tr (++\) ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 762.69 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 754.02 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 762.69 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 762.69 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 762.69 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 765.35 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 774.02 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 774.02 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 765.35 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 774.02 Tm 0 Tr (clear) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 774.02 Tm 0 Tr (\(\);) Tj  ET Q
+Q
+
+endstream
+endobj
+11 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 12 0 R>>
+endobj
+12 0 obj
+<</Length 21180>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 37.02 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 37.02 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 37.02 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 28.35 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 37.02 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 37.02 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 37.02 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 37.02 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 28.35 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 37.02 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 37.02 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 28.35 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 37.02 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 37.02 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 28.35 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 37.02 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 37.02 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+316.35 28.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 37.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 37.02 Tm 0 Tr (++\)) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 48.35 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 39.69 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 48.35 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 48.35 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 39.69 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 48.35 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 48.35 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 51.02 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 59.69 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 59.69 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 51.02 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 59.69 Tm 0 Tr (clear) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 59.69 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( *  Finner ut om selv er en gitt dato eller ei.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 139.06 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 139.06 Tm 0 Tr (dag     -  Dagen som skal sjekkes om er egen dag) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 150.40 Tm 0 Tr (maaned  -  Måneden som skal sjekkes om er egen måned) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 161.74 Tm 0 Tr (aar     -  året som skal sjekkes om er eget år) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 173.08 Tm 0 Tr (@return  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 173.08 Tm 0 Tr (Om selv er en gitt dato \(ut fra parametrene\) eller ei) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 195.76 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 195.76 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 187.09 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 195.76 Tm 0 Tr (harDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 195.76 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 136.35 195.76 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+196.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 195.76 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 195.76 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 226.35 195.76 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+286.35 187.09 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 195.76 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 195.76 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 334.35 195.76 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+394.35 187.09 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 394.35 195.76 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 412.35 195.76 Tm 0 Tr (\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 424.35 195.76 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 460.35 195.76 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 218.43 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 218.43 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 209.76 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 218.43 Tm 0 Tr (dag ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 218.43 Tm 0 Tr (== ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 209.76 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 218.43 Tm 0 Tr (dagNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 218.43 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 209.76 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 218.43 Tm 0 Tr (maaned ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 218.43 Tm 0 Tr (== ) Tj  ET Q
+1.000 1.000 1.000 rg
+232.35 209.76 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 232.35 218.43 Tm 0 Tr (maanedNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 218.43 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+316.35 209.76 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 316.35 218.43 Tm 0 Tr (aar ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 218.43 Tm 0 Tr (== ) Tj  ET Q
+1.000 1.000 1.000 rg
+358.35 209.76 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 358.35 218.43 Tm 0 Tr (aarNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 388.35 218.43 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 229.77 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 229.77 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 241.11 Tm 0 Tr (else return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 241.11 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr ( *  Oppretter, leser og legger inn en ny aktivitet på dagen.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 331.82 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 331.82 Tm 0 Tr (Tidsbegrenset::lesData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 343.16 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 343.16 Tm 0 Tr (Heldags::lesData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 357.17 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.83 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 365.83 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 357.17 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 365.83 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 365.83 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 377.17 Tm 0 Tr (// lager pekere til vectorene) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 379.84 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 388.51 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 388.51 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 379.84 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 388.51 Tm 0 Tr (tidsbeg) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 388.51 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 391.18 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 399.85 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 399.85 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 391.18 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 399.85 Tm 0 Tr (heldag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 399.85 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 422.53 Tm 0 Tr (char ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+70.35 413.86 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 422.53 Tm 0 Tr (valg) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 422.53 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 436.54 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 445.20 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 445.20 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 436.54 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 445.20 Tm 0 Tr (lesChar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 445.20 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 130.35 445.20 Tm 0 Tr ("\\n\\tHvilken aktivitet skal opprettes \(T/H\) \(T\(idsbegrenset/H\(elsdags\)\)") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 467.88 Tm 0 Tr (// hvis T leser inn data til denne typen) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 479.22 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 479.22 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 470.55 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 479.22 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 479.22 Tm 0 Tr (== ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 106.35 479.22 Tm 0 Tr ('T') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 479.22 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 481.89 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 490.56 Tm 0 Tr (tidsbeg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 490.56 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 112.35 490.56 Tm 0 Tr (new ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 481.89 78.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 490.56 Tm 0 Tr (Tidsbegrenset) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 490.56 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 493.23 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 501.90 Tm 0 Tr (tidsbeg) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 501.90 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 493.23 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 501.90 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 501.90 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 504.57 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 513.24 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+208.35 504.57 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 208.35 513.24 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 513.24 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 504.57 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 513.24 Tm 0 Tr (tidsbeg) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 513.24 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 535.91 Tm 0 Tr (// hvis H leser inn data til denne typen) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 40.35 547.25 Tm 0 Tr (} ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 547.25 Tm 0 Tr (else if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 547.25 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 538.58 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 547.25 Tm 0 Tr (valg ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 547.25 Tm 0 Tr (== ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 148.35 547.25 Tm 0 Tr ('H') Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 547.25 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 549.92 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 558.59 Tm 0 Tr (heldag ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 558.59 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 558.59 Tm 0 Tr (new ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+130.35 549.92 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 558.59 Tm 0 Tr (Heldags) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 558.59 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 561.26 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 569.93 Tm 0 Tr (heldag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 569.93 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 561.26 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 569.93 Tm 0 Tr (lesData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 569.93 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 572.60 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 581.27 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 581.27 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 572.60 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 581.27 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 581.27 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 572.60 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 581.27 Tm 0 Tr (heldag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 581.27 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( *  Skriver ut ALLE aktiviteter på egen dato \(og intet annet\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 683.31 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 683.31 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 683.31 Tm 0 Tr (Heldags::skrivData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 694.65 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 694.65 Tm 0 Tr (Tidsbegrenset::skrivData\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 708.66 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 717.33 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 717.33 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 708.66 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 717.33 Tm 0 Tr (skrivAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 717.33 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 202.35 717.33 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 717.33 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 740.01 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 731.34 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 740.01 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 740.01 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 751.35 Tm 0 Tr (// skriv3er ut alt innhold i vecotrene) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 762.69 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 754.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 762.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 762.69 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 88.35 762.69 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 762.69 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 754.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 762.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 762.69 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 754.02 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 762.69 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 762.69 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+286.35 754.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 286.35 762.69 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 762.69 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+334.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 334.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 762.69 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 765.35 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 774.02 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 774.02 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 774.02 Tm 0 Tr ("\\nTidbegrenset aktiviteter på denne dagen: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 774.02 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+382.35 765.35 150.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 382.35 774.02 Tm 0 Tr (tidsbegrensedeAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 532.35 774.02 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+538.35 765.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 538.35 774.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 544.35 774.02 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+Q
+
+endstream
+endobj
+13 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 14 0 R>>
+endobj
+14 0 obj
+<</Length 20322>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+28.35 28.35 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 37.02 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 59.69 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 59.69 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 51.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 59.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 59.69 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 88.35 59.69 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 59.69 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 51.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 59.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 59.69 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 51.02 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 59.69 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 59.69 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+244.35 51.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 59.69 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 59.69 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+292.35 51.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 292.35 59.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 298.35 59.69 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 62.36 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 71.03 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 71.03 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 71.03 Tm 0 Tr ("\\nHeldagsaktiviteter på denne dagen: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 71.03 Tm 0 Tr (; ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 82.37 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 73.70 108.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 82.37 Tm 0 Tr (heldagsAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 82.37 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 73.70 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 82.37 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 82.37 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 73.70 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 82.37 Tm 0 Tr (skrivData) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 82.37 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( *  Skriver KUN ut egen dato.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 175.75 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 184.42 Tm 0 Tr (::) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 175.75 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 184.42 Tm 0 Tr (skrivDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 184.42 Tm 0 Tr (\(\) ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 160.35 184.42 Tm 0 Tr (const ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 184.42 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 207.09 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 207.09 Tm 0 Tr ("\\nDagens dato: " ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 198.43 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 207.09 Tm 0 Tr (dagNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 268.35 207.09 Tm 0 Tr ('.' ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+310.35 198.43 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 207.09 Tm 0 Tr (maanedNr ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 364.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+q 0.878 0.627 0.000 rg BT 1 0 0 -1 382.35 207.09 Tm 0 Tr ('.' ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 406.35 207.09 Tm 0 Tr (<< ) Tj  ET Q
+1.000 1.000 1.000 rg
+424.35 198.43 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 424.35 207.09 Tm 0 Tr (aarNr) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 454.35 207.09 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (}) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (// ---------------------------------------------------------------------------) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 263.79 Tm 0 Tr (//                       DEFINISJON AV ANDRE FUNKSJONER:) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (// ---------------------------------------------------------------------------) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr ( *  Returnerer om en dato er lovlig eller ei.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 331.82 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 331.82 Tm 0 Tr (dag     -  Dagen som skal sjekkes) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 343.16 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 343.16 Tm 0 Tr (maaned  -  Måneden som skal sjekkes) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 354.50 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 354.50 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 354.50 Tm 0 Tr (aar     -  året som skal sjekkes) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 365.83 Tm 0 Tr (@return  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 365.83 Tm 0 Tr (Om datoen er lovlig/OK eller ei) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 379.84 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 388.51 Tm 0 Tr (dagOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 388.51 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 94.35 388.51 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+154.35 379.84 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 388.51 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 184.35 388.51 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+244.35 379.84 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 244.35 388.51 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 292.35 388.51 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+352.35 379.84 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 352.35 388.51 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 370.35 388.51 Tm 0 Tr (\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 411.19 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 411.19 Tm 0 Tr (\(\() Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 411.19 Tm 0 Tr (dag ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 411.19 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 106.35 411.19 Tm 0 Tr (31) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 411.19 Tm 0 Tr (\) && \() Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 402.52 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 411.19 Tm 0 Tr (maaned ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 411.19 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 214.35 411.19 Tm 0 Tr (12) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 411.19 Tm 0 Tr (\) && \() Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 262.35 411.19 Tm 0 Tr (1990 ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 411.19 Tm 0 Tr (<= ) Tj  ET Q
+1.000 1.000 1.000 rg
+310.35 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 310.35 411.19 Tm 0 Tr (aar ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 334.35 411.19 Tm 0 Tr (<= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 352.35 411.19 Tm 0 Tr (2030) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 376.35 411.19 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 422.53 Tm 0 Tr (return true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 422.53 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 433.87 Tm 0 Tr (else return false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 433.87 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr ( *  Returnerer om mulig en peker til en 'Dag' med en gitt dato.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 513.24 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 513.24 Tm 0 Tr (dag     -  Dagen som skal bli funnet) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 524.57 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 524.57 Tm 0 Tr (maaned  -  Måneden som skal bli funnet) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 535.91 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 535.91 Tm 0 Tr (aar     -  året som skal bli funnet) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 547.25 Tm 0 Tr (@return  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 547.25 Tm 0 Tr (Peker til aktuell Dag \(om funnet\), ellers 'nullptr') Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 558.59 Tm 0 Tr (@see     ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 558.59 Tm 0 Tr (harDato\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr ( */) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+28.35 572.60 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 46.35 581.27 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 572.60 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 581.27 Tm 0 Tr (finnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 581.27 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 581.27 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+166.35 572.60 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 581.27 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 581.27 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 196.35 581.27 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+256.35 572.60 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 581.27 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 581.27 Tm 0 Tr (, ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 304.35 581.27 Tm 0 Tr (const int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+364.35 572.60 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 364.35 581.27 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 382.35 581.27 Tm 0 Tr (\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 603.94 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 603.94 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 603.94 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 595.28 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 603.94 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 603.94 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 603.94 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 603.94 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 595.28 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 603.94 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 603.94 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 595.28 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 603.94 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 603.94 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 595.28 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 603.94 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 603.94 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 595.28 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 603.94 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 603.94 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 615.28 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 615.28 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 606.61 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 615.28 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 615.28 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 606.61 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 615.28 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 615.28 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 606.61 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 615.28 Tm 0 Tr (harDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 615.28 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 606.61 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 615.28 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 615.28 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+220.35 606.61 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 220.35 615.28 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 615.28 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+268.35 606.61 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 268.35 615.28 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 615.28 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 316.35 615.28 Tm 0 Tr (true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 340.35 615.28 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr (      ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 626.62 Tm 0 Tr (return ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+106.35 617.95 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 626.62 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 626.62 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 617.95 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 626.62 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 626.62 Tm 0 Tr (];) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 637.96 Tm 0 Tr (else return nullptr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 637.96 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr ( *  Frigir/sletter ALLE dagene og ALLE pekerne i 'gDagene'.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 731.34 114.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 740.01 Tm 0 Tr (frigiAllokertMemory) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 740.01 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 762.69 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 762.69 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 762.69 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+88.35 754.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 762.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 762.69 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 112.35 762.69 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 762.69 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+130.35 754.02 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 130.35 762.69 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 762.69 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 754.02 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 762.69 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 762.69 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+202.35 754.02 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 202.35 762.69 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 762.69 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+250.35 754.02 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 250.35 762.69 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 762.69 Tm 0 Tr (++\) ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 774.02 Tm 0 Tr (delete ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+94.35 765.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 774.02 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 774.02 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 765.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 774.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 774.02 Tm 0 Tr (];) Tj  ET Q
+Q
+
+endstream
+endobj
+15 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 16 0 R>>
+endobj
+16 0 obj
+<</Length 24762>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 28.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 37.02 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 37.02 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 28.35 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 37.02 Tm 0 Tr (clear) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 37.02 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 105.05 Tm 0 Tr ( *  Legger inn en ny aktivitet på en \(evt. ny\) dag.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 116.39 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 127.72 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 127.72 Tm 0 Tr (skrivDager\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 139.06 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 139.06 Tm 0 Tr (dagOK\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 150.40 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 150.40 Tm 0 Tr (finnDag\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 161.74 Tm 0 Tr (Dag::nyAktivitet\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 175.75 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 184.42 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 184.42 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 207.09 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 198.43 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 207.09 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 207.09 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 209.76 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 218.43 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 218.43 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 221.10 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 229.77 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 229.77 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 243.78 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 252.45 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 58.35 252.45 Tm 0 Tr (* ) Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 243.78 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 252.45 Tm 0 Tr (nydag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 252.45 Tm 0 Tr (;           ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 252.45 Tm 0 Tr (// peker til vector) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 266.46 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 275.13 Tm 0 Tr (skrivDager) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 275.13 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 275.13 Tm 0 Tr (false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 275.13 Tm 0 Tr (\);    ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 275.13 Tm 0 Tr (// skriver ut alle dagar registrert) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (                        // leser inn dato til aktivitet) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 300.47 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 309.14 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 309.14 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 309.14 Tm 0 Tr ("\\nlegg inn dato aktiviteten skal holdes: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 346.35 309.14 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 311.81 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 320.48 Tm 0 Tr (dag     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 320.48 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 311.81 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 320.48 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 320.48 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 320.48 Tm 0 Tr ("\\nDag: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 320.48 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 320.48 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 320.48 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 320.48 Tm 0 Tr (31) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 320.48 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 323.15 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 331.82 Tm 0 Tr (maaned  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 331.82 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 323.15 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 331.82 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 331.82 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 331.82 Tm 0 Tr ("\\nMåned: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 331.82 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 220.35 331.82 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 331.82 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 331.82 Tm 0 Tr (12) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 331.82 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 334.49 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 343.16 Tm 0 Tr (aar     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 343.16 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 343.16 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 343.16 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 343.16 Tm 0 Tr ("\\nÅr: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 202.35 343.16 Tm 0 Tr (1990) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 343.16 Tm 0 Tr (2030) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 343.16 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 365.83 Tm 0 Tr (// hvis dagOK skal den lese inn data) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 377.17 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 377.17 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 368.50 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 377.17 Tm 0 Tr (dagOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 377.17 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 368.50 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 377.17 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 368.50 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 377.17 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 368.50 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 377.17 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 377.17 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 220.35 377.17 Tm 0 Tr (true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 377.17 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 388.51 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 388.51 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 379.84 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 388.51 Tm 0 Tr (finnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 388.51 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 379.84 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 388.51 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 379.84 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 388.51 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 388.51 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 379.84 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 388.51 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 388.51 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 388.51 Tm 0 Tr (nullptr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 388.51 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 391.18 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 399.85 Tm 0 Tr (nydag ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 399.85 Tm 0 Tr (= ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 112.35 399.85 Tm 0 Tr (new ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+136.35 391.18 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 399.85 Tm 0 Tr (Dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 399.85 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 391.18 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 399.85 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 178.35 399.85 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+190.35 391.18 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 399.85 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 399.85 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+238.35 391.18 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 238.35 399.85 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 399.85 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 402.52 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 411.19 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 411.19 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+112.35 402.52 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 411.19 Tm 0 Tr (push_back) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 411.19 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 402.52 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 411.19 Tm 0 Tr (nydag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 411.19 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 413.86 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 422.53 Tm 0 Tr (nydag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 422.53 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 413.86 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 422.53 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 422.53 Tm 0 Tr (\(\);      ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 425.20 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 433.87 Tm 0 Tr (nydag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 433.87 Tm 0 Tr (->) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 425.20 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 433.87 Tm 0 Tr (skrivDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 433.87 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 445.20 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 445.20 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (      ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 456.54 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 456.54 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 456.54 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+112.35 447.87 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 456.54 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 456.54 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 456.54 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 456.54 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 447.87 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 456.54 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 456.54 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 447.87 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 456.54 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 456.54 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 447.87 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 456.54 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 456.54 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 447.87 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 456.54 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 456.54 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (        ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 467.88 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 467.88 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 459.21 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 467.88 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 467.88 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 459.21 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 467.88 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 148.35 467.88 Tm 0 Tr (] == ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 459.21 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 467.88 Tm 0 Tr (finnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 467.88 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 459.21 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 467.88 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+256.35 459.21 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 256.35 467.88 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 467.88 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+304.35 459.21 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 304.35 467.88 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 322.35 467.88 Tm 0 Tr (\)\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 479.22 Tm 0 Tr (          ) Tj  ET Q
+1.000 1.000 1.000 rg
+88.35 470.55 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 88.35 479.22 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 479.22 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+136.35 470.55 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 136.35 479.22 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 479.22 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+160.35 470.55 66.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 160.35 479.22 Tm 0 Tr (nyAktivitet) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 479.22 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (        }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 501.90 Tm 0 Tr (      }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 513.24 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr ( *  Skriver ut ALLE dagene \(MED eller UTEN deres aktiviteter\).) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 626.62 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 626.62 Tm 0 Tr (@param   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 626.62 Tm 0 Tr (inkludertAktiviteter - Utskrift av ALLE aktivitetene også, eller ei) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 637.96 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 637.96 Tm 0 Tr (@see     ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 637.96 Tm 0 Tr (Dag::skrivDato\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 649.30 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 649.30 Tm 0 Tr (@see     ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 106.35 649.30 Tm 0 Tr (Dag::skrivAktiviteter\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 660.64 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 671.98 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 663.31 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 671.98 Tm 0 Tr (skrivDager) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 671.98 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 124.35 671.98 Tm 0 Tr (const bool ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+190.35 663.31 120.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 190.35 671.98 Tm 0 Tr (inkludertAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 310.35 671.98 Tm 0 Tr (\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 694.65 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 694.65 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 694.65 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 685.98 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 694.65 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 694.65 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+106.35 685.98 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 106.35 694.65 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 694.65 Tm 0 Tr (\(\) == ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 166.35 694.65 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 172.35 694.65 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 705.99 Tm 0 Tr (    ) Tj  ET Q
+1.000 1.000 1.000 rg
+52.35 697.32 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 52.35 705.99 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 705.99 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 100.35 705.99 Tm 0 Tr ("\\n\\tIngen dager lagt til\\n\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 292.35 705.99 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 717.33 Tm 0 Tr (  } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 717.33 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 717.33 Tm 0 Tr ({              ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 717.33 Tm 0 Tr (// hvis false blir sendt med skal den bare skrive dato) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 728.67 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 728.67 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 728.67 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 728.67 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+100.35 720.00 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 728.67 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 728.67 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 124.35 728.67 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 728.67 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+142.35 720.00 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 142.35 728.67 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 154.35 728.67 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+166.35 720.00 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 166.35 728.67 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 728.67 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+214.35 720.00 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 214.35 728.67 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 728.67 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+262.35 720.00 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 262.35 728.67 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 268.35 728.67 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 740.01 Tm 0 Tr (      ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 740.01 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 740.01 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+82.35 731.34 126.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 82.35 740.01 Tm 0 Tr (inkludertAktiviteter ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 740.01 Tm 0 Tr (== ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 226.35 740.01 Tm 0 Tr (false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 256.35 740.01 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 751.35 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 742.68 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 751.35 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 751.35 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 742.68 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 751.35 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 751.35 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 742.68 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 751.35 Tm 0 Tr (skrivDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 751.35 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 762.69 Tm 0 Tr (      } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 76.35 762.69 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 106.35 762.69 Tm 0 Tr ({          ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 762.69 Tm 0 Tr (// hvis true så blir dato og data skrevet ut) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 774.02 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 765.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 774.02 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 774.02 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 765.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 774.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 774.02 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 765.35 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 774.02 Tm 0 Tr (skrivDato) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 202.35 774.02 Tm 0 Tr (\(\);) Tj  ET Q
+Q
+
+endstream
+endobj
+17 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/Annots []
+/Contents 18 0 R>>
+endobj
+18 0 obj
+<</Length 15275>>
+stream
+q
+1.000 0.000 0.000 -1.000 0.000 841.890 cm
+2 J
+0.57 w
+BT /F1 10.00 Tf ET
+0 G
+1.000 1.000 1.000 rg
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 37.02 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 28.35 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 37.02 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 37.02 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 28.35 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 37.02 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 37.02 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 28.35 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 37.02 Tm 0 Tr (skrivAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 37.02 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 48.35 Tm 0 Tr (      }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 59.69 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 71.03 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 93.71 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 127.72 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 139.06 Tm 0 Tr ( *  Skriver ut ALLE data om EN gitt dag.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 150.40 Tm 0 Tr ( *) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 161.74 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 161.74 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 161.74 Tm 0 Tr (skrivDager\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 173.08 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 173.08 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 173.08 Tm 0 Tr (dagOK\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 184.42 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 184.42 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 184.42 Tm 0 Tr (finnDag\(...\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 195.76 Tm 0 Tr ( *  ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 0.000 0.502 0.502 rg BT 1 0 0 -1 52.35 195.76 Tm 0 Tr (@see   ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 94.35 195.76 Tm 0 Tr (Dag::skrivAktiviteter\(\)) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 207.09 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 218.43 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 209.76 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 218.43 Tm 0 Tr (skrivEnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 218.43 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 229.77 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 229.77 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+64.35 221.10 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 229.77 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 229.77 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 241.11 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 232.44 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 241.11 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 241.11 Tm 0 Tr (,) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 252.45 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 243.78 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 252.45 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 252.45 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 275.13 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 266.46 60.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 275.13 Tm 0 Tr (skrivDager) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 100.35 275.13 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 106.35 275.13 Tm 0 Tr (false) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 275.13 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 297.80 Tm 0 Tr (                        ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 172.35 297.80 Tm 0 Tr (// legger inn dato som skal sjekkes) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 309.14 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 300.47 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 309.14 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 70.35 309.14 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 88.35 309.14 Tm 0 Tr ("\\nHvilken dag vil du sjekke") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 309.14 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 320.48 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 311.81 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 320.48 Tm 0 Tr (dag     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 320.48 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 311.81 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 320.48 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 320.48 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 320.48 Tm 0 Tr ("\\nDag: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 196.35 320.48 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 208.35 320.48 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 320.48 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 226.35 320.48 Tm 0 Tr (31) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 320.48 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 331.82 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 323.15 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 331.82 Tm 0 Tr (maaned  ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 331.82 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 323.15 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 331.82 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 331.82 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 331.82 Tm 0 Tr ("\\nMåned: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 208.35 331.82 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 220.35 331.82 Tm 0 Tr (1) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 331.82 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 331.82 Tm 0 Tr (12) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 331.82 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 343.16 Tm 0 Tr (  ) Tj  ET Q
+1.000 1.000 1.000 rg
+40.35 334.49 48.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 40.35 343.16 Tm 0 Tr (aar     ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 343.16 Tm 0 Tr (= ) Tj  ET Q
+1.000 1.000 1.000 rg
+100.35 334.49 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 100.35 343.16 Tm 0 Tr (lesInt) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 343.16 Tm 0 Tr (\() Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 142.35 343.16 Tm 0 Tr ("\\nÅr: ") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 202.35 343.16 Tm 0 Tr (1990) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 226.35 343.16 Tm 0 Tr (, ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 238.35 343.16 Tm 0 Tr (2030) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 343.16 Tm 0 Tr (\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 365.83 Tm 0 Tr (  ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 40.35 365.83 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 52.35 365.83 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+58.35 357.17 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 365.83 Tm 0 Tr (dagOK) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 88.35 365.83 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+94.35 357.17 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 94.35 365.83 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 357.17 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 365.83 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 160.35 365.83 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+172.35 357.17 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 172.35 365.83 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 190.35 365.83 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 220.35 365.83 Tm 0 Tr (true) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 365.83 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 377.17 Tm 0 Tr (    ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 52.35 377.17 Tm 0 Tr (if) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 64.35 377.17 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+70.35 368.50 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 70.35 377.17 Tm 0 Tr (finnDag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 377.17 Tm 0 Tr (\() Tj  ET Q
+1.000 1.000 1.000 rg
+118.35 368.50 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 118.35 377.17 Tm 0 Tr (dag) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 136.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 368.50 36.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 377.17 Tm 0 Tr (maaned) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 184.35 377.17 Tm 0 Tr (, ) Tj  ET Q
+1.000 1.000 1.000 rg
+196.35 368.50 18.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 196.35 377.17 Tm 0 Tr (aar) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 214.35 377.17 Tm 0 Tr (\) == ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 244.35 377.17 Tm 0 Tr (nullptr) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 286.35 377.17 Tm 0 Tr (\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 388.51 Tm 0 Tr (      ) Tj  ET Q
+1.000 1.000 1.000 rg
+64.35 379.84 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 64.35 388.51 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 388.51 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 112.35 388.51 Tm 0 Tr ("\\nDag finnes ikke\\n\\n\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 262.35 388.51 Tm 0 Tr (;) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 399.85 Tm 0 Tr (    } ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 399.85 Tm 0 Tr (else ) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 94.35 399.85 Tm 0 Tr ({) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 411.19 Tm 0 Tr (      ) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 64.35 411.19 Tm 0 Tr (for) Tj  ET Q
+BT /F1 10.00 Tf ET
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 82.35 411.19 Tm 0 Tr (\() Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 88.35 411.19 Tm 0 Tr (int ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+112.35 402.52 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 112.35 411.19 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 124.35 411.19 Tm 0 Tr (= ) Tj  ET Q
+q 0.941 0.000 0.941 rg BT 1 0 0 -1 136.35 411.19 Tm 0 Tr (0) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 142.35 411.19 Tm 0 Tr (; ) Tj  ET Q
+1.000 1.000 1.000 rg
+154.35 402.52 12.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 154.35 411.19 Tm 0 Tr (i ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 166.35 411.19 Tm 0 Tr (< ) Tj  ET Q
+1.000 1.000 1.000 rg
+178.35 402.52 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 178.35 411.19 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 220.35 411.19 Tm 0 Tr (.) Tj  ET Q
+1.000 1.000 1.000 rg
+226.35 402.52 24.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 226.35 411.19 Tm 0 Tr (size) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 250.35 411.19 Tm 0 Tr (\(\); ) Tj  ET Q
+1.000 1.000 1.000 rg
+274.35 402.52 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 274.35 411.19 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 280.35 411.19 Tm 0 Tr (++\) {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 422.53 Tm 0 Tr (                          ) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 184.35 422.53 Tm 0 Tr (// hvis dag finnes skrives ut data) Tj  ET Q
+q 0.596 0.596 0.851 rg BT 1 0 0 -1 28.35 433.87 Tm 0 Tr (        ) Tj  ET Q
+1.000 1.000 1.000 rg
+76.35 425.20 42.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 76.35 433.87 Tm 0 Tr (gDagene) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 118.35 433.87 Tm 0 Tr ([) Tj  ET Q
+1.000 1.000 1.000 rg
+124.35 425.20 6.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 124.35 433.87 Tm 0 Tr (i) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 130.35 433.87 Tm 0 Tr (]->) Tj  ET Q
+1.000 1.000 1.000 rg
+148.35 425.20 96.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 148.35 433.87 Tm 0 Tr (skrivAktiviteter) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 244.35 433.87 Tm 0 Tr (\(\);) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 445.20 Tm 0 Tr (      }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 456.54 Tm 0 Tr (    }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 467.88 Tm 0 Tr (  }) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 490.56 Tm 0 Tr (}) Tj  ET Q
+BT /F2 10.00 Tf ET
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 524.57 Tm 0 Tr (/**) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 535.91 Tm 0 Tr ( *  Skriver programmets menyvalg/muligheter på skjermen.) Tj  ET Q
+q 0.502 0.502 1.000 rg BT 1 0 0 -1 28.35 547.25 Tm 0 Tr ( */) Tj  ET Q
+q 0.000 0.000 0.627 rg BT 1 0 0 -1 28.35 558.59 Tm 0 Tr (void ) Tj  ET Q
+BT /F1 10.00 Tf ET
+1.000 1.000 1.000 rg
+58.35 549.92 54.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 58.35 558.59 Tm 0 Tr (skrivMeny) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 112.35 558.59 Tm 0 Tr (\(\)  {) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 28.35 569.93 Tm 0 Tr (   ) Tj  ET Q
+1.000 1.000 1.000 rg
+46.35 561.26 30.00 11.34 re f q 0.000 0.000 0.000 rg BT 1 0 0 -1 46.35 569.93 Tm 0 Tr (cout ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 569.93 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 94.35 569.93 Tm 0 Tr ("\\nDisse kommandoene kan brukes:\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 581.27 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 581.27 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 94.35 581.27 Tm 0 Tr ("\\tN - Ny aktivitet\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 592.61 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 592.61 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 94.35 592.61 Tm 0 Tr ("\\tA - skriv ut Alle dager med aktiviteter\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 603.94 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 603.94 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 94.35 603.94 Tm 0 Tr ("\\tS - Skriv EN gitt dag og \(alle\) dens aktiviteter\\n") Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 28.35 615.28 Tm 0 Tr (        ) Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 76.35 615.28 Tm 0 Tr (<< ) Tj  ET Q
+q 0.000 0.000 1.000 rg BT 1 0 0 -1 94.35 615.28 Tm 0 Tr ("\\tQ - Quit / avslutt\\n") Tj  ET Q
+q 1.000 0.000 0.000 rg BT 1 0 0 -1 238.35 615.28 Tm 0 Tr (;) Tj  ET Q
+Q
+
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R 11 0 R 13 0 R 15 0 R 17 0 R ]
+/Count 8
+/MediaBox [0 0 595.276 841.890]
+>>
+endobj
+19 0 obj
+<</Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+20 0 obj
+<</Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F2 19 0 R
+/F1 20 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+21 0 obj
+<<
+/Names []
+>>
+endobj
+22 0 obj
+<<
+/Producer (þÿ w x P d f D o c u m e n t   0 . 9 . 8)
+/CreationDate (D:20220224175446)
+>>
+endobj
+23 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 24
+0000000000 65535 f 
+0000174382 00000 n 
+0000174712 00000 n 
+0000000009 00000 n 
+0000000098 00000 n 
+0000016887 00000 n 
+0000016976 00000 n 
+0000041726 00000 n 
+0000041815 00000 n 
+0000066289 00000 n 
+0000066379 00000 n 
+0000092271 00000 n 
+0000092362 00000 n 
+0000113594 00000 n 
+0000113685 00000 n 
+0000134059 00000 n 
+0000134150 00000 n 
+0000158964 00000 n 
+0000159055 00000 n 
+0000174517 00000 n 
+0000174617 00000 n 
+0000174828 00000 n 
+0000174860 00000 n 
+0000174968 00000 n 
+trailer
+<<
+/Size 24
+/Root 23 0 R
+/Info 22 0 R
+>>
+startxref
+175072
+%%EOF
