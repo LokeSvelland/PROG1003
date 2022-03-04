@@ -1,24 +1,11 @@
 /**
- *  Skjelett for obligatorisk oppgave nr 2 i PROG1003 - OOP.
+ *  obligatorisk oppgave nr 2 i PROG1003.
  *
  *  Programmet er en kalender der man kan legge inn heldags og
  *  tidsbegrensede aktiviteter på spesifikke dager.
  *
- *  Hovedfunksjonalitet:
- *    - Inneholder klassen 'Aktivitet' og dens to subklasser
- *      'Tidsbegrenset' og 'Heldags'. Objekter av de to siste klassene legges
- *      inn for HVER ENKELT DAG inn i to ulike vectorer inni den selvlagede
- *      containerklassen: 'Dag'
- *    - De tre første klassene inneholder alle constructorer og funksjoner
- *      for å lese og skrive alle objektets data.
- *    - 'Dag' inneholder en del ulike funksjoner for å håndtere datastrukturen
- *      inni seg. Det er disse medlemsfunksjonene som kalles i fra funksjonene
- *      som startes/kalles fra 'main' for EN gitt dag.
- *    - Den globale vectoren 'gDagene' inneholder ALLE DE ULIKE DAGENE
- *      med hver sine ulike aktiviteter.
- *
  *  @file OBLIG2.CPP
- *  @author Malin Foss, William Eide Seiner og Frode Haug, NTNU
+ *  @author Loke Svelland
  */
 
 
@@ -183,15 +170,18 @@ void Tidsbegrenset::lesData() {
                         // leser innn felles data
   Aktivitet::lesData();
 
+do {
                         // leser inn start timer og minutt og slutt tid
-  startTime = lesInt("\n\tStart time på aktivitet: ", 0, 23);
-  startMin  = lesInt("\n\tStart minutt på aktivitet: ", 0, 59);
+                        // og sjekker om det er lovlig
+    startTime = lesInt("\n\tStart time på aktivitet: ", 0, 23);
+    startMin  = lesInt("\n\tStart minutt på aktivitet: ", 0, 59);
+} while (klokkeslettOK(startTime, startMin) == false);
+
+do{
   sluttTime = lesInt("\n\tSlutt time på aktivitet: ", startTime, 23);
   sluttMin  = lesInt("\n\tSlutt minutt på aktivitet: ", 0, 59);
+} while((klokkeslettOK(sluttTime, sluttMin) == false) && (startTime + startMin) < (sluttTime + sluttMin));
 
-                        // sjekker at tid er lovlig
-  klokkeslettOK(startTime, startMin);
-  klokkeslettOK(sluttTime, sluttMin);
 }
 
 
@@ -307,6 +297,7 @@ bool Dag::harDato(const int dag, const int maaned, const int aar) const {
  *
  *  @see   Tidsbegrenset::lesData()
  *  @see   Heldags::lesData()
+ * 
  */
 void Dag::nyAktivitet()  {
                         // lager pekere til vectorene
@@ -421,6 +412,7 @@ void frigiAllokertMemory()  {
  *  @see   dagOK(...)
  *  @see   finnDag(...)
  *  @see   Dag::nyAktivitet()
+ * 
  */
 void nyAktivitet()  {
 
@@ -444,16 +436,10 @@ void nyAktivitet()  {
       nydag = new Dag(dag, maaned, aar);
       gDagene.push_back(nydag);
       nydag->nyAktivitet();      
-      nydag->skrivDato();
     } else {
-      for(int i = 0; i < gDagene.size(); i++) {
-        if(gDagene[i] == finnDag(dag, maaned, aar)) {
-          gDagene[i]->nyAktivitet();
-        }
+          finnDag(dag,maaned,aar)->nyAktivitet();
       }
-    }
   }
-
 
 }
 
@@ -490,6 +476,7 @@ void skrivDager(const bool inkludertAktiviteter)  {
  *  @see   dagOK(...)
  *  @see   finnDag(...)
  *  @see   Dag::skrivAktiviteter()
+ * 
  */
 void skrivEnDag()  {
   int dag,
@@ -507,11 +494,8 @@ void skrivEnDag()  {
   if(dagOK(dag, maaned, aar) == true) {
     if(finnDag(dag, maaned, aar) == nullptr) {
       cout << "\nDag finnes ikke\n\n\n";
-    } else {
-      for(int i = 0; i < gDagene.size(); i++) {
-                          // hvis dag finnes skrives ut data
-        gDagene[i]->skrivAktiviteter();
-      }
+    } else { 
+        finnDag(dag,maaned,aar)->nyAktivitet();
     }
   }
 
