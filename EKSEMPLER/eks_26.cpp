@@ -1,17 +1,17 @@
 /**
- *   Programeksempel nr 26 - Større programeksempel.
+ *   Programeksempel nr 26 - Stï¿½rre programeksempel.
  *
- *   Eksemplet viser bruken av svært mye av det TOTALE pensumet i emnet.
- *   Bl.a vises:  pekere, objekter, arv, virtueller, filhåndtering,
+ *   Eksemplet viser bruken av svï¿½rt mye av det TOTALE pensumet i emnet.
+ *   Bl.a vises:  pekere, objekter, arv, virtueller, filhï¿½ndtering,
  *                string, lambda-funksjoner, og fra STL:
  *                <vector>, <queue>, <list> og <map>, samt <algorithm>.
- *   Sammen med EKS_28.CPP og EKS_29.CPP vises NIVÅET på en eksamensoppgave
- *   (men dette eksemplet er i OMFANG større).
+ *   Sammen med EKS_28.CPP og EKS_29.CPP vises NIVï¿½ET pï¿½ en eksamensoppgave
+ *   (men dette eksemplet er i OMFANG stï¿½rre).
  *
  *   Programmet:
- *     - håndterer objekter av typene 'Alpinist' og 'Snowboarder'
- *     - inneholder en heiskø (queue), selve skiheisen (queue),
- *       grønn løype (map) og rød løype (list)
+ *     - hï¿½ndterer objekter av typene 'Alpinist' og 'Snowboarder'
+ *     - inneholder en heiskï¿½ (queue), selve skiheisen (queue),
+ *       grï¿½nn lï¿½ype (map) og rï¿½d lï¿½ype (list)
  *     - lar objekter flytte seg mellom disse fire ulike containerne
  *     - skriver ut innholdet i de fire containerne
  *     - lar brukeren:   - opprette nye objekter
@@ -29,32 +29,32 @@
 #include <iomanip>                 //  setw
 #include <string>                  //  string
 #include <vector>                  //  vector    |
-#include <queue>                   //  queue     | (stack det eneste av lærte
+#include <queue>                   //  queue     | (stack det eneste av lï¿½rte
 #include <list>                    //  list      | containere som IKKE brukes)
 #include <map>                     //  map       |
 #include <algorithm>               //  algorithm
-#include "LesData2.h"              //  Verktøykasse for lesing av diverse data
+#include "LesData2.h"              //  Verktï¿½ykasse for lesing av diverse data
 using namespace std;
 
 
 /**
- *  Korttype (med dagskort, helge-/weekendkort og årskort).
+ *  Korttype (med dagskort, helge-/weekendkort og ï¿½rskort).
  */
 enum KortType  {  Dag,  Helg,  Aar };
 
 
 /**
- *  Operasjon (med å SE en kjørers DETALJERTE data eller å ENDRE dataene).
+ *  Operasjon (med ï¿½ SE en kjï¿½rers DETALJERTE data eller ï¿½ ENDRE dataene).
  */
 enum Operasjon {  Detaljer, Endre  };
 
 
-//  NB:  I hele eksemplet er det brukt 'G' og 'R' for grønn og rød løype.
-//       Dette kunne selvsagt, og like naturlig/bra, vært erstattet av 'enum'.
+//  NB:  I hele eksemplet er det brukt 'G' og 'R' for grï¿½nn og rï¿½d lï¿½ype.
+//       Dette kunne selvsagt, og like naturlig/bra, vï¿½rt erstattet av 'enum'.
 
 
 /**
- *  Kjører (med unikt nummer/ID, navn, korttype og kjørte grønne/røde løyper).
+ *  Kjï¿½rer (med unikt nummer/ID, navn, korttype og kjï¿½rte grï¿½nne/rï¿½de lï¿½yper).
  */
 class Kjorer {
   private:
@@ -67,9 +67,9 @@ class Kjorer {
       Kjorer() { nr = 0; kort = Dag; }    //  Denne constructoren brukes ikke.
       Kjorer(const int nr);
       Kjorer(ifstream & inn);
-      virtual ~Kjorer() {  }    //  Tom destructor. Ikke noe å si 'delete' om.
+      virtual ~Kjorer() {  }    //  Tom destructor. Ikke noe ï¿½ si 'delete' om.
 
-                           //  'hentID' MÅ LAGES I ALLE PROGRAM DER OBJEKTER
+                           //  'hentID' Mï¿½ LAGES I ALLE PROGRAM DER OBJEKTER
                            //   LIGGER I CONTAINERNE <map> OG/ELLER <list> !!!
                            //   DENNE RETURNERER KUN KEYEN/DET OBJEKTET SKAL
                            //   SORTERES ETTER:  EN 'int' ELLER EN 'string'.
@@ -94,7 +94,7 @@ class Alpinist : public Kjorer {
     Alpinist() { twinTipSki = tightsDress = false; }      //  Brukes ikke her.
     Alpinist(const int nr);
     Alpinist(ifstream & inn);
-    virtual ~Alpinist() {  }    //  Tom destructor. Ikke noe å si 'delete' om.
+    virtual ~Alpinist() {  }    //  Tom destructor. Ikke noe ï¿½ si 'delete' om.
     virtual void endreData();
     virtual void lesData();
     virtual void skrivData() const;
@@ -104,7 +104,7 @@ class Alpinist : public Kjorer {
 
 
 /**
- *  Snowboarder (med om har saggebukse eller ei, og mørk hjelm eller ei).
+ *  Snowboarder (med om har saggebukse eller ei, og mï¿½rk hjelm eller ei).
  */
 class Snowboarder : public Kjorer {
   private:
@@ -114,7 +114,7 @@ class Snowboarder : public Kjorer {
     Snowboarder() {  saggeBukse = morkHjelm = false; }    //  Brukes ikke her.
     Snowboarder(const int nr);
     Snowboarder(ifstream & inn);
-    virtual ~Snowboarder() {  }  // Tom destructor. Ikke noe å si 'delete' om.
+    virtual ~Snowboarder() {  }  // Tom destructor. Ikke noe ï¿½ si 'delete' om.
     virtual void endreData();
     virtual void lesData();
     virtual void skrivData() const;
@@ -140,11 +140,11 @@ void tilHeisKo();
 void tilLoype(const char loype);
 
 
-queue <Kjorer*> gHeisKo;       ///<  De som står i heis-kø.
-queue <Kjorer*> gHeis;         ///<  De som er (på vei opp) i heisen.
-list  <Kjorer*> gRod;          ///<  De som kjører rød løype.
-map   <int, Kjorer*> gGronn;   ///<  De som kjører grønn løype.
-int   gSisteNummer;            ///<  Nummer for siste registrerte kjører.
+queue <Kjorer*> gHeisKo;       ///<  De som stï¿½r i heis-kï¿½.
+queue <Kjorer*> gHeis;         ///<  De som er (pï¿½ vei opp) i heisen.
+list  <Kjorer*> gRod;          ///<  De som kjï¿½rer rï¿½d lï¿½ype.
+map   <int, Kjorer*> gGronn;   ///<  De som kjï¿½rer grï¿½nn lï¿½ype.
+int   gSisteNummer;            ///<  Nummer for siste registrerte kjï¿½rer.
 
 
 /**
@@ -167,7 +167,7 @@ int main()  {
           case 'D':    detaljerEllerEndre(Detaljer);     break;
           case 'E':    detaljerEllerEndre(Endre);        break;
           case 'S':    slette();                         break;
-          case '1':    skrivKo("heiskø", gHeisKo);       break;
+          case '1':    skrivKo("heiskï¿½", gHeisKo);       break;
           case '2':    skrivKo("heisen", gHeis);         break;
           case '3':    skrivGronn();                     break;
           case '4':    skrivRod();                       break;
@@ -192,11 +192,11 @@ int main()  {
 /**
  *  Setter eget nummer/ID (ut fra parameters verdi).
  *
- *  @param   nr  - kjørerens eget nummer/ID
+ *  @param   nr  - kjï¿½rerens eget nummer/ID
  */
 Kjorer::Kjorer(const int nr) {
     kort = Dag;
-    this->nr = nr;                  //  MÅ bruke 'this' om egen verdi, når
+    this->nr = nr;                  //  Mï¿½ bruke 'this' om egen verdi, nï¿½r
 }                                   //    parameteren heter EKSAKT det samme.
 
 
@@ -208,7 +208,7 @@ Kjorer::Kjorer(const int nr) {
 Kjorer::Kjorer(ifstream & inn) {
     char tegn;
     inn >> nr >> tegn;                   //  Leser nummer/ID og 'D/H/A'.
-    inn.ignore();                        //  Forkaster ' ' før navnet/tekst.
+    inn.ignore();                        //  Forkaster ' ' fï¿½r navnet/tekst.
     switch (tegn)  {                     //  Konverterer bokstav til enum:
       case 'D':  kort = Dag;   break;
       case 'H':  kort = Helg;  break;
@@ -219,10 +219,10 @@ Kjorer::Kjorer(ifstream & inn) {
 
 
 /**
- *  Tilbyr brukeren å endre på aktuelle datamedlemmer.
+ *  Tilbyr brukeren ï¿½ endre pï¿½ aktuelle datamedlemmer.
  */
 void Kjorer::endreData() {
-    cout << "\n\tEndre datamedlemmer:  IKKE IMPLEMENTERT ENNÅ\n\n";
+    cout << "\n\tEndre datamedlemmer:  IKKE IMPLEMENTERT ENNï¿½\n\n";
 
     //  LATER
 }
@@ -252,7 +252,7 @@ void Kjorer::lesData() {
 /**
  *  Legger til 'G' eller 'A' bakerst i vectoren 'loyperkjort'.
  *
- *  @param   loype  - Løypen kjørt ('G' eller 'R')
+ *  @param   loype  - Lï¿½ypen kjï¿½rt ('G' eller 'R')
  */
 void Kjorer::registrerLoype(const char loype) {
     loyperKjort.push_back(loype);        //  Legger ny inn bakerst i vectoren.
@@ -260,32 +260,32 @@ void Kjorer::registrerLoype(const char loype) {
 
 
 /**
- *  Skriver ut ALLE egne data på skjermen.
+ *  Skriver ut ALLE egne data pï¿½ skjermen.
  */
 void Kjorer::skrivData() const  {                 //  Skriver nr/ID og navn:
     cout << setw(10) << nr << ":  " << navn << ",  ";
     switch (kort) {                               //  Skriver enum som tekst:
       case Dag:   cout << "dags";    break;
       case Helg:  cout << "helge";   break;
-      case Aar:   cout << "års";     break;
-    }                                             //  Antall løypeturer:
+      case Aar:   cout << "ï¿½rs";     break;
+    }                                             //  Antall lï¿½ypeturer:
     cout << "kort,  antall turer: " << loyperKjort.size() << '\n';
 }
 
 
 /**
- *  Teller opp og skriver antall turer i grønn/rød løype, samt turrekkefølgen.
+ *  Teller opp og skriver antall turer i grï¿½nn/rï¿½d lï¿½ype, samt turrekkefï¿½lgen.
  */
 void Kjorer::skrivDetaljer() const {
-    int antG = 0, antR = 0;            //  Nullstiller antall turer i løypene.
+    int antG = 0, antR = 0;            //  Nullstiller antall turer i lï¿½ypene.
 
-    cout << "\tLøyper kjørt i dag:\n\t";
-    for (const auto val : loyperKjort) {      //  Går gjennom alle turene:
+    cout << "\tLï¿½yper kjï¿½rt i dag:\n\t";
+    for (const auto val : loyperKjort) {      //  Gï¿½r gjennom alle turene:
         if (val == 'G') antG++;  else antR++; //  Teller opp antall i G/R.
         cout << ' ' << val;                   //  Skriver 'G' eller 'R'.
     }
-    cout << "\n\tAltså: " << antG << " gang(er) i GRØNN, og "
-                          << antR << " gang(er) i RØD løype.\n\n";
+    cout << "\n\tAltsï¿½: " << antG << " gang(er) i GRï¿½NN, og "
+                          << antR << " gang(er) i Rï¿½D lï¿½ype.\n\n";
 }
 
 
@@ -310,7 +310,7 @@ void Kjorer::skrivTilFil(ofstream & ut) const {
 /**
  *  Tom constructor, som bare sender parameter til baseklassen.
  *
- *  @param   nr  - Kjørerens nummer/ID, som sendes til baseklassen
+ *  @param   nr  - Kjï¿½rerens nummer/ID, som sendes til baseklassen
  */
 Alpinist::Alpinist(const int nr) : Kjorer(nr) {
     twinTipSki = tightsDress = false;
@@ -324,7 +324,7 @@ Alpinist::Alpinist(const int nr) : Kjorer(nr) {
  */
 Alpinist::Alpinist(ifstream & inn) : Kjorer(inn)  {
     char tegn;
-    inn >> tegn;                      //  Leser 2x '+/-', og gjør om til bool:
+    inn >> tegn;                      //  Leser 2x '+/-', og gjï¿½r om til bool:
     twinTipSki = (tegn == '+');
     inn >> tegn;    inn.ignore();
     tightsDress = (tegn == '+');
@@ -332,14 +332,14 @@ Alpinist::Alpinist(ifstream & inn) : Kjorer(inn)  {
 
 
 /**
- *  Tilbyr brukeren å endre på aktuelle datamedlemmer.
+ *  Tilbyr brukeren ï¿½ endre pï¿½ aktuelle datamedlemmer.
  *
  *  @see   Kjorer::endreData()
  */
 void Alpinist::endreData() {
     Kjorer::endreData();                         //  Baseklassens data endres.
 
-    //  LATER:   Endre datamedlemmer - IKKE IMPLEMENTERT ENNÅ.
+    //  LATER:   Endre datamedlemmer - IKKE IMPLEMENTERT ENNï¿½.
 }
 
 
@@ -356,7 +356,7 @@ void Alpinist::lesData() {
 
 
 /**
- *  Skriver ut ALLE egne data på skjermen.
+ *  Skriver ut ALLE egne data pï¿½ skjermen.
  *
  *  @see   Kjorer::skrivData()
  */
@@ -399,7 +399,7 @@ void Alpinist::skrivTilFil(ofstream & ut) const {
 /**
  *  Tom constructor, som bare sender parameter til baseklassen.
  *
- *  @param   nr  - Kjørerens nummer/ID, som sendes til baseklassen
+ *  @param   nr  - Kjï¿½rerens nummer/ID, som sendes til baseklassen
  */
 Snowboarder::Snowboarder(const int nr) : Kjorer(nr) {
     saggeBukse = morkHjelm = false;
@@ -413,7 +413,7 @@ Snowboarder::Snowboarder(const int nr) : Kjorer(nr) {
  */
 Snowboarder::Snowboarder(ifstream & inn) : Kjorer(inn)  {
     char tegn;
-    inn >> tegn;                      //  Leser 2x '+/-', og gjør om til bool:
+    inn >> tegn;                      //  Leser 2x '+/-', og gjï¿½r om til bool:
     saggeBukse = (tegn == '+');
     inn >> tegn;    inn.ignore();
     morkHjelm = (tegn == '+');
@@ -421,14 +421,14 @@ Snowboarder::Snowboarder(ifstream & inn) : Kjorer(inn)  {
 
 
 /**
- *  Tilbyr brukeren å endre på aktuelle datamedlemmer.
+ *  Tilbyr brukeren ï¿½ endre pï¿½ aktuelle datamedlemmer.
  *
  *  @see   Kjorer::endreData()
  */
 void Snowboarder::endreData() {
     Kjorer::endreData();                         //  Baseklassens data endres.
 
-    //  LATER:   Endre datamedlemmer - IKKE IMPLEMENTERT ENNÅ.
+    //  LATER:   Endre datamedlemmer - IKKE IMPLEMENTERT ENNï¿½.
 }
 
 
@@ -440,12 +440,12 @@ void Snowboarder::endreData() {
 void Snowboarder::lesData() {
     Kjorer::lesData();                            //  Baseklassens data leses.
     saggeBukse = (lesChar("\tSaggebukse?  (J/n)") != 'N');     //  Egne leses:
-    morkHjelm  = (lesChar("\tMørk hjelm?  (J/n)") != 'N');
+    morkHjelm  = (lesChar("\tMï¿½rk hjelm?  (J/n)") != 'N');
 }
 
 
 /**
- *  Skriver ut ALLE egne data på skjermen.
+ *  Skriver ut ALLE egne data pï¿½ skjermen.
  *
  *  @see   Kjorer::skrivData()
  */
@@ -453,7 +453,7 @@ void Snowboarder::skrivData() const  {
     Kjorer::skrivData();                    //  Baseklassens data skrives.
     cout << "\t\tSnowboarder "              //  Egne booler skrives som tekst:
         << (saggeBukse ? "med " : "uten ") << "Saggebukse og "
-        << (morkHjelm  ? "med " : "uten ") << "Mørk hjelm\n";
+        << (morkHjelm  ? "med " : "uten ") << "Mï¿½rk hjelm\n";
 }
 
 
@@ -489,50 +489,50 @@ void Snowboarder::skrivTilFil(ofstream & ut) const {
 // ---------------------------------------------------------------------------
 
 /**
- *  Skriver ALLE detaljer ELLER endrer data om EN kjører.
+ *  Skriver ALLE detaljer ELLER endrer data om EN kjï¿½rer.
  *
- *  @param   operasjon  - 'Detaljer' eller 'Endre' - etter hva som skal gjøres
+ *  @param   operasjon  - 'Detaljer' eller 'Endre' - etter hva som skal gjï¿½res
  *  @see     finnKjorer(...)
  *  @see     virtual Kjorer::skrivDetaljer()
  *  @see     virtual Kjorer::endreData()
  */
 void detaljerEllerEndre(const Operasjon operasjon) {
     Kjorer* kjorer = nullptr;    //  Peker til en Kjorer INNI EN CONTAINER !!!
-    char loype;                  //  MÅ være med som parameter - brukes ikke.
-    int nr;                      //  Ønsket kjørernummer å se/endre.
+    char loype;                  //  Mï¿½ vï¿½re med som parameter - brukes ikke.
+    int nr;                      //  ï¿½nsket kjï¿½rernummer ï¿½ se/endre.
 
-    if (!gGronn.empty() || !gRod.empty()) {    //  Kjører(e) i MINST en løype:
-        nr = lesInt("\tNr", 1, gSisteNummer);  //  Leser ønsket kjørernummer.
+    if (!gGronn.empty() || !gRod.empty()) {    //  Kjï¿½rer(e) i MINST en lï¿½ype:
+        nr = lesInt("\tNr", 1, gSisteNummer);  //  Leser ï¿½nsket kjï¿½rernummer.
 
-        kjorer = finnKjorer(nr, loype);        //  Prøver å finne kjøreren i
-                                               //  en av løypene.
-        if (kjorer) {                          //  Kjøreren funnet:
+        kjorer = finnKjorer(nr, loype);        //  Prï¿½ver ï¿½ finne kjï¿½reren i
+                                               //  en av lï¿½ypene.
+        if (kjorer) {                          //  Kjï¿½reren funnet:
             if (operasjon == Detaljer)
                 kjorer->skrivDetaljer();       //  Vil se ALLE datadetaljer.
             else
                 kjorer->endreData();           //  Vil endre datamedlemmer.
         } else
-          cout << "\n\tUkjent nummer i begge løypene!\n\n";
+          cout << "\n\tUkjent nummer i begge lï¿½ypene!\n\n";
     } else
-        cout << "\n\tBegge løypene er tomme!\n\n";
+        cout << "\n\tBegge lï¿½ypene er tomme!\n\n";
 }
 
 
 /**
- *  Leter etter (og evt. returnerer peker til) en gitt kjører i en av løypene.
+ *  Leter etter (og evt. returnerer peker til) en gitt kjï¿½rer i en av lï¿½ypene.
  *
- *  NB: LETER IKKE I DE 2x KØENE, DA FOR TUKLETE (OG HELLER IKKE MENINGEN/
+ *  NB: LETER IKKE I DE 2x Kï¿½ENE, DA FOR TUKLETE (OG HELLER IKKE MENINGEN/
  *      POENGET MED EN QUEUE). EI HELLER ER DA ITERATORER TILGJENGELIGE.
  *
- *  @param   nr     -  Kjørernummer det letes etter
- *  @param   loype  -  Evt. funnet i 'G'rønn eller 'R'ød løype (REF.OVERFØRT)
+ *  @param   nr     -  Kjï¿½rernummer det letes etter
+ *  @param   loype  -  Evt. funnet i 'G'rï¿½nn eller 'R'ï¿½d lï¿½ype (REF.OVERFï¿½RT)
  *  @return  Peker til funnet 'Kjorer' INNI EN AV CONTAINERNE,  evt. 'nullptr'
  *  @see     Kjorer::hentID()
  */
 Kjorer* finnKjorer(const int nr, char & loype) {
 
-    auto it1 = gGronn.find(nr);     //  Prøver å finne vha. medlemsfunksjon.
-    if (it1 != gGronn.end()) {      //  Funn i GRØNN løype (<map>):
+    auto it1 = gGronn.find(nr);     //  Prï¿½ver ï¿½ finne vha. medlemsfunksjon.
+    if (it1 != gGronn.end()) {      //  Funn i GRï¿½NN lï¿½ype (<map>):
         loype = 'G';                //  Setter om hvor funnet.
         return (it1->second);       //  Returnerer peker til 'Kjorer'.
     }                               //  NB:  En 'Kjorer' er tilpekt av
@@ -543,11 +543,11 @@ Kjorer* finnKjorer(const int nr, char & loype) {
                                     //  NB:  Bruken av 'hentID()' !!!
     auto it2 = find_if(gRod.begin(), gRod.end(),
                    [nr] (const auto & val) { return(val->hentID() == nr); } );
-    if (it2 != gRod.end()) {        //  Funn i RØD løype (<list>):
+    if (it2 != gRod.end()) {        //  Funn i Rï¿½D lï¿½ype (<list>):
         loype = 'R';                //  Setter om hvor funnet.
         return *it2;                //  Retunerer peker til 'Kjorer'.
     }                               //  NB:  'it2' ER SELV EN PEKER.
-                                    //       Derfor ville 'return it2' ha vært
+                                    //       Derfor ville 'return it2' ha vï¿½rt
                                     //       retur av en peker til en peker.
                                     //       'return *it2' blir derfor korrekt
                                     //       return av en peker til 'Kjorer'.
@@ -558,23 +558,23 @@ Kjorer* finnKjorer(const int nr, char & loype) {
 
 
 /**
- *  Leser ALLE kjørere inn fra fil og ALLE legges rett inn i heiskøen.
+ *  Leser ALLE kjï¿½rere inn fra fil og ALLE legges rett inn i heiskï¿½en.
  */
 void lesFraFil() {
-    ifstream  innfil("EKS_26.DTA");                 //  Åpner aktuell fil.
+    ifstream  innfil("EKS_26.DTA");                 //  ï¿½pner aktuell fil.
     char kjorerType;                                //  'A' eller 'S'.
 
     if (innfil) {                                   //  Filen funnet:
         cout << "\n\nLeser fra filen 'EKS_26.DTA' .....\n\n";
         innfil >> gSisteNummer;   innfil.ignore();  //  Leser siste nr.brukt.
-        innfil >> kjorerType;                       //  Prøver å lese 1.felt.
-        while (!innfil.eof()) {       //  Ennå ikke slutt på filen:
-            switch (kjorerType) {     //  Lager og legger inn aktuell kjører:
+        innfil >> kjorerType;                       //  Prï¿½ver ï¿½ lese 1.felt.
+        while (!innfil.eof()) {       //  Ennï¿½ ikke slutt pï¿½ filen:
+            switch (kjorerType) {     //  Lager og legger inn aktuell kjï¿½rer:
               case 'A': gHeisKo.push(new Alpinist(innfil));            break;
               case 'S': gHeisKo.push(new Snowboarder(innfil));         break;
-              default:  cout << "\n\tUlovlig kjørertype på filen!\n";  break;
+              default:  cout << "\n\tUlovlig kjï¿½rertype pï¿½ filen!\n";  break;
             }
-            innfil >> kjorerType;                   //  Prøver å lese 1.felt.
+            innfil >> kjorerType;                   //  Prï¿½ver ï¿½ lese 1.felt.
         }
         innfil.close();                             //  Lukker manuelt filen.
     } else
@@ -583,39 +583,39 @@ void lesFraFil() {
 
 
 /**
- *  Legger/setter inn en ny aktuell kjører i heiskøen.
+ *  Legger/setter inn en ny aktuell kjï¿½rer i heiskï¿½en.
  *
  *  @see   virtual Kjorer::lesData()
  */
 void nyKjorer() {
-    Kjorer* nyKjorer = nullptr;              //  Peker til nye aktuell kjører.
+    Kjorer* nyKjorer = nullptr;              //  Peker til nye aktuell kjï¿½rer.
     char kjorerType;                         //  'A' eller 'S'.
-                                //  Teller opp og skriver nytt unikt kjørernr:
-    cout << "\tNy kjører har nr." << ++gSisteNummer << ":\n";
+                                //  Teller opp og skriver nytt unikt kjï¿½rernr:
+    cout << "\tNy kjï¿½rer har nr." << ++gSisteNummer << ":\n";
 
     do {                                     //  Leser ALLTID 'A' eller 'S':
         kjorerType = lesChar("\tA(lpinist) eller S(nowboarder)");
     } while (kjorerType != 'A'  &&  kjorerType != 'S');
 
-    switch (kjorerType) {                    //  Lager en ny aktuell kjører:
+    switch (kjorerType) {                    //  Lager en ny aktuell kjï¿½rer:
        case 'A':  nyKjorer = new Alpinist(gSisteNummer);     break;
        case 'S':  nyKjorer = new Snowboarder(gSisteNummer);  break;
     }
 
-    nyKjorer->lesData();                   //  Leser kjørerens datamedlemmer.
-    gHeisKo.push(nyKjorer);                //  Legger inn den nye kjøreren.
+    nyKjorer->lesData();                   //  Leser kjï¿½rerens datamedlemmer.
+    gHeisKo.push(nyKjorer);                //  Legger inn den nye kjï¿½reren.
 }
 
 
 /**
- *  Skriver ALLE kjørerne i den GRØNNE løypen.
+ *  Skriver ALLE kjï¿½rerne i den GRï¿½NNE lï¿½ypen.
  *
  *  @see   virtual Kjorer::skrivData()
  */
 void skrivGronn() {
-    cout << "\nFølgende " << gGronn.size() << " kjørere er i GRØNN løype:\n";
-    for (const auto & val : gGronn)        //  Range-based for-løkke:
-        (val.second)->skrivData();         //  Skriver kjørerens data.
+    cout << "\nFï¿½lgende " << gGronn.size() << " kjï¿½rere er i GRï¿½NN lï¿½ype:\n";
+    for (const auto & val : gGronn)        //  Range-based for-lï¿½kke:
+        (val.second)->skrivData();         //  Skriver kjï¿½rerens data.
                                            //  'val.second' er en PEKER!
 //  Alternativt vha. iterator, 'for_each(...)' og lambda-funksjon:
 //    for_each(gGronn.begin(), gGronn.end(),
@@ -626,19 +626,19 @@ void skrivGronn() {
 
 
 /**
- *  Skriver HELE en køs innhold.
+ *  Skriver HELE en kï¿½s innhold.
  *
  *  @param   s  - Ledetekst i utskrift
  *  @param   ko - queue-container med Kjorer-pekere (lagret i en 'deque')
- *                NB: Får KOPI av PEKERNE til objektene i køen !!!
+ *                NB: Fï¿½r KOPI av PEKERNE til objektene i kï¿½en !!!
  *                    Men de TILPEKTE OBJEKTENE er de SAMME !!!
- *                    Hadde det vært brukt '&', så hadde original-pekerne
- *                    vært brukt - og blitt borte (når det sies 'pop') !!!
+ *                    Hadde det vï¿½rt brukt '&', sï¿½ hadde original-pekerne
+ *                    vï¿½rt brukt - og blitt borte (nï¿½r det sies 'pop') !!!
  *  @see    virtual Kjorer::skrivData()
  */
 void skrivKo(const string & s, queue <Kjorer*> ko) {
-    cout << "\nFølgende " << ko.size() << " kjørere er i " << s << ":\n";
-    while (!ko.empty()) {               //  Ennå elementer igjen:
+    cout << "\nFï¿½lgende " << ko.size() << " kjï¿½rere er i " << s << ":\n";
+    while (!ko.empty()) {               //  Ennï¿½ elementer igjen:
         (ko.front())->skrivData();      //  Viser/skriver den 1.TILPEKTE.
         ko.pop();                       //  Tar ut/fjerner den 1.PEKEREN.
     }
@@ -647,36 +647,36 @@ void skrivKo(const string & s, queue <Kjorer*> ko) {
 
 
 /**
- *  Skriver programmets menyvalg/muligheter på skjermen.
+ *  Skriver programmets menyvalg/muligheter pï¿½ skjermen.
  */
 void skrivMeny() {
-    cout << "\nFølgende kommandoer er tilgjengelig:\n"
-         << "\tK - inn i heisKø\n"
-         << "\tH - fra heiskø til Heisen\n"
-         << "\tG - fra heisen til Grønn løype\n"
-         << "\tR - fra heisen til Rød løype\n\n"
-         << "\tN - Ny kjører\n"
-         << "\tD - Detaljer om EN kjører  (KUN mulig når er i en løype)\n"
-         << "\tE - Endre en kjører        (KUN mulig når er i en løype)\n"
-         << "\tS - Slett/fjern en kjører  (KUN mulig når er i en løype)\n\n"
-         << "\t1 - skriv HEISKØ\n"
+    cout << "\nFï¿½lgende kommandoer er tilgjengelig:\n"
+         << "\tK - inn i heisKï¿½\n"
+         << "\tH - fra heiskï¿½ til Heisen\n"
+         << "\tG - fra heisen til Grï¿½nn lï¿½ype\n"
+         << "\tR - fra heisen til Rï¿½d lï¿½ype\n\n"
+         << "\tN - Ny kjï¿½rer\n"
+         << "\tD - Detaljer om EN kjï¿½rer  (KUN mulig nï¿½r er i en lï¿½ype)\n"
+         << "\tE - Endre en kjï¿½rer        (KUN mulig nï¿½r er i en lï¿½ype)\n"
+         << "\tS - Slett/fjern en kjï¿½rer  (KUN mulig nï¿½r er i en lï¿½ype)\n\n"
+         << "\t1 - skriv HEISKï¿½\n"
          << "\t2 - skriv HEISEN\n"
-         << "\t3 - skriv GRØNN løype\n"
-         << "\t4 - skriv RØD løype\n\n"
+         << "\t3 - skriv GRï¿½NN lï¿½ype\n"
+         << "\t4 - skriv Rï¿½D lï¿½ype\n\n"
          << "\tQ - Quit / avslutt\n\n";
 }
 
 
 /**
- *  Skriver HELE EN medsendt kø til angitt fil.
+ *  Skriver HELE EN medsendt kï¿½ til angitt fil.
  *
  *  @param   ko - queue-container med Kjorer-pekere (lagret i en 'deque').
  *                Se ellers NB-kommentaren ifm 'ko' i 'skrivKo'-funksjonen.
- *  @param   ut - Filobjektet køen skal skrives til
+ *  @param   ut - Filobjektet kï¿½en skal skrives til
  *  @see     virtual Kjorer::skrivTilFil(...)
  */
 void skrivQueueTilFil(queue <Kjorer*> ko, ofstream & ut) {
-    while (!ko.empty()) {               //  Ennå elementer igjen:
+    while (!ko.empty()) {               //  Ennï¿½ elementer igjen:
         (ko.front())->skrivTilFil(ut);  //  Skriver elementet til fil.
         ko.pop();                       //  Tar ut/fjerner den 1.PEKEREN.
     }
@@ -684,14 +684,14 @@ void skrivQueueTilFil(queue <Kjorer*> ko, ofstream & ut) {
 
 
 /**
- *  Skriver ALLE kjørerne i den RØDE løypen.
+ *  Skriver ALLE kjï¿½rerne i den Rï¿½DE lï¿½ypen.
  *
  *  @see   virtual Kjorer::skrivData()
  */
 void skrivRod() {
-    cout << "\nFølgende " << gRod.size() << " kjørere er i RØD løype:\n";
-    for (const auto & val : gRod)             //  Range-based for-løkke:
-        val->skrivData();                     //  Skriver kjørerens data.
+    cout << "\nFï¿½lgende " << gRod.size() << " kjï¿½rere er i Rï¿½D lï¿½ype:\n";
+    for (const auto & val : gRod)             //  Range-based for-lï¿½kke:
+        val->skrivData();                     //  Skriver kjï¿½rerens data.
                                               //  'val' er en PEKER!
 //  Alternativt vha. iterator, 'for_each(...)' og lambda-funksjon:
 //    for_each(gRod.begin(), gRod.end(),
@@ -701,13 +701,13 @@ void skrivRod() {
 
 
 /**
- *  Skriver ALLE 4x containernes innhold/kjørere til EN OG SAMME fil.
+ *  Skriver ALLE 4x containernes innhold/kjï¿½rere til EN OG SAMME fil.
  *
  *  @see    skrivQueueTilFil(...)
  *  @see    virtual Kjorer::skrivTilFil(...)
  */
 void skrivTilFil() {
-    ofstream utfil("EKS_26.DT2");                 //  Åpner aktuell fil.
+    ofstream utfil("EKS_26.DT2");                 //  ï¿½pner aktuell fil.
                                                   //  NB:  'DT2' !
     cout << "\nSkriver til filen 'EKS_26.DT2' .....\n\n";
 
@@ -715,49 +715,49 @@ void skrivTilFil() {
 
     skrivQueueTilFil(gHeis, utfil);               //  Heisens innhold.
 
-    skrivQueueTilFil(gHeisKo, utfil);             //  Heiskøens innhold.
+    skrivQueueTilFil(gHeisKo, utfil);             //  Heiskï¿½ens innhold.
 
-    for_each(gGronn.begin(), gGronn.end(),        //  Grønn løypes innhold:
+    for_each(gGronn.begin(), gGronn.end(),        //  Grï¿½nn lï¿½ypes innhold:
         [&utfil] (const auto & val) {  (val.second)->skrivTilFil(utfil);  } );
 
-    for_each(gRod.begin(), gRod.end(),            //  Rød løypes innhold:
+    for_each(gRod.begin(), gRod.end(),            //  Rï¿½d lï¿½ypes innhold:
         [&utfil] (const auto & val) {  val->skrivTilFil(utfil);  } );
 
     utfil.close();                                //  Lukker filen manuelt.
 
-//  NB: NB:  ALLE ELEMENTENE ER FORTSATT UBERØRT I ALLE CONTAINERNE !!!
+//  NB: NB:  ALLE ELEMENTENE ER FORTSATT UBERï¿½RT I ALLE CONTAINERNE !!!
 
 //  NB:  Burde EGENTLIG IKKE ha skrevet til fil de som bare har hatt dagskort,
-//       eller om det er søndag og kjøreren har hatt helgekort.
-//       Men, fin øvelse å utvide koden (flere steder) med dette ......
+//       eller om det er sï¿½ndag og kjï¿½reren har hatt helgekort.
+//       Men, fin ï¿½velse ï¿½ utvide koden (flere steder) med dette ......
 }
 
 
 /**
- *  Sletter ALLE elementene og TILPEKTE kjørere i ALLE containerne.
+ *  Sletter ALLE elementene og TILPEKTE kjï¿½rere i ALLE containerne.
  *
  *  @see   virtual Kjorer::skrivTilFil(...)
  */
 void slettAlleData() {
                    //  Alle de syv innrykkede kodelinjene (til kolonne nr.25)
-                   //  er "overflødige", så lenge 'skrivTilFil' (rett ovenfor)
+                   //  er "overflï¿½dige", sï¿½ lenge 'skrivTilFil' (rett ovenfor)
                    //  har gjort dette allerede.
-                   //  Ellers måtte/kunne filskriving ha vært gjort på denne
-                   //  måten, samtidig som ALT i ALLE containerne slettes.
+                   //  Ellers mï¿½tte/kunne filskriving ha vï¿½rt gjort pï¿½ denne
+                   //  mï¿½ten, samtidig som ALT i ALLE containerne slettes.
                         ofstream utfil("EKS_26.DT3");
                         cout << "\nSkriver til filen 'EKS_26.DT3' .....\n\n";
                         utfil << gSisteNummer << '\n';
 
-                                              //  HEISKØEN:
-    while (!gHeisKo.empty()) {                //  Ennå elementer igjen:
+                                              //  HEISKï¿½EN:
+    while (!gHeisKo.empty()) {                //  Ennï¿½ elementer igjen:
                         (gHeisKo.front())->skrivTilFil(utfil);
         delete gHeisKo.front();               //  Sletter 1.TILPEKTE 'Kjorer'.
         gHeisKo.pop();                        //  Fjerner den 1.PEKEREN.
     }
-    cout << "\tAntall elementer i HEISKØEN:     " << gHeisKo.size() << '\n';
+    cout << "\tAntall elementer i HEISKï¿½EN:     " << gHeisKo.size() << '\n';
 
                                               //  HEISEN:
-    while (!gHeis.empty()) {                  //  Ennå elementer igjen:
+    while (!gHeis.empty()) {                  //  Ennï¿½ elementer igjen:
                         (gHeis.front())->skrivTilFil(utfil);
         delete gHeis.front();                 //  Sletter 1.TILPEKTE 'Kjorer'.
         gHeis.pop();                          //  Fjerner den 1.PEKEREN.
@@ -765,7 +765,7 @@ void slettAlleData() {
     cout << "\tAntall elementer i HEISEN:       " << gHeis.size() << '\n';
 
 
-    while (!gGronn.empty()) {                 //  GRØNN LØYPE:
+    while (!gGronn.empty()) {                 //  GRï¿½NN Lï¿½YPE:
         Kjorer* it = (gGronn.begin())->second;  //  PEKER til 1.KJORER.
                         it->skrivTilFil(utfil);
         delete it;                            //  Sletter 1.TILPEKTE 'Kjorer'.
@@ -776,155 +776,155 @@ void slettAlleData() {
 //      delete (it->second);                  //  Sletter TILPEKTE 'Kjorer'.
 //      gGronn.erase(it);                     //  Sletter PARET key og PEKER.
     }
-    cout << "\tAntall elementer i GRØNN LØYPE:  " << gGronn.size() << '\n';
+    cout << "\tAntall elementer i GRï¿½NN Lï¿½YPE:  " << gGronn.size() << '\n';
 
-                                              //  RØD LØYPE:
-    while (!gRod.empty()) {                   //  Ennå elementer igjen:
+                                              //  Rï¿½D Lï¿½YPE:
+    while (!gRod.empty()) {                   //  Ennï¿½ elementer igjen:
                         (gRod.front())->skrivTilFil(utfil);
         delete gRod.front();                  //  Sletter 1.TILPEKTE 'Kjorer'.
         gRod.pop_front();                     //  Fjerner den 1.PEKEREN.
     }
-    cout << "\tAntall elementer i RØD LØYPE:    " << gRod.size() << '\n';
+    cout << "\tAntall elementer i Rï¿½D Lï¿½YPE:    " << gRod.size() << '\n';
 }
 
 
 /**
- *  Sletter (om mulig) en ønsket nummerangitt kjører (når er i en av løypene).
+ *  Sletter (om mulig) en ï¿½nsket nummerangitt kjï¿½rer (nï¿½r er i en av lï¿½ypene).
  *
  *  @see   finnKjorer(...)
  *  @see   Kjorer::hentID()
  *  @see   virtual Kjorer:skrivData()
  */
 void slette() {
-//  NB: Denne funksjonen er MYE LIK 'tilHeisKo'. Så, de kunne til en viss grad
-//      ha vært laget på samme måte som 'detaljerEllerEndre'. Men, det hadde
-//      blitt såpass mange 'if' og 'else' for å skille på meldinger og hva
-//      som skal gjøres, at derfor er det laget to ulike funksjoner.
+//  NB: Denne funksjonen er MYE LIK 'tilHeisKo'. Sï¿½, de kunne til en viss grad
+//      ha vï¿½rt laget pï¿½ samme mï¿½te som 'detaljerEllerEndre'. Men, det hadde
+//      blitt sï¿½pass mange 'if' og 'else' for ï¿½ skille pï¿½ meldinger og hva
+//      som skal gjï¿½res, at derfor er det laget to ulike funksjoner.
 
     Kjorer* kjorer = nullptr; //  Peker til en Kjorer INNI EN CONTAINER !!!
-    char loype;               //  Hvilken løype funnet i (evt. 'G' eller 'R').
-    int nr;                   //  Ønsket kjørernummer å slette.
+    char loype;               //  Hvilken lï¿½ype funnet i (evt. 'G' eller 'R').
+    int nr;                   //  ï¿½nsket kjï¿½rernummer ï¿½ slette.
 
-    if (!gGronn.empty() || !gRod.empty()) {       //  Kjører i minst EN løype:
-       nr = lesInt("\tSlette nr", 0, gSisteNummer);   //  Ønsket nr. å slette.
+    if (!gGronn.empty() || !gRod.empty()) {       //  Kjï¿½rer i minst EN lï¿½ype:
+       nr = lesInt("\tSlette nr", 0, gSisteNummer);   //  ï¿½nsket nr. ï¿½ slette.
 
        if (nr) {                            // 'nr' er IKKE 0 (null):
-          kjorer = finnKjorer(nr, loype);   //  Prøver å finne kjøreren i
-                                            //    en av løypene.
-          if (kjorer) {                     //  Kjøreren funnet:
-             if (loype == 'G')              //  Funnet i GRØNN løype:
+          kjorer = finnKjorer(nr, loype);   //  Prï¿½ver ï¿½ finne kjï¿½reren i
+                                            //    en av lï¿½ypene.
+          if (kjorer) {                     //  Kjï¿½reren funnet:
+             if (loype == 'G')              //  Funnet i GRï¿½NN lï¿½ype:
                 gGronn.erase(nr);           //  Sletter PARET key og PEKER.
-             else if (loype == 'R') {       //  Er i RØD løype:
-                                            //  Må mer 'manuelt' finne:
+             else if (loype == 'R') {       //  Er i Rï¿½D lï¿½ype:
+                                            //  Mï¿½ mer 'manuelt' finne:
                 auto it = find_if(gRod.begin(), gRod.end(),
                      [nr](const auto & val) { return(val->hentID() == nr); });
                 if (it != gRod.end())       //  Fortsatt funn:
                    gRod.erase(it);          //  Sletter SELVE PEKEREN.
              }
-             cout << "\tSlettet er altså:\n";
+             cout << "\tSlettet er altsï¿½:\n";
              kjorer->skrivData();           //  Skriver den som slettes.
-             delete kjorer;          //  NÅ FØRST SLETTES SELVE KJØREREN !!!
-                                     //  NB:  Hadde det vært gjort tidligere
+             delete kjorer;          //  Nï¿½ Fï¿½RST SLETTES SELVE KJï¿½REREN !!!
+                                     //  NB:  Hadde det vï¿½rt gjort tidligere
                                      //       (sammen med 'skrivData'), f.eks.
-                                     //       rett etter 'if (kjorer)', så
+                                     //       rett etter 'if (kjorer)', sï¿½
                                      //       ville setningen 'val->hentID()'
-                                     //       ha blitt meningsløs.
+                                     //       ha blitt meningslï¿½s.
           } else
-            cout << "\n\tUkjent nummer i begge løypene!\n\n";
+            cout << "\n\tUkjent nummer i begge lï¿½ypene!\n\n";
        } else
          cout << "\n\tOK - ingen slettes.\n\n";
     } else
-      cout << "\n\tBegge løypene er tomme!\n\n";
+      cout << "\n\tBegge lï¿½ypene er tomme!\n\n";
 }
 
 
 /**
- *  Flytter (om mulig) 1.kjører i heiskøen til inn bakerst/nederst i heisen.
+ *  Flytter (om mulig) 1.kjï¿½rer i heiskï¿½en til inn bakerst/nederst i heisen.
  *
  *  @see   virtual Kjorer::skrivData()
  */
 void tilHeisen() {
-  if (!gHeisKo.empty()) {                   //  Noen i heiskøen:
-      (gHeisKo.front())->skrivData();       //  Skriver den første sine data.
-    cout << "\n\tflyttes fra heiskøen og inn (nederst/bakerst) i heisen.\n\n";
+  if (!gHeisKo.empty()) {                   //  Noen i heiskï¿½en:
+      (gHeisKo.front())->skrivData();       //  Skriver den fï¿½rste sine data.
+    cout << "\n\tflyttes fra heiskï¿½en og inn (nederst/bakerst) i heisen.\n\n";
       gHeis.push(gHeisKo.front());          //  KOPIERER pekeren til 'gHeis'.
       gHeisKo.pop();                        //  Sletter 1.pekeren i 'gHeisKo'.
   }  else
-      cout << "\n\tHeiskøen er tom, så ingen å sette inn i heisen!\n\n";
+      cout << "\n\tHeiskï¿½en er tom, sï¿½ ingen ï¿½ sette inn i heisen!\n\n";
 }
 
 
 /**
- *  Flytter (om mulig) en kjører fra en av løypene til bakerst i heiskøen.
+ *  Flytter (om mulig) en kjï¿½rer fra en av lï¿½ypene til bakerst i heiskï¿½en.
  *
  *  @see   finnKjorer(...)
  *  @see   virtual Kjorer::skrivData()
  *  @see   Kjorer::hentID()
  */
 void tilHeisKo()  {
-    Kjorer* kjorer = nullptr;    //  Kjøreren evt. funnet i en av løypene.
-    char loype;                  //  Evt. funnet i 'G'rønn eller 'R'ød løype.
-    int nr;                      //  Ønsket kjørernummer fra løype til heiskø.
+    Kjorer* kjorer = nullptr;    //  Kjï¿½reren evt. funnet i en av lï¿½ypene.
+    char loype;                  //  Evt. funnet i 'G'rï¿½nn eller 'R'ï¿½d lï¿½ype.
+    int nr;                      //  ï¿½nsket kjï¿½rernummer fra lï¿½ype til heiskï¿½.
 
-    if (!gGronn.empty()  ||  !gRod.empty()) {     //  Kjører i minst EN løype:
-        cout << "\tFlytte fra en løype til heiskø:\n";
-        nr = lesInt("\tNr", 1, gSisteNummer);     //  Ønsket nr. å flytte.
+    if (!gGronn.empty()  ||  !gRod.empty()) {     //  Kjï¿½rer i minst EN lï¿½ype:
+        cout << "\tFlytte fra en lï¿½ype til heiskï¿½:\n";
+        nr = lesInt("\tNr", 1, gSisteNummer);     //  ï¿½nsket nr. ï¿½ flytte.
 
-        kjorer = finnKjorer(nr, loype);        //  Prøver å finne kjøreren i
-                                               //    en av løypene.
-        if (kjorer) {                          //  Kjøreren funnet:
-            kjorer->skrivData();               //  Skriver kjørerens data.
-            if (loype == 'G') {                //  Funnet i GRØNN løype:
-               cout << "\n\tflyttes FRA GRØNN løype og inn i heiskøen.\n\n";
+        kjorer = finnKjorer(nr, loype);        //  Prï¿½ver ï¿½ finne kjï¿½reren i
+                                               //    en av lï¿½ypene.
+        if (kjorer) {                          //  Kjï¿½reren funnet:
+            kjorer->skrivData();               //  Skriver kjï¿½rerens data.
+            if (loype == 'G') {                //  Funnet i GRï¿½NN lï¿½ype:
+               cout << "\n\tflyttes FRA GRï¿½NN lï¿½ype og inn i heiskï¿½en.\n\n";
                gHeisKo.push(kjorer);           //  Legger inn Kjorer-PEKER.
                gGronn.erase(nr);               //  Sletter PARET key og PEKER.
-           } else if (loype == 'R') {          //  Funnet i RØD løype:
-               cout << "\n\tflyttes FRA RØD løype og inn i heiskøen.\n\n";
+           } else if (loype == 'R') {          //  Funnet i Rï¿½D lï¿½ype:
+               cout << "\n\tflyttes FRA Rï¿½D lï¿½ype og inn i heiskï¿½en.\n\n";
                gHeisKo.push(kjorer);           //  Legger inn Kjorer-PEKER.
-                                             //  Må mer 'manuelt' finne i RØD:
+                                             //  Mï¿½ mer 'manuelt' finne i Rï¿½D:
                auto it = find_if(gRod.begin(), gRod.end(),
                    [nr] (const auto & val) { return(val->hentID() == nr); } );
                if (it != gRod.end())           //  Funn:
                   gRod.erase(it);              //  Sletter SELVE PEKEREN.
-               else    //  Kjøreren er jo funnet - så what???:
+               else    //  Kjï¿½reren er jo funnet - sï¿½ what???:
                   cout << "\n\tSEMANTISK FEIL-1 - dette skal ikke skje!!\n\n";
-           } else      //  Kjøreren er jo funnet, men IKKE 'G/R' - så what???:
+           } else      //  Kjï¿½reren er jo funnet, men IKKE 'G/R' - sï¿½ what???:
              cout << "\n\tSEMANTISK FEIL-2 - dette skal ikke skje!!\n\n";
                       // *****************************************************
-                      // **   Jfr/vs. EXCEPTIONS kap.16.1 i læreboka        **
+                      // **   Jfr/vs. EXCEPTIONS kap.16.1 i lï¿½reboka        **
                       // **                      (som ikke er pensum).      **
                       // *****************************************************
         } else
-          cout << "\n\tUkjent nummer i begge løypene!\n\n";
+          cout << "\n\tUkjent nummer i begge lï¿½ypene!\n\n";
     } else
-      cout << "\n\tBegge løypene er tomme!\n\n";
+      cout << "\n\tBegge lï¿½ypene er tomme!\n\n";
 }
 
 
 /**
- *  Flytter (om mulig) fra heisen og over til grønn eller rød løype.
+ *  Flytter (om mulig) fra heisen og over til grï¿½nn eller rï¿½d lï¿½ype.
  *
- *  @param   loype  - Bokstaven ('G/R') for hvilken løype å flytte til
+ *  @param   loype  - Bokstaven ('G/R') for hvilken lï¿½ype ï¿½ flytte til
  *  @see     virtual Kjorer::skrivData()
  *  @see     Kjorer::registrerLoype
  *  @see     Kjorer::hentID()
  */
 void tilLoype(const char loype) {
-  if (!gHeis.empty()) {                          //  Kjører(e) i heisen:
-     (gHeis.front())->skrivData();               //  1.kjørers data skrives.
+  if (!gHeis.empty()) {                          //  Kjï¿½rer(e) i heisen:
+     (gHeis.front())->skrivData();               //  1.kjï¿½rers data skrives.
      cout << "\n\tflyttes fra heisen og over i "
-          << ((loype == 'G') ? "GRØNN" : "RØD") << " løype\n\n";
+          << ((loype == 'G') ? "GRï¿½NN" : "Rï¿½D") << " lï¿½ype\n\n";
 
-     gHeis.front()->registrerLoype(loype);       //  Oppdaterer kjørerens
+     gHeis.front()->registrerLoype(loype);       //  Oppdaterer kjï¿½rerens
                                                  //    "statistikk" med 'G/R'.
-     if (loype == 'G')                           //  Flyttes til GRØNN:
-                                             //  NØKKEL OG PEKER LEGGES INN:
+     if (loype == 'G')                           //  Flyttes til GRï¿½NN:
+                                             //  Nï¿½KKEL OG PEKER LEGGES INN:
         gGronn.insert(pair <int, Kjorer*>    //  NB:  BRUKEN AV 'hentID()' !!!
                                  ((gHeis.front())->hentID(), gHeis.front()));
 
 //   Alternativt "bare":   gGronn[gHeis.front()->hentID()] = gHeis.front();
 
-     else {                                   //  Flyttes til RØD:
+     else {                                   //  Flyttes til Rï¿½D:
        gRod.push_back(gHeis.front());   //  Legger inn PEKER bakerst i listen:
                                         //  NB:  SORTERER !!!!!!!!!!!!!! :
        gRod.sort([](Kjorer* k1, Kjorer* k2)
@@ -933,5 +933,5 @@ void tilLoype(const char loype) {
      gHeis.pop();                             //  Fjerner PEKER fra heisen.
 
   } else
-    cout << "\n\tHeisen er tom, så ingen å sette inn i noen løype!\n\n";
+    cout << "\n\tHeisen er tom, sï¿½ ingen ï¿½ sette inn i noen lï¿½ype!\n\n";
 }
